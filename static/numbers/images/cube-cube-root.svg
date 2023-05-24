@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194.1" height="80.5" version="1.1" style="font-family:'Comic Sans MS'; fill:#729fcf; stroke-width:6.8;">
+<defs>
+	<linearGradient id="id2">
+		<stop offset="0" style="stop-color:white; stop-opacity:1;"/>
+		<stop offset="0.788" style="stop-color:white; stop-opacity:0.75;"/>
+		<stop offset="1" style="stop-color:white; stop-opacity:0;"/>
+	</linearGradient>
+	<linearGradient id="id1">
+		<stop offset="0" style="stop-color:white; stop-opacity:1;"/>
+		<stop offset="0.706" style="stop-color:white; stop-opacity:0.82;"/>
+		<stop offset="1" style="stop-color:white; stop-opacity:0;"/>
+	</linearGradient>
+	<radialGradient id="id3" r="30.3457" fx="108.014" fy="31.7316" cx="108" cy="31.7" gradientTransform="matrix(1.44668,0,0,0.429456,-51.9426,15.2291)" xlink:href="#id1" gradientUnits="userSpaceOnUse"/>
+	<radialGradient id="id4" r="52.2582" fx="96.504" fy="57.2636" cx="96.5" cy="57.3" gradientTransform="matrix(1.20871,0,0,0.339978,-20.4424,37.1207)" xlink:href="#id2" gradientUnits="userSpaceOnUse"/>
+</defs>
+<g transform="matrix(-0.23607,0,0,-0.23607,172.504,95.302)">
+	<path style="color:black; stroke-linecap:round;" d="m -43.2,169.6 c 27.2,22.8 64.9,23.7 97.8,32.7 74.1,11.4 149.7,10.9 224.4,6.7 66.1,-7 131.1,-21.8 197.5,-26.3 52.4,-6.6 105.3,-6.5 157.8,-1.5 29.9,3.9 33.1,0 40.3,-1.3 9.8,-3.8 21.5,-7.6 30.1,-11.5 -44,-17.4 -92.6,-16 -139.2,-19.5 -59.9,-2.3 -119.5,6.1 -178.9,12.7 -64,10.1 -128,22.5 -193.2,21 -66.4,0 -133.8,-1.4 -198.2,-19.6 13.5,3.4 20.2,6.8 3.2,-1 -9.6,-2.5 -20.4,3.8 -30.5,4.9 -3.7,0.9 -7.4,1.7 -11.2,2.6 z"/>
+	<path style="color:black; stroke-linecap:round;" d="m 629.3,224.5 c 7.7,-8.5 18.5,-12.7 28.3,-18.1 10.2,-4.2 21.1,-6.3 31.7,-9.2 6.6,-1.2 13.4,-0.3 20.1,-0.8 6,0.1 12.7,0.7 21.4,-1.7 -8.7,-8.7 -17.4,-17.5 -26.1,-26.2 -4.2,-2.3 -9.2,-0.2 -13.8,-1 -11.1,0.1 -22.5,0.2 -33,4 -10.8,3 -21.9,5.6 -31.7,11.3 -10.3,5.5 -20.8,11 -28.8,19.7 -3.3,2.2 -3.9,4 0,5.2 10.6,5.6 21.3,11.2 31.9,16.8 z"/>
+	<path style="color:black; stroke-linecap:round;" d="m 608.5,123.7 c 5.1,7 11.3,13.2 17.6,19.2 8,7.1 16.2,13.9 24.9,20.2 5.6,4 11.9,6.7 18.3,9.2 14.7,7.1 30.8,10.7 46.6,14.6 1.7,0.2 9,3.3 6.5,0 -8.1,-9.9 -16.2,-19.8 -24.4,-29.7 0.1,-1.3 -6.3,-1.8 -1.8,-1 -1.5,-3.1 -7.3,-3.8 -9.4,-5.5 -8.9,-5.2 -16.6,-12.2 -24.7,-18.5 -4.9,-4.2 -9.3,-8.9 -13.9,-13.4 -13.2,1.6 -26.5,3.3 -39.7,4.9 z"/>
+</g>
+<g transform="matrix(0.23607,0,0,0.23607,21.6172,-22.31)">
+	<path style="color:black; fill:#c4a000; stroke-linecap:round;" d="m -43.2,169.6 c 27.2,22.8 64.9,23.7 97.8,32.7 74.1,11.4 149.7,10.9 224.4,6.7 66.1,-7 131.1,-21.8 197.5,-26.3 52.4,-6.6 105.3,-6.5 157.8,-1.5 29.9,3.9 33.1,0 40.3,-1.3 9.8,-3.8 21.5,-7.6 30.1,-11.5 -44,-17.4 -92.6,-16 -139.2,-19.5 -59.9,-2.3 -119.5,6.1 -178.9,12.7 -64,10.1 -128,22.5 -193.2,21 -66.4,0 -133.8,-1.4 -198.2,-19.6 13.5,3.4 20.2,6.8 3.2,-1 -9.6,-2.5 -20.4,3.8 -30.5,4.9 -3.7,0.9 -7.4,1.7 -11.2,2.6 z"/>
+	<path style="color:black; fill:#c4a000; stroke-linecap:round;" d="m 629.3,224.5 c 7.7,-8.5 18.5,-12.7 28.3,-18.1 10.2,-4.2 21.1,-6.3 31.7,-9.2 6.6,-1.2 13.4,-0.3 20.1,-0.8 6,0.1 12.7,0.7 21.4,-1.7 -8.7,-8.7 -17.4,-17.5 -26.1,-26.2 -4.2,-2.3 -9.2,-0.2 -13.8,-1 -11.1,0.1 -22.5,0.2 -33,4 -10.8,3 -21.9,5.6 -31.7,11.3 -10.3,5.5 -20.8,11 -28.8,19.7 -3.3,2.2 -3.9,4 0,5.2 10.6,5.6 21.3,11.2 31.9,16.8 z"/>
+	<path style="color:black; fill:#c4a000; stroke-linecap:round;" d="m 608.5,123.7 c 5.1,7 11.3,13.2 17.6,19.2 8,7.1 16.2,13.9 24.9,20.2 5.6,4 11.9,6.7 18.3,9.2 14.7,7.1 30.8,10.7 46.6,14.6 1.7,0.2 9,3.3 6.5,0 -8.1,-9.9 -16.2,-19.8 -24.4,-29.7 0.1,-1.3 -6.3,-1.8 -1.8,-1 -1.5,-3.1 -7.3,-3.8 -9.4,-5.5 -8.9,-5.2 -16.6,-12.2 -24.7,-18.5 -4.9,-4.2 -9.3,-8.9 -13.9,-13.4 -13.2,1.6 -26.5,3.3 -39.7,4.9 z"/>
+</g>
+<ellipse cx="104.3" cy="28.9" rx="43.9" ry="13" transform="matrix(0.997497,-0.070712,0.147551,0.989054,0,0)" style="color:black; fill:url(#id3); stroke-width:1.18; stroke-linecap:round;"/>
+<text x="87.6" y="26" style="font-size:19.3px; font-style:italic; color:black; fill:#c4a000; stroke-width:0.24px;">Cube</text>
+<ellipse cx="96.2" cy="56.6" rx="63.2" ry="17.8" transform="matrix(0.999431,-0.033728,0.041561,0.999136,0,0)" style="color:black; fill:url(#id4); stroke-width:1.65; stroke-linecap:round;"/>
+<text x="52.5" y="59.3" style="font-size:19.3px; font-style:italic; color:black; stroke-width:0.24px;">Cube Root</text>
+</svg>

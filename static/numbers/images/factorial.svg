@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="26.1544"
+   height="117.145"
+   version="1.1"
+   id="svg99"
+   sodipodi:docname="factorial.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview101"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg99" />
+  <defs
+     id="defs5">
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id01">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="stroke:#000000;stroke-width:1pt"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id016884"
+       inkscape:stockid="id016884">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#204a87;fill-opacity:1;stroke:#204a87;stroke-width:1pt;stroke-opacity:1"
+         id="path1172" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id015922"
+       inkscape:stockid="id015922">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#204a87;fill-opacity:1;stroke:#204a87;stroke-width:1pt;stroke-opacity:1"
+         id="path1175" />
+    </marker>
+  </defs>
+  <circle
+     style="color:#000000;overflow:visible;fill:#0084c8;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000;fill-opacity:1"
+     id="path1524"
+     cx="12.5458"
+     cy="108.714"
+     r="7.93103" />
+  <path
+     style="fill:#0084c8;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+     d="M 12.5458,94.0917 C 9.46662,72.5524 -7.18893,0.486806 12.5051,0.500002 c 19.694,0.0132 3.9042,72.204698 0.041,93.591698 z"
+     id="path1559"
+     sodipodi:nodetypes="czc" />
+</svg>

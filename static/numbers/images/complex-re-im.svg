@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="180.494"
+   height="84.9145"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="complex-re-im.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata46">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview44"
+     showgrid="false"
+     inkscape:current-layer="g40"
+     inkscape:pagecheckerboard="0" />
+  <defs
+     id="defs2" />
+  <g
+     transform="translate(-24.2031,-394.711)"
+     id="g40">
+    <path
+       style="overflow:visible;fill:#204a87;stroke-width:2.3"
+       d="m 200.005,404.349 c -0.655,1.855 -1.092,3.711 -1.528,5.565 -0.437,1.855 -0.545,3.82 -0.764,5.675 -0.108,1.964 0.655,3.055 2.074,4.255 2.073,0.656 2.727,0 0.436,0.219 l 4.474,1.2 c -2.51,2.074 -6.22,2.838 -8.948,0.873 -1.745,-1.636 -2.618,-3.601 -2.618,-6.001 0.217,-1.965 0.327,-4.038 0.763,-6.003 0.437,-1.964 0.982,-3.928 1.528,-5.783 z"
+       id="path12"
+       inkscape:connector-curvature="0" />
+    <path
+       style="overflow:visible;fill:#204a87;stroke-width:2.3"
+       d="m 200.741,398.077 c 0.4,0.7 1,1.3 1.6,2 l -3.8,1.8 c -0.6,-0.8 -1.3,-1.5 -1.7,-2.3 l 4,-1.4 z"
+       id="path14"
+       inkscape:connector-curvature="0" />
+    <text
+       x="104.629"
+       y="422.95"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.3px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';overflow:visible;fill:#0197fd;stroke-width:5.1"
+       id="text16">a</text>
+    <text
+       x="136.138"
+       y="423.494"
+       style="font-size:38.3px;font-family:'Trebuchet MS';overflow:visible;fill:#204a87;stroke-width:5.1"
+       id="text18">+</text>
+    <text
+       x="166.729"
+       y="422.95"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.3px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';overflow:visible;fill:#fdca01;stroke-width:5.1"
+       id="text20">b</text>
+    <path
+       style="overflow:visible;fill:#0197fd;stroke-width:5.1"
+       d="m 65.1305,453.173 c 2.242,-3.536 5.2452,-6.671 8.6269,-9.252 1.549,-1.221 3.2242,-2.258 5.1652,-2.826 2.3957,-0.933 4.9182,0.54 6.1933,2.485 0.928,0.882 1.1581,2.567 2.4147,2.9 1.6844,-0.23 2.6703,-1.879 3.8365,-2.947 1.837,-2.067 3.5614,-4.221 5.1868,-6.36 -0.5133,0.675 -1.7109,2.252 -1.7964,2.365 1.6253,-2.14 3.1515,-4.266 4.7904,-6.307 -0.5133,0.676 -1.6389,2.041 -1.7964,2.365 1.1391,-1.266 1.8278,-2.874 2.8545,-4.225 1.176,-0.262 2.338,-0.622 3.513,-0.884 -1.486,2.424 -2.958,4.946 -4.7952,7.014 -0.3422,0.45 -1.4543,1.914 -0.5133,0.676 0.4277,-0.564 1.9675,-2.591 0.8554,-1.127 -3.0931,3.955 -5.9474,8.181 -9.7162,11.622 -1.4229,1.406 -4.0709,1.97 -5.5035,0.349 -1.32,-1.536 -1.9286,-3.774 -3.96,-4.607 -1.7656,-0.364 -3.4136,0.87 -4.9177,1.681 -2.954,2.019 -5.543,4.492 -7.7672,7.42 0.5268,-0.577 2.3232,-2.942 0.941,-1.239 -1.1619,0.361 -2.3373,0.622 -3.5983,0.996 z"
+       id="path22"
+       inkscape:connector-curvature="0" />
+    <path
+       style="overflow:visible;fill:#0197fd;stroke-width:5.1"
+       d="m 92.4461,435.917 c 1.4364,-1.306 2.9719,-2.626 4.5209,-3.847 1.648,-1.235 3.31,-2.37 4.972,-3.505 0.666,-0.293 1.206,-0.771 1.914,-0.766 0.918,0.08 1.549,0.999 1.572,1.904 0.131,1.698 -0.459,3.293 -0.85,4.86 -0.347,1.158 -0.693,2.315 -1.139,3.486 -0.117,0.622 -0.333,1.257 -0.562,1.793 -1.149,0.46 -2.297,0.919 -3.5448,1.392 0.2745,-0.945 0.549,-1.891 0.8238,-2.837 0.805,-2.23 1.512,-4.446 1.908,-6.72 -0.05,-0.397 0.08,-0.919 0.441,-0.464 0.748,0.301 -0.527,0.576 -0.698,0.802 -1.8327,1.36 -3.7916,2.536 -5.4126,3.969 -1.3508,1.194 -2.8007,2.401 -4.0525,3.581 0.036,-1.216 0.072,-2.432 0.1072,-3.648 z"
+       id="path24"
+       inkscape:connector-curvature="0" />
+    <text
+       x="37.9099"
+       y="468.644"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;overflow:visible;fill:#0197fd;stroke-width:5.1"
+       id="text26">Re(z) =</text>
+    <path
+       style="overflow:visible;fill:#fdca01;stroke-width:5.1"
+       d="m 137.769,460.459 c 2.6,-3.5 5.3,-6.9 8.5,-9.8 1.1,-1 2.5,-2.2 4.1,-2 1.9,0.2 2.7,2.2 4.1,3 1.5,-0.2 2.7,-1.4 3.9,-2.3 0.6,-0.5 2.2,-2.1 2.2,-2.1 -0.6,0.6 -2.2,2.2 -0.8,0.8 2.9,-3 5.7,-6.1 8,-9.6 0.9,-1.1 1.7,-2.3 2.6,-3.4 1.2,-0.2 2.5,-0.3 3.7,-0.5 -2.3,2.9 -4.5,5.9 -6.8,8.8 -2.8,3.3 -5.8,6.4 -9,9.3 -1.5,1.2 -3.4,2.7 -5.5,2.3 -1.6,-0.4 -2.3,-2 -3.6,-2.9 -1.7,0 -2.8,1.8 -4.1,2.8 -0.2,0.2 2.7,-2.7 0.9,-1 -1.8,1.8 -3.3,4 -4.9,5.9 -1.2,0.2 -2.4,0.4 -3.6,0.6 z"
+       id="path28"
+       inkscape:connector-curvature="0" />
+    <path
+       style="overflow:visible;fill:#fdca01;stroke-width:5.1"
+       d="m 161.869,438.759 c 1,-0.6 2,-1.2 2.9,-1.9 1.5,-1 2.9,-2.1 4.3,-3.2 0.8,-0.6 1.6,-1.2 2.4,-1.8 0.8,-0.4 1.7,0.2 2.1,0.8 0.7,0.9 0.7,2.1 0.6,3.2 0,1.2 -0.2,2.3 -0.3,3.5 0,1.4 -0.2,2.8 -0.2,4.2 -1.2,0.5 -2.3,1 -3.5,1.5 0.1,-2.3 0.3,-4.5 0.4,-6.7 0.1,-1 0.2,-1.9 0,-2.9 0,-0.4 -0.2,-0.2 0.1,0 -0.2,0.6 -1.1,0.9 -1.5,1.4 -1.1,0.8 -2.1,1.7 -3.3,2.5 -1.3,0.9 -2.6,1.8 -4,2.6 -0.2,0 -0.9,0.8 -0.8,0.3 0.2,-1.1 0.4,-2.3 0.6,-3.4 z"
+       id="path30"
+       inkscape:connector-curvature="0" />
+    <text
+       x="121.409"
+       y="476.282"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;overflow:visible;fill:#fdca01;stroke-width:5.1"
+       id="text32">Im(z) =</text>
+    <text
+       id="text853"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.3px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;overflow:visible;fill:#204a87;stroke-width:5.1"
+       y="422.95"
+       x="32.4949"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="32.4949"
+         y="422.95">z</tspan></text>
+    <text
+       x="67.6096"
+       y="424.31"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.3px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;overflow:visible;fill:#204a87;stroke-width:5.1"
+       id="text859"><tspan
+         y="424.31"
+         x="67.6096"
+         id="tspan857"
+         sodipodi:role="line">=</tspan></text>
+    <text
+       x="93.927"
+       y="469.724"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';overflow:visible;fill:#0197fd;stroke-width:5.1"
+       id="text7884">a</text>
+    <text
+       x="175.703"
+       y="476.251"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';overflow:visible;fill:#fdca01;stroke-width:5.1"
+       id="text7886">b</text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="302.1"
+   height="32.4"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="imaginary-squared.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview20"
+     showgrid="false"
+     inkscape:current-layer="svg18" />
+  <defs
+     id="defs2" />
+  <g
+     transform="matrix(0.168416,0,0,0.168416,139.428,-215.267)"
+     id="g10">
+    <path
+       style="color:black;overflow:visible;fill:#c4a000;stroke:#c4a000;stroke-width:2.3"
+       d="m -18.8,1396.8 c 12.6,-9.2 26,-17 39.6,-24.5 22.7,-11.9 48.1,-15.6 72.8,-21.1 16.3,-1.9 32.4,0.7 48.5,3.4 15.6,3 30.6,7.9 45.7,12.8 13.9,4.9 28.2,7.9 42.7,10.4 14.4,1.7 28.8,-0.3 43.1,-1.6 4.9,-0.5 9.6,-1.5 14.5,-2.3 l -21.9,26.2 c -5,0.6 -10,1.4 -15.1,1.7 -15.3,1 -30.6,2.1 -45.8,-1.1 -14.8,-3.3 -29.6,-6.9 -44,-11.9 -14.6,-4.4 -29.2,-8.9 -44.3,-11.2 -15.1,-1.8 -30.1,-3.3 -45.2,-0.3 -2.6,0.5 -10.3,2.4 -7.8,1.5 41.9,-14.1 -1.5,1 -10.7,4 -13.6,6.5 -26.8,13.5 -39,22.4 z"
+       id="path4" />
+    <path
+       style="color:black;overflow:visible;fill:#c4a000;stroke:#c4a000;stroke-width:2.3"
+       d="m 248.6,1334 c 7.1,12.3 16.8,21.8 27.7,30.5 12.1,9.3 24.6,10 39.1,9.8 l -23.6,24.6 c -16.6,-2.2 -31.6,-5.7 -44.9,-17 -11.4,-10.4 -22.1,-21.2 -29.8,-34.7 z"
+       id="path6" />
+    <path
+       style="color:black;overflow:visible;fill:#c4a000;stroke:#c4a000;stroke-width:2.3"
+       d="m 215.9,1435.6 c 10.2,-11.3 21.9,-20.8 33.8,-30.1 20.3,-16.3 42,-21.5 67.1,-28.3 4.9,-0.7 9.7,-1.7 14.6,-2.5 l -21.5,26.5 c -4.7,1 -9.4,1.7 -14,3.1 43.8,-12.7 -4.4,0.2 -13.1,9.5 -11.7,8.4 -23.4,17 -33.3,27.6 z"
+       id="path8" />
+  </g>
+  <text
+     x="208.9"
+     y="25.6"
+     style="font-family:'Comic Sans MS';font-size:24px;color:black;overflow:visible;fill:#ef2929;stroke-width:1px"
+     id="text12">negative</text>
+  <text
+     x="-2.1"
+     y="25.6"
+     style="font-family:'Comic Sans MS';font-size:24px;color:black;overflow:visible;fill:#0169c9;stroke-width:1px"
+     id="text14">imaginary</text>
+  <text
+     x="103.7"
+     y="15.8"
+     style="font-family:'Comic Sans MS';font-weight:bold;font-size:21.1px;font-style:italic;color:black;overflow:visible;fill:#3465a4;stroke-width:1.06px;"
+     id="text16">2</text>
+</svg>

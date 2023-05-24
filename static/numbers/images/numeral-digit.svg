@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="186.8"
+   height="155.4"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="numeral-digit.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg33" />
+  <defs
+     id="defs5">
+    <marker
+       id="id04"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:black;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id048726"
+       inkscape:stockid="id048726">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:#3465a4;stroke-width:1pt;stroke-opacity:1;fill-opacity:1;fill:#3465a4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path926" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id041821"
+       inkscape:stockid="id041821">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:#3465a4;stroke-width:1pt;stroke-opacity:1;fill-opacity:1;fill:#3465a4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path929" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id042010"
+       inkscape:stockid="id042010">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:#3465a4;stroke-width:1pt;stroke-opacity:1;fill-opacity:1;fill:#3465a4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path932" />
+    </marker>
+  </defs>
+  <path
+     style="color:#000000;overflow:visible;fill:#0000ff;stroke-width:0.49;stroke-opacity:0.48"
+     d="m 85.096,54.623 c 0.1,5.7 -0.9,11.4 -1.7,17.1 -0.4,1.3 -0.5,4.7 -1,1.6 -0.3,-2.3 -5.1,-1.4 -4.4,-1.8 2.7,-3.3 6.3,-6 10.5,-7 5.2,-0.3 11.2,2.9 12.4,8.3 1.2,4.8 -1.5,9.6 -4.1,13.5 -4.1,5.4 -12.1,8.5 -18.4,5.4 -1.4,-0.9 -4.7,-1.5 -2.7,-3.4 0.8,-1.4 1.7,-2.8 2.5,-4.3 2.7,1.9 6.1,3.2 9.3,1.6 4,-1.7 6.3,-6 7.1,-10.1 0.1,-2.8 -3.6,-4.9 -6,-4 -2.9,1.2 -4.8,3.6 -6.9,5.8 -2.6,1.6 -6.7,-1.1 -5.3,-4.2 1.1,-5.7 1.2,-13.8 2.1,-17.3 0.9,-3.6 3.2,-4.2 3.4,-3 1.7,1.2 1.4,0.2 3.2,2.1 z"
+     id="path7" />
+  <path
+     style="color:#000000;overflow:visible;fill:#0000ff;stroke-width:0.49;stroke-opacity:0.48"
+     d="m 81.796,51.023 c 5.2,-1.3 9.4,1.9 13.1,1.7 3.7,-0.2 5.5,-2.2 6,0 0.5,2.2 1.1,3.5 1.6,5.2 -13.4,5.3 -24.9,-5.2 -20.6,-6.9 z"
+     id="path9" />
+  <path
+     style="color:#000000;overflow:visible;fill:#0000ff;stroke-width:0.49;stroke-opacity:0.48"
+     d="m 111.196,64.923 c -0.4,-2 -2.3,-4.9 -1.2,-6.7 3.6,-3.6 7.7,-7.3 13,-7.8 3.8,-0.8 8,1.5 8.8,5.3 1.7,6.4 -1.6,12.8 -5.7,17.5 -2.5,2.8 -6.3,3.5 -9.7,4.4 3.5,-1.1 1.2,-6.7 0,-6.4 4.9,-0.5 10.6,0 14.1,3.8 2.6,3.2 1.9,8 0,11.5 -2.6,4.2 -7.3,8 -12.6,7.3 -4.6,-0.4 -9,-2.9 -11.5,-6.8 -0.4,-0.9 1.6,-1.4 2.2,-2.2 1,-0.7 1.9,-1.4 2.9,-2.1 1.5,2.4 4,4.2 6.9,4.5 3.1,0.5 5.8,-2.4 6.9,-5 1.6,-3 -1.3,-4.1 -3.9,-4.3 -2.7,-0.4 -5.9,0.9 -8.3,-0.8 -2,-3 0.5,-6.5 3.9,-6.5 2.7,-0.3 5,-2 6.3,-4.4 1.6,-2.7 3.2,-5.9 2.1,-9.1 -2,-0.6 -5.4,0.9 -7.2,2.6 -1.7,1.1 -3.5,4.1 -5.1,4.1 -0.8,1.1 -0.5,0.6 -1.8,1 z"
+     id="path11" />
+  <path
+     style="color:#000000;overflow:visible;fill:#0000ff;stroke-width:0.49;stroke-opacity:0.48"
+     d="m 57.896,63.823 c -4.2,0 -0.6,-7.9 0.2,-8.4 2.4,-1.7 4,-5 7.3,-5.1 3.6,0.9 3.6,5.4 3.4,8.4 0,5.4 -0.4,10.7 -1.5,16 -0.8,5 -1.6,10 -2.8,15 -0.5,1.6 0,4.8 -2.4,3.4 -1.6,-0.4 -3.2,-0.8 -4.8,-1.2 1,-5.5 2.5,-10.8 3.1,-16.4 0.9,-5.1 1.8,-10.3 1.7,-15.5 0.2,-1.4 -0.6,-5.8 1.1,-2.5 1,1.7 4.6,-0.7 2,1.4 -2.3,2 -4.4,4.9 -7.7,5.2 -3.3,-4.4 0.7,-13 0.4,0 z"
+     id="path13" />
+  <text
+     x="137.396"
+     y="149.023"
+     style="color:#000000;font-size:23.2px;font-family:'Comic Sans MS';overflow:visible;fill:#3465a4;stroke-width:0.23px"
+     id="text15">digit</text>
+  <text
+     x="20.1225"
+     y="-73.0955"
+     transform="rotate(90)"
+     style="color:#000000;font-size:82.6px;font-family:Arial;overflow:visible;fill:#ff0000;stroke-width:0.24px"
+     id="text17">{</text>
+  <text
+     x="52.296"
+     y="18.223"
+     style="color:#000000;font-size:23.2px;font-family:'Comic Sans MS';overflow:visible;fill:#ff0000;stroke-width:0.23px"
+     id="text19">numeral</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#3465a4;stroke-width:0.95;marker-end:url(#id042010)"
+     d="m 153.896,129.023 -25.4,-30.6"
+     id="path21" />
+  <text
+     x="69.796"
+     y="149.023"
+     style="color:#000000;font-size:23.2px;font-family:'Comic Sans MS';overflow:visible;fill:#3465a4;stroke-width:0.23px"
+     id="text23">digit</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#3465a4;stroke-width:0.95;marker-end:url(#id041821)"
+     d="m 96.896,131.423 -6.5,-31.7"
+     id="path25" />
+  <text
+     x="-1.20399"
+     y="149.023"
+     style="color:#000000;font-size:23.2px;font-family:'Comic Sans MS';overflow:visible;fill:#3465a4;stroke-width:0.23px"
+     id="text27">digit</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#3465a4;stroke-width:0.95;marker-end:url(#id048726)"
+     d="m 33.396,128.123 23.5,-30.6"
+     id="path29" />
+</svg>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2021 mathsisfun.com -->
+
+<svg
+   width="381.5"
+   height="46.2188"
+   version="1.1"
+   style="font-size:6.7px;font-family:'Trebuchet MS';fill:#3465a4;stroke-width:0.26px"
+   id="svg60"
+   sodipodi:docname="common-factor-explained2.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview62"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg60" />
+  <defs
+     id="defs2" />
+  <g
+     transform="matrix(3.5,0,0,3.5,38.5,-253.96)"
+     id="g58">
+    <text
+       x="52.7"
+       y="77.5"
+       id="text4">a</text>
+    <text
+       x="63.6"
+       y="77.5"
+       style="fill:#edd400"
+       id="text6">d</text>
+    <text
+       x="66.7"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text8">b</text>
+    <text
+       x="92"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text10">c</text>
+    <text
+       x="77.6"
+       y="85.7"
+       style="fill:#edd400"
+       id="text12">d</text>
+    <text
+       x="71.9"
+       y="78.5"
+       style="font-size:8.1px"
+       id="text14">+</text>
+    <text
+       x="40.6"
+       y="82"
+       style="font-size:8.1px"
+       id="text16">=</text>
+    <text
+       x="86.5"
+       y="77.5"
+       id="text18">×</text>
+    <text
+       x="58.2"
+       y="77.5"
+       id="text20">×</text>
+    <text
+       x="81"
+       y="77.5"
+       style="fill:#19aeff"
+       id="text22">b</text>
+    <text
+       x="72.2"
+       y="85.7"
+       id="text24">×</text>
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="M 50.9,79.3 H 98"
+       id="path26" />
+    <text
+       x="-9.3"
+       y="77.5"
+       id="text28">a</text>
+    <text
+       x="-9.5"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text30">b</text>
+    <text
+       x="1.7"
+       y="77.5"
+       style="fill:#edd400"
+       id="text32">d</text>
+    <text
+       x="19.1"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text34">b</text>
+    <text
+       x="30.1"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text36">c</text>
+    <text
+       x="30"
+       y="85.7"
+       style="fill:#edd400"
+       id="text38">d</text>
+    <text
+       x="10"
+       y="82"
+       style="font-size:8.1px"
+       id="text40">+</text>
+    <text
+       x="24.6"
+       y="77.5"
+       id="text42">×</text>
+    <text
+       x="-3.7"
+       y="77.5"
+       id="text44">×</text>
+    <text
+       x="1.7"
+       y="85.7"
+       style="fill:#edd400"
+       id="text46">d</text>
+    <text
+       x="-3.7"
+       y="85.7"
+       id="text48">×</text>
+    <text
+       x="19.1"
+       y="77.5"
+       style="fill:#19aeff"
+       id="text50">b</text>
+    <text
+       x="24.6"
+       y="85.7"
+       id="text52">×</text>
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="M -11,79.4 H 7.5"
+       id="path54" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="M 17.1,79.4 H 35.6"
+       id="path56" />
+  </g>
+</svg>

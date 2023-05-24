@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="43.8188"
+   id="Layer_1"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="divide.svg"
+   sodipodi:version="0.32"
+   space="preserve"
+   style="overflow:visible"
+   version="1.1"
+   viewBox="0 0 43.9773 43.8188"
+   width="43.9773"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>unsorted</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs39">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16346">
+      <stop
+         style="stop-color:#6a9e10;stop-opacity:1"
+         offset="0"
+         id="stop16342" />
+      <stop
+         style="stop-color:#c6f181;stop-opacity:1"
+         offset="1"
+         id="stop16478" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12874">
+      <stop
+         style="stop-color:#c3f272;stop-opacity:1"
+         offset="0"
+         id="stop12870" />
+      <stop
+         style="stop-color:#8fd615;stop-opacity:1"
+         offset="1"
+         id="stop12872" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12874"
+       id="radialGradient13441"
+       cx="11.6062"
+       cy="-4.78841"
+       fx="11.6062"
+       fy="-4.78841"
+       r="21.0032"
+       gradientTransform="matrix(1.27203,0.396093,-0.267314,0.858465,-2.28173,17.9707)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16346"
+       id="linearGradient16348"
+       x1="1.15802"
+       y1="18.3628"
+       x2="39.5704"
+       y2="29.7901"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12874"
+       id="radialGradient18198"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.555143,0.268203,-0.333561,0.690426,3.5268,13.3715)"
+       cx="14.6373"
+       cy="-20.4792"
+       fx="14.6373"
+       fy="-20.4792"
+       r="21.0032" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12874"
+       id="radialGradient18502"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.584801,0.307812,-0.336531,0.639366,8.59609,22.7066)"
+       cx="16.2153"
+       cy="6.37416"
+       fx="16.2153"
+       fy="6.37416"
+       r="21.0032" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16346"
+       id="linearGradient18760"
+       gradientUnits="userSpaceOnUse"
+       x1="12.9631"
+       y1="34.6065"
+       x2="28.4264"
+       y2="42.2562" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16346"
+       id="linearGradient19832"
+       gradientUnits="userSpaceOnUse"
+       x1="13.4353"
+       y1="5.61336"
+       x2="27.9542"
+       y2="11.9409" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="Layer_1"
+     inkscape:cx="68.241997"
+     inkscape:cy="67.997002"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="510"
+     inkscape:window-width="787"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:zoom="2.6471755"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-global="false" />
+  <circle
+     style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;fill:url(#radialGradient18502);fill-opacity:1;stroke:url(#linearGradient18760);stroke-width:0.922;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     id="path867"
+     cx="21.8835"
+     cy="36.846"
+     r="6.54438" />
+  <circle
+     style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;fill:url(#radialGradient18198);fill-opacity:1;stroke:url(#linearGradient19832);stroke-width:0.922;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     id="circle1104"
+     cx="21.8835"
+     cy="7.01184"
+     r="6.54438" />
+  <rect
+     style="color:#000000;font-variation-settings:normal;overflow:visible;opacity:1;fill:url(#radialGradient13441);fill-opacity:1;stroke:url(#linearGradient16348);stroke-width:0.922;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     id="rect1151"
+     width="41.4844"
+     height="11.0295"
+     x="1.14126"
+     y="16.1534"
+     ry="4.55042" />
+</svg>

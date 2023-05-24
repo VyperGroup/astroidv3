@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="283.087"
+   height="79.8712"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="addition.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview30"
+     showgrid="false"
+     inkscape:current-layer="svg28"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs2" />
+  <text
+     x="12.1189"
+     y="78.9024"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#0000ff;fill-opacity:1;font-family:Trebuchet MS;font-size:16px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.785962px"
+     id="text6">Addend</text>
+  <text
+     x="95.894"
+     y="78.9024"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#ff0000;fill-opacity:1;font-family:Trebuchet MS;font-size:16px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.785962px"
+     id="text8">Addend</text>
+  <text
+     x="191.415"
+     y="78.9024"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f57900;fill-opacity:1;stroke-width:0.785962px"
+     id="text10">Sum or Total</text>
+  <text
+     x="-1.02344"
+     y="12.4531"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#005c94;font-family:Trebuchet MS;font-size:16px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.785962px"
+     id="text26">Addition:</text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 43.9233,65.8744 c 0,0 11.8303,-12.2543 22.6459,-10 10.816,2.2479 20.1155,-7.7134 20.1155,-7.7134"
+     id="path2083"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 75.9359,51.2277 10.9374,-3.3056 -4.6764,9.867"
+     id="path2085"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path867"
+     d="m 122.347,65.2868 c 5.33,-7.2516 7.04,-6.5422 12.405,-15.9508"
+     style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#f57900;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 234.014,65.2868 c 0,0 -6.543,-8.5331 -13.637,-7.0622 -7.095,1.4709 -14.725,-10.4051 -14.725,-10.4051"
+     id="path869"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czc" />
+  <path
+     sodipodi:nodetypes="ccc"
+     inkscape:connector-curvature="0"
+     id="path871"
+     d="m 125.552,56.1115 9.2,-6.7755 -1.103,10.8628"
+     style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#f57900;stroke-width:2.56902;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 208.38,58.9142 -2.728,-11.0947 9.608,5.1848"
+     id="path873"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc"
+     inkscape:transform-center-x="-2.30644"
+     inkscape:transform-center-y="2.83703" />
+  <text
+     x="83.1911"
+     y="38.6293"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#0000ff;font-family:Trebuchet MS;font-size:32px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.705711px"
+     id="text833">8</text>
+  <text
+     x="109.045"
+     y="37.9092"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#005c94;font-family:Trebuchet MS;font-size:32px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.705711px"
+     id="text841">+</text>
+  <text
+     x="131.37"
+     y="38.6293"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#ff0000;font-family:Trebuchet MS;font-size:32px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.705711px"
+     id="text843">3</text>
+  <text
+     x="161.363"
+     y="38.6293"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#005c94;font-family:Trebuchet MS;font-size:32px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.705711px"
+     id="text845">=</text>
+  <text
+     x="186.861"
+     y="38.6293"
+     style="-inkscape-font-specification:Trebuchet MS;fill:#f57900;font-family:Trebuchet MS;font-size:32px;font-stretch:normal;font-style:normal;font-variant:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:normal;stroke-width:0.705711px"
+     id="text847">11</text>
+</svg>

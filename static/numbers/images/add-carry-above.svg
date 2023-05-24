@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="182.8"
+   height="130.1"
+   version="1.1"
+   id="svg38"
+   sodipodi:docname="add-carry-above.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg38" />
+  <defs
+     id="defs8">
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id02">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#999999;stroke:#999999;stroke-width:1pt"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="id01">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#daa527;stroke:#daa527;stroke-width:1pt"
+         id="path5" />
+    </marker>
+  </defs>
+  <path
+     d="m 31.09,6.642 44.9,7.3"
+     style="fill:none;stroke:#daa527;stroke-width:2;marker-start:url(#id01)"
+     id="path10" />
+  <text
+     x="126.8"
+     y="23.2357"
+     transform="scale(1.02813,0.97264)"
+     style="font-style:italic;font-size:20.5px;font-family:'Comic Sans MS';text-align:center;text-anchor:middle;fill:#daa527;stroke-width:2"
+     id="text12">Remember</text>
+  <text
+     x="113.367"
+     y="126.769"
+     transform="scale(1.01953,0.980845)"
+     style="font-style:italic;font-size:20.5px;font-family:'Comic Sans MS';text-align:center;text-anchor:middle;fill:#999999;stroke-width:2"
+     id="text14">Clear space</text>
+  <text
+     x="17.29"
+     y="13.542"
+     style="color:#000000;font-size:17.8px;font-family:'Comic Sans MS';overflow:visible;fill:#daa737;stroke-width:0.84px"
+     id="text16">1</text>
+  <text
+     x="21.19"
+     y="33.042"
+     style="color:#000000;font-size:24px;font-family:'Comic Sans MS';overflow:visible;fill:#3b5fff;stroke-width:1px"
+     id="text18">1</text>
+  <text
+     x="34.29"
+     y="32.642"
+     style="color:#000000;font-size:24px;font-family:'Comic Sans MS';overflow:visible;fill:#3b5fff;stroke-width:1px"
+     id="text20">6</text>
+  <text
+     x="3.09"
+     y="57.642"
+     style="color:#000000;font-size:21.3px;font-family:'Comic Sans MS';overflow:visible;fill:#3b5fff;stroke-width:1px"
+     id="text22">+</text>
+  <text
+     x="34.29"
+     y="86.742"
+     style="color:#000000;font-size:24px;font-family:'Comic Sans MS';overflow:visible;fill:#daa737;stroke-width:1px"
+     id="text24">2</text>
+  <path
+     d="m -0.01,65.142 h 53"
+     style="fill:none;stroke:#005c94;stroke-width:1.6"
+     id="path26" />
+  <path
+     d="m -0.01,90.642 h 53"
+     style="fill:none;stroke:#005c94;stroke-width:1.6"
+     id="path28" />
+  <text
+     x="21.19"
+     y="58.542"
+     style="color:#000000;font-size:24px;font-family:'Comic Sans MS';overflow:visible;fill:#3b5fff;stroke-width:1px"
+     id="text30">1</text>
+  <text
+     x="34.29"
+     y="58.142"
+     style="color:#000000;font-size:24px;font-family:'Comic Sans MS';overflow:visible;fill:#3b5fff;stroke-width:1px"
+     id="text32">6</text>
+  <path
+     d="m 24.89,88.942 30.5,28.4"
+     style="fill:#999999;stroke:#999999;stroke-width:2;marker-start:url(#id02)"
+     id="path34" />
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" width="148.9" height="125.1" version="1.1">
+<defs/>
+<g transform="translate(-188.54127,-121.98581)">
+<g transform="matrix(0.75713772,0,0,0.75713772,12.397037,74.332194)">
+<rect x="454.1" y="196.9" width="72.6" height="40.3" style="fill:#0197fd; stroke:#0169c9; stroke-width:3.59; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947933,0.1019132,-0.9133899,0.4070859,0,0)"/>
+<rect x="336.6" y="288.3" width="40.2" height="67.5" style="fill:#013397; stroke:#0169c9; stroke-width:2.65; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9122455,-0.409644,0,1,0,0)"/>
+<rect x="236.1" y="118.9" width="72.7" height="67.5" style="fill:#b3defd; stroke:#0169c9; stroke-width:2.54; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947074,0.1027479,0,1,0,0)"/>
+</g>
+<g transform="matrix(0.75713772,0,0,0.75713772,75.097586,81.006503)">
+<rect x="454.1" y="196.9" width="72.6" height="40.3" style="fill:#0197fd; stroke:#0169c9; stroke-width:3.59; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947933,0.1019132,-0.9133899,0.4070859,0,0)"/>
+<rect x="336.6" y="288.3" width="40.2" height="67.5" style="fill:#013397; stroke:#0169c9; stroke-width:2.65; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9122455,-0.409644,0,1,0,0)"/>
+<rect x="236.1" y="118.9" width="72.7" height="67.5" style="fill:#b3defd; stroke:#0169c9; stroke-width:2.54; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947074,0.1027479,0,1,0,0)"/>
+</g>
+<g transform="matrix(0.75713772,0,0,0.75713772,52.149981,26.818001)">
+<rect x="454.1" y="196.9" width="72.6" height="40.3" style="fill:#0197fd; stroke:#0169c9; stroke-width:3.59; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947933,0.1019132,-0.9133899,0.4070859,0,0)"/>
+<rect x="336.6" y="288.3" width="40.2" height="67.5" style="fill:#013397; stroke:#0169c9; stroke-width:2.65; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9122455,-0.409644,0,1,0,0)"/>
+<rect x="236.1" y="118.9" width="72.7" height="67.5" style="fill:#b3defd; stroke:#0169c9; stroke-width:2.54; stroke-linecap:square; stroke-linejoin:round;" transform="matrix(0.9947074,0.1027479,0,1,0,0)"/>
+</g>
+<text x="204.2" y="188.2" transform="matrix(1,0.17509041,0,1,0,0)" style="font-family:'Comic Sans MS'; font-size:40px; overflow:visible; fill:#013397; stroke-width:2.53; stroke-linecap:square; stroke-linejoin:round;">2</text>
+<text x="244.3" y="143.9" transform="matrix(1,0.12922833,0,1,0,0)" style="font-family:'Comic Sans MS'; font-size:40px; overflow:visible; fill:#013397; stroke-width:2.53; stroke-linecap:square; stroke-linejoin:round;">3</text>
+<text x="268.1" y="184" transform="matrix(1,0.17509041,0,1,0,0)" style="font-family:'Comic Sans MS'; font-size:40px; overflow:visible; fill:#013397; stroke-width:2.53; stroke-linecap:square; stroke-linejoin:round;">2</text>
+</g>
+</svg>

@@ -1,0 +1,192 @@
+﻿
+<!doctype html>
+<html lang="en">
+<!-- #BeginTemplate "/Templates/Main.dwt" --><!-- DW6 -->
+<!-- Mirrored from fractions.mathsisfun.sa.com/numbers/images/nocdn/math-trainera070.html?m=Multiply by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Jul 2022 02:33:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<!-- #BeginEditable "doctitle" -->
+    <title>Sorry We Can't Find It (404)</title>
+    <!-- #EndEditable -->
+<meta name="keywords" content="math, maths, mathematics, school, homework, education">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="referrer" content="always">
+<link rel="stylesheet" type="text/css" href="../../../style3.css">
+<script src="../../../main3.js"></script>
+</head>
+
+<body id="bodybg">
+<div class="bg">
+	<div id="stt"></div>
+	<header>
+	<div id="hdr"></div>
+	<div id="logo"><a href="https://www.mathsisfun.com/"><img src="../../../images/style/logo.svg" alt="Math is Fun"></a></div>
+	<div id="gtran">
+		<script>document.write(getTrans());</script>
+	</div>
+	<div id="adTopOuter" class="centerfull noprint">
+		<div id="adTop"> 
+			<script>document.write(getAdTop());</script> 
+		</div>
+	</div>
+	<div id="adHide">
+		<div id="showAds1"><a href="javascript:showAds()">Show Ads</a></div>
+		<div id="hideAds1"><a href="javascript:hideAds()">Hide Ads</a><br>
+			<a href="about-ads.html">About Ads</a></div>
+	</div>
+	</header>
+	<nav>
+	<div id="menuWide" class="menu"> 
+		<script>document.write(getMenu(0));</script> 
+	</div>
+	<div id="linkto">
+		<div id="linktort">
+			<script>document.write(getLinks());</script>
+		</div>
+	</div>
+	<div id="search" role="search">
+		<script>document.write(getSearch());</script>
+	</div>
+	<div id="menuSlim" class="menu"> 
+		<script>document.write(getMenu(1));</script> 
+	</div>
+	<div id="menuTiny" class="menu"> 
+		<script>document.write(getMenu(2));</script> 
+	</div>
+	</nav>
+	<div id="extra"></div>
+</div>
+<article id="content" role="main">
+<!-- #BeginEditable "Body" -->
+				
+<p style="float:left; margin: 0 10px 5px 0;">
+<img src="../../../images/art/sage-dig-bones.html">
+</p>
+<br>
+        <p class="larger">We&nbsp;can't&nbsp;find&nbsp;<i>&quot;<span id="h1Name"></span>&quot;</i></p>
+
+        <p class="larger">Try the search above ...<img src="../../../images/style/up.gif" width="46" height="46" align="absmiddle" /></p>
+
+        <p>... or try another name below:</p>
+
+				<div style="clear:both"></div>
+
+        <div class="center">
+            <form action='#' method="post" name="URLForm" id="URLForm">
+                https://www.mathsisfun.com/
+                <input type="text" id="newName" name="newName" style="font: 18px Arial; width:250px;" value='' />
+                <input type="submit" name="Go" value="Go" style="font: 18px Arial;" onClick='URLGo(); return false;' />
+            </form>
+        </div>
+
+        <p>&nbsp;</p>
+
+
+        <script>
+            // var uri = getQueryVariable('uri');
+            var uri = 'math-trainera070.html?m=Multiply'
+
+            if (uri.charAt(0) == '../../../index.html') uri = uri.substr(1);
+            console.log("uri", uri);
+
+            document.getElementById('h1Name').innerHTML = uri;
+            document.getElementById('newName').value = uri;
+
+            function getQueryVariable(variable) {
+                var query = window.location.search.substring(1);
+                var vars = query.split("&");
+                for (var i = 0; i < vars.length; i++) {
+                    var pair = vars[i].split("=");
+                    if (pair[0] == variable) {
+                        return pair[1];
+                    }
+                }
+                return false;
+            }
+
+            function URLGo() {
+                var locn = document.URLForm.newName.value;
+                this.location.href = "https://www.mathsisfun.com/" + locn;
+            }
+						function urlSttGet() {
+  var stack = location.href.split("../../../index.html");
+  stack.pop(); // remove current file name (or empty string)
+  var url = stack.join("../../../index.html"); // remove filename
+
+  var urlStt = "../index.html"; // most urls are down one folder
+  if (endsWith(url, "/mathsisfun")) urlStt = ""; // for urls at root
+  if (endsWith(url, "mathsisfun.com")) urlStt = "";
+  //console.log('url',endsWith(url, "/dlm"),url,urlStt)
+  return urlStt
+}
+
+
+var reqPage = 'math-trainera070.html?m=Multiply';
+var refPage = 'http://www.mathsisfun.com/numbers/math-trainer-flash.html';
+
+//console.log('reqPage',reqPage,refPage )
+logVisit(reqPage,refPage);
+//setTimeout(go404Sorry, 500);
+
+function logVisit(reqPage,refPage) {
+  var reqPageHex = toHex(reqPage);
+  var refPageHex = toHex(refPage);
+  add404(reqPageHex, refPageHex, "404", window.location.hostname);
+}
+
+
+function add404(pg, pgFrom, viewtype, hostname) {
+  //console.log("add404", viewtype, hostname);
+  var req;
+  req = new XMLHttpRequest();
+
+  var params = "type=" + viewtype;
+  params += "&site=mif";
+  params += "&pg=" + encodeURIComponent(pg);
+  params += "&pgfrom=" + encodeURIComponent(pgFrom);
+
+  req.open("POST.html", "https://mi2f.com/update.php", true); // NB: false=synchronous
+  
+  req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  req.send(params);
+}
+
+function toHex(s) {
+  var hex = '';
+  for (var i = 0; i < s.length; i++) {
+    hex += '' + s.charCodeAt(i).toString(16);
+  }
+  return hex;
+}
+
+function go404Sorry() {
+	
+	//var pg = reqPage;
+	//var reloc = "https://" + window.location.hostname + "/handle-404-sorry.html?uri=" + encodeURIComponent(pg);
+	//console.log('go404Sorry',reloc);
+	//window.location.href = reloc;
+}
+
+
+</script>
+
+        <!-- #EndEditable -->
+
+</article>
+<div id="adend" class="centerfull noprint"> 
+	<script>document.write(getAdEnd());</script> 
+</div>
+<footer id="footer" class="centerfull noprint">
+	<script>document.write(getFooter());</script>
+</footer>
+<div id="copyrt">
+Copyright &copy; 2020 MathsIsFun.com
+</div>
+<script>document.write(getBodyEnd());</script>
+</body>
+<!-- #EndTemplate -->
+
+<!-- Mirrored from fractions.mathsisfun.sa.com/numbers/images/nocdn/math-trainera070.html?m=Multiply by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Jul 2022 02:33:36 GMT -->
+</html>

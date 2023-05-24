@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="393.694"
+   height="65.6777"
+   version="1.1"
+   id="svg38"
+   sodipodi:docname="pi-normal-ten-1000.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs42" />
+  <sodipodi:namedview
+     id="namedview40"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg38"
+     inkscape:snap-global="true" />
+  <desc
+     id="desc2">SVG Output</desc>
+  <rect
+     x="18.2063"
+     y="0.5"
+     width="7.5"
+     height="50"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect4" />
+  <text
+     x="21.9563"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text6">93</text>
+  <rect
+     x="33.2063"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect8" />
+  <text
+     x="36.9563"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text10">94</text>
+  <rect
+     x="48.2063"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect12" />
+  <text
+     x="51.9563"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text14">95</text>
+  <rect
+     x="78.2063"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect16" />
+  <text
+     x="81.9563"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text18">97</text>
+  <rect
+     x="138.206"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect20" />
+  <text
+     x="141.956"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text22">101</text>
+  <rect
+     x="168.206"
+     y="0.5"
+     width="7.5"
+     height="50"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect24" />
+  <text
+     x="171.956"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text26">103</text>
+  <rect
+     x="198.206"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect28" />
+  <text
+     x="201.956"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text30">105</text>
+  <rect
+     x="363.206"
+     y="25.5"
+     width="7.5"
+     height="25"
+     stroke-width="1"
+     stroke="#3366aa"
+     fill="#3366aa"
+     fill-opacity="1"
+     id="rect32" />
+  <text
+     x="366.956"
+     y="65.5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:normal;font-family:Arial;text-anchor:middle;fill:#3366aa;stroke:none"
+     id="text34">116</text>
+  <rect
+     x="5e-07"
+     y="50.5"
+     width="393.694"
+     height="1"
+     stroke-width="0"
+     stroke="#3366aa"
+     fill="#aaaaaa"
+     fill-opacity="1"
+     id="rect36" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0084c8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 126.956,-31.6383 V 82.5816"
+     id="path1796" />
+</svg>

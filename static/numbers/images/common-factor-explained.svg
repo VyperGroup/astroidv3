@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2021 mathsisfun.com -->
+
+<svg
+   width="348.25"
+   height="46.2188"
+   version="1.1"
+   style="font-size:6.7px;font-family:'Trebuchet MS';stroke-width:0.26px"
+   id="svg74"
+   sodipodi:docname="common-factor-explained.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview76"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg74" />
+  <defs
+     id="defs8">
+    <marker
+       id="id1"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#19aeff;stroke:#19aeff;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2" />
+    </marker>
+    <marker
+       id="id2"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#edd400;stroke:#edd400;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5" />
+    </marker>
+  </defs>
+  <g
+     transform="matrix(3.5,0,0,3.5,-9.8,-253.96)"
+     id="g72">
+    <text
+       x="4.3"
+       y="77.5"
+       style="fill:#3465a4"
+       id="text10">a</text>
+    <text
+       x="4.1"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text12">b</text>
+    <text
+       x="31.4"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text14">c</text>
+    <text
+       x="31.3"
+       y="85.7"
+       style="fill:#edd400"
+       id="text16">d</text>
+    <text
+       x="54.2"
+       y="77.5"
+       style="fill:#3465a4"
+       id="text18">a</text>
+    <text
+       x="54"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text20">b</text>
+    <text
+       x="65.2"
+       y="77.5"
+       style="fill:#edd400"
+       id="text22">d</text>
+    <text
+       x="85.7"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text24">b</text>
+    <text
+       x="96.8"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text26">c</text>
+    <text
+       x="96.7"
+       y="85.7"
+       style="fill:#edd400"
+       id="text28">d</text>
+    <text
+       x="17.2"
+       y="82"
+       style="font-size:8.1px;fill:#3465a4"
+       id="text30">+</text>
+    <text
+       x="75.1"
+       y="82"
+       style="font-size:8.1px;fill:#3465a4"
+       id="text32">+</text>
+    <text
+       x="40.6"
+       y="82"
+       style="font-size:8.1px;fill:#3465a4"
+       id="text34">=</text>
+    <text
+       x="91.3"
+       y="77.5"
+       style="fill:#3465a4"
+       id="text36">×</text>
+    <text
+       x="59.8"
+       y="77.5"
+       style="fill:#3465a4"
+       id="text38">×</text>
+    <text
+       x="65.2"
+       y="85.7"
+       style="fill:#edd400"
+       id="text40">d</text>
+    <text
+       x="59.8"
+       y="85.7"
+       style="fill:#3465a4"
+       id="text42">×</text>
+    <text
+       x="85.7"
+       y="77.5"
+       style="fill:#19aeff"
+       id="text44">b</text>
+    <text
+       x="91.3"
+       y="85.7"
+       style="fill:#3465a4"
+       id="text46">×</text>
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="m 2.8,79.4 h 7.3"
+       id="path48" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="m 29.4,79.4 h 7.3"
+       id="path50" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="M 52.5,79.4 H 71"
+       id="path52" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="m 83.8,79.4 h 18.5"
+       id="path54" />
+    <path
+       style="fill:none;stroke:#edd400;stroke-width:0.42"
+       d="m 22.1,85.3 c -9,0.3 -5.6,-7 -10.7,-7.5"
+       id="path56" />
+    <path
+       style="fill:none;stroke:#edd400;stroke-width:0.42"
+       d="M 28.5,84.6 C 16.3,86.5 16.5,83.7 11.7,84"
+       id="path58" />
+    <path
+       style="fill:none;stroke:#19aeff;stroke-width:0.42"
+       d="M 10.1,82.4 C 14.4,81.9 21,81.5 26.7,82.3"
+       id="path60" />
+    <path
+       style="fill:none;stroke:#19aeff;stroke-width:0.42"
+       d="m 19.3,81.8 c 4.7,0.1 4.9,-3.1 7.6,-4.3"
+       id="path62" />
+    <path
+       style="fill:none;stroke:#19aeff;stroke-width:0.4;marker-end:url(#id1)"
+       d="M 25.7,77.9 28.1,77"
+       id="path64" />
+    <path
+       style="fill:none;stroke:#19aeff;stroke-width:0.4;marker-end:url(#id1)"
+       d="m 25.2,82.1 2.5,0.5"
+       id="path66" />
+    <path
+       style="fill:none;stroke:#edd400;stroke-width:0.4;marker-end:url(#id2)"
+       d="M 13,78.3 10.9,77"
+       id="path68" />
+    <path
+       style="fill:none;stroke:#edd400;stroke-width:0.4;marker-end:url(#id2)"
+       d="M 13,84.1 10.5,84"
+       id="path70" />
+  </g>
+</svg>

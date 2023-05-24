@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="96.1" version="1.1">
+<defs>
+</defs>
+<g transform="translate(-150.21,-146.484)">
+<text x="171.5" y="242.6" style="font-family:'Comic Sans MS'; font-size:17.8px; color:black; overflow:visible; fill:#daa737; stroke-width:0.84px;">1</text>
+<text x="169.4" y="164.8" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#3b5fff; stroke-width:1px;">3</text>
+<text x="184.5" y="164.4" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#3b5fff; stroke-width:1px;">8</text>
+<text x="151.3" y="189.4" style="font-family:'Comic Sans MS'; font-size:21.3px; color:black; overflow:visible; fill:#3b5fff; stroke-width:1px;">+</text>
+<text x="184.5" y="218.5" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#daa737; stroke-width:1px;">4</text>
+<path d="m 150.2,196.9 h 53" style="fill:none; stroke:black; stroke-width:1.6;"/>
+<path d="m 150.2,222.4 h 53" style="fill:none; stroke:black; stroke-width:1.6;"/>
+<text x="169.4" y="190.3" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#3b5fff; stroke-width:1px;">2</text>
+<text x="184.5" y="189.9" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#3b5fff; stroke-width:1px;">6</text>
+<text x="168.5" y="218.5" style="font-family:'Comic Sans MS'; font-size:24px; color:black; overflow:visible; fill:#daa737; stroke-width:1px;">6</text>
+</g>
+</svg>

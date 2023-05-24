@@ -1,0 +1,163 @@
+thk 3
+clr 0x000000
+alp 100
+lvl 0
+
+char 303 72 2
+char 324 73 5
+line 348 80 349 47
+line 348 47 446 48
+char 358 70 4
+char 380 72 2
+char 405 74 5
+start
+
+clr 0xC099C0
+char 28 30 0
+char 82 30 0
+char 28 59 1
+char 66 59 2
+char 85 60 5
+char 26 86 2
+char 68 88 5
+char 86 84 0
+char 26 112 3
+char 71 112 7
+char 87 114 5
+char 25 137 4
+char 62 136 1
+char 73 135 0
+char 89 137 0
+char 24 166 5
+char 62 164 1
+char 74 165 2
+char 90 167 5
+char 25 191 6
+char 64 191 1
+char 74 193 5
+char 92 190 0
+char 23 219 7
+char 63 217 1
+char 74 219 7
+char 90 220 5
+char 24 241 8
+char 62 241 2
+char 77 241 0
+char 94 241 0
+char 23 269 9
+char 63 268 2
+char 80 269 2
+char 96 269 5
+lvl 1
+
+thk 50
+alp 20
+clr 0x0000F0
+line 352 66 357 66~to 363 66~to 368 66~to 373 66~to 379 66
+line 72 25 77 26~to 81 27~to 87 27~to 92 28~to 96 29~to 100 30
+clr 0x00F000
+line 20 26 26 26~to 31 25~to 36 25~to 40 24~to 45 24~to 50 24
+lvl 0
+
+clr 0x0000F0
+thk 3
+alp 100
+char 361 36 0
+char 357 102 0
+clr 0x000000
+line 349 114 383 114
+char 354 135 4
+dot 388 87
+dot 388 92
+dot 388 97
+dot 388 103
+dot 388 108
+dot 388 112
+char 377 139 2
+clr 0x0000F0
+thk 50
+alp 20
+lvl 1
+
+line 352 134 358 134~to 363 133~to 368 133~to 373 132~to 380 132~to 385 131~to 389 130~to 394 130
+line 65 56 71 56~to 76 56~to 81 56~to 86 56~to 91 55~to 97 55~to 102 54~to 107 54
+clr 0x00F000
+line 22 55 27 54~to 32 54~to 37 54~to 42 54~to 46 53
+lvl 0
+
+thk 3
+alp 100
+clr 0x0000F0
+char 385 37 1
+char 356 168 2
+char 378 171 5
+clr 0x000000
+line 349 176 398 177
+char 357 200 1
+char 375 201 7
+dot 411 91
+dot 412 97
+dot 412 103
+dot 412 108
+dot 412 115
+dot 412 120
+dot 411 125
+dot 411 129
+dot 411 135
+dot 410 139
+dot 410 145
+dot 410 150
+dot 410 155
+dot 410 160
+dot 409 165
+dot 410 170
+dot 410 175
+char 398 202 5
+clr 0x0000F0
+lvl 1
+
+thk 50
+alp 20
+line 352 198 357 199~to 361 200~to 366 201~to 370 200~to 375 200~to 381 200~to 385 201~to 390 200~to 397 200~to 402 200~to 406 199~to 411 200~to 417 200
+line 60 213 65 211~to 70 210~to 77 210~to 82 210~to 88 210~to 92 211~to 97 212~to 103 213~to 109 213~to 114 213
+clr 0x00F000
+line 16 210 21 208~to 26 207~to 32 207~to 37 207~to 42 206~to 46 205
+clr 0x0000F0
+lvl 0
+
+thk 3
+alp 100
+char 408 37 7
+char 358 228 1
+char 376 228 7
+char 397 229 5
+clr 0x0000F0
+clr 0x000000
+line 351 239 419 239
+char 397 261 0
+clr 0x00F000
+lvl 1
+
+clr 0x00F000
+thk 50
+alp 20
+line 349 30 354 30~to 360 31~to 365 31~to 370 32~to 375 33~to 380 34~to 385 34~to 392 34~to 399 33~to 405 33~to 413 33~to 421 33~to 428 33~to 432 32~to 439 31~to 446 31~to 452 31
+thk 3
+alp 100
+char 464 184 a
+char 485 185 n
+char 501 185 s
+char 519 188 w
+char 541 186 e
+char 560 185 r
+char 507 218 =
+char 534 220 1
+char 549 220 7
+clr 0x0000F0
+lvl 0
+
+clr 0xF0F000
+thk 50
+alp 20
+line 462 182 468 181~to 475 182~to 481 183~to 485 184~to 490 183~to 497 182~to 504 183~to 512 183~to 520 183~to 524 184~to 532 184~to 540 184~to 546 184~to 553 184~to 558 184~to 562 184~to 566 183~to 571 184
+line 497 216 504 214~to 508 215~to 517 216~to 523 217~to 528 217~to 539 215~to 546 214~to 552 214~to 557 215~to 563 215~to 568 215~to 573 214

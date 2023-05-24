@@ -1,0 +1,134 @@
+clr 0x000000
+thk 3
+alp 100
+lvl 0
+
+char 21 29 0
+char 42 31 .
+char 50 29 1
+char 65 31 2
+char 91 28 *
+char 116 28 0
+char 136 30 .
+char 143 27 3
+char 164 29 2
+char 185 28 4
+start
+
+char 304 69 0
+char 326 70 .
+char 334 68 3
+char 354 71 2
+char 374 67 4
+char 281 99 *
+char 335 99 0
+char 353 101 .
+char 360 100 1
+char 376 102 2
+line 256 113 400 114
+clr 0xF0F000
+clr 0x0000F0
+thk 50
+alp 20
+line 376 97 382 97~to 387 97~to 392 97
+thk 3
+alp 100
+char 376 139 8
+char 354 137 4
+clr 0x0000F0
+char 336 140 6
+thk 50
+alp 20
+line 356 99 361 99~to 366 99~to 371 99~to 377 99
+thk 3
+alp 100
+char 353 167 4
+char 333 168 2
+char 310 166 3
+char 255 166 +
+clr 0x000000
+line 259 178 401 177
+line 260 215 399 214
+clr 0x0000F0
+char 374 201 8
+char 352 201 8
+char 331 200 8
+char 309 200 3
+clr 0x008000
+char 483 40 d
+char 502 41 e
+char 519 41 c
+line 429 66 471 65
+line 421 64 444 58
+line 422 63 434 72
+char 502 71 3
+line 467 94 422 94
+line 421 93 438 88
+line 422 93 433 103
+char 482 98 +
+char 504 101 2
+line 470 177 523 177
+line 468 218 523 218
+char 501 206 5
+line 479 197 417 197
+line 419 196 433 190
+line 419 197 428 205
+dot 388 224
+dot 384 227
+dot 379 229
+dot 375 230
+dot 371 229
+dot 368 224
+dot 367 220
+dot 366 224
+dot 364 229
+dot 359 229
+dot 354 226
+dot 351 223
+dot 350 218
+dot 348 223
+dot 345 227
+dot 340 227
+dot 336 225
+dot 332 223
+dot 330 218
+dot 328 223
+dot 325 226
+dot 320 229
+dot 316 230
+dot 312 230
+dot 308 229
+dot 307 224
+dot 306 220
+dot 305 225
+dot 303 230
+dot 298 232
+dot 294 233
+dot 289 232
+dot 285 229
+dot 283 224
+dot 282 220
+char 282 201 .
+clr 0x0000F0
+char 288 199 0
+char 262 199 0
+clr 0xF0F000
+thk 50
+alp 20
+line 251 198 256 196~to 260 196~to 265 197~to 269 198~to 275 200~to 281 200~to 286 201~to 294 201~to 302 201~to 309 201~to 315 201~to 321 201~to 328 201~to 335 202~to 342 202~to 349 201~to 355 201~to 361 201~to 367 201~to 374 201~to 379 200~to 385 200~to 392 199~to 397 199~to 402 198
+clr 0x000000
+thk 3
+alp 100
+char 212 27 =
+char 241 26 0
+char 260 29 .
+char 269 27 0
+char 289 27 3
+char 310 27 8
+char 332 27 8
+char 354 27 8
+clr 0xF0F000
+clr 0xF0F000
+thk 50
+alp 20
+line 14 26 19 26~to 26 25~to 34 25~to 39 25~to 44 26~to 52 26~to 60 27~to 68 27~to 77 27~to 88 28~to 99 28~to 110 27~to 121 27~to 132 27~to 143 27~to 153 27~to 163 27~to 174 27~to 184 27~to 192 27~to 201 27~to 208 27~to 216 27~to 224 26~to 230 26~to 237 26~to 242 26~to 248 25~to 254 25~to 259 24~to 264 24~to 270 23~to 275 23~to 281 22~to 287 21~to 293 20~to 299 20~to 305 20~to 312 20~to 320 19~to 327 18~to 335 17~to 343 17~to 350 17~to 357 17~to 363 17~to 369 17~to 378 18~to 383 19~to 387 20

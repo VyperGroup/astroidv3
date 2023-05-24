@@ -1,0 +1,126 @@
+a.item {
+  border-radius:4px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background: #253950;
+}
+a.item:hover {
+  border-radius: 4px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background: black;
+};
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+iframe{
+  border: 0;
+  width: 1200px;
+  height: 700px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+#game{
+  border: 0;
+  width: 1200px;
+  height: 700px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+button {
+    background-color: #253950;
+    border: none;
+    color: white;
+    padding: 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+button:hover {
+    border-radius: 4px;
+    color: white;
+    padding: 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: black;
+}
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#search-input {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  width: 50%;
+  max-width: 20rem;
+  color: white;
+
+}
+#search-input::placeholder {
+  color: white;
+}
+
+#search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+}
+#math-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-bar {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  width: 50%;
+  max-width: 20rem;
+  color: white;
+
+}
+#search-bar::placeholder {
+  color: white;
+}

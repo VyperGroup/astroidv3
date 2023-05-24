@@ -1,0 +1,29 @@
+  {
+    "Playstation 1": [
+      {
+        "name": "Grand Theft Auto 2",
+        "rom_url": "/worksheets/main/Grand_Theft_Auto_2.zip",
+        "core": "psx"
+      },
+      {
+        "name": "Gran Turismo 2",
+        "rom_url": "./worksheets/main/Gran_Turismo_2.zip",
+        "core": "psx"
+      },
+      {
+        "name": "Resident Evil 3  Nemesis",
+        "rom_url": "/worksheets/main/Resident_Evil_3_ Nemesis.zip",
+        "core": "psx"
+      },
+      {
+        "name": "Crash Team Racing",
+        "rom_url": "/worksheets/main/Crash_Team_Racing.rar",
+        "core": "psx"
+      },
+      {
+        "name": "Tony Hawks Pro Skater 4",
+        "rom_url": "/worksheets/main/Tony_Hawks_Pro_Skater_4.7z",
+        "core": "psx"
+      }
+  ]
+}

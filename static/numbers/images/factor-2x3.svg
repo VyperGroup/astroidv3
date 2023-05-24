@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180.974"
+   height="70.3252"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="factor-2x3.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview32"
+     showgrid="false"
+     inkscape:current-layer="svg30" />
+  <defs
+     id="defs8">
+    <marker
+       id="id02"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#0084c8;stroke:#0084c8;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2" />
+    </marker>
+    <marker
+       id="id01"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#0084c8;stroke:#0084c8;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5" />
+    </marker>
+  </defs>
+  <text
+     x="101.675"
+     y="24.8203"
+     style="font-size:32.8px;font-family:'Comic Sans MS';fill:#0084c8;stroke-width:1px"
+     id="text12">3</text>
+  <text
+     x="26.9094"
+     y="71.0918"
+     transform="scale(1.02437,0.97621)"
+     style="font-size:18.3px;font-family:'Comic Sans MS';text-align:center;text-anchor:middle;fill:#0084c8;stroke-width:1px"
+     id="text14">Factor</text>
+  <text
+     x="132.01"
+     y="71.0918"
+     transform="scale(1.02437,0.97621)"
+     style="font-size:18.3px;font-family:'Comic Sans MS';text-align:center;text-anchor:middle;fill:#0084c8;stroke-width:1px"
+     id="text16">Factor</text>
+  <text
+     x="47.1747"
+     y="25.3203"
+     style="font-size:32.8px;font-family:'Comic Sans MS';fill:#0084c8;stroke-width:1px"
+     id="text18">2</text>
+  <text
+     x="77.6747"
+     y="23.0203"
+     style="font-size:32.8px;font-family:'Comic Sans MS';fill:#3465a4;stroke-width:1px;"
+     id="text20">×</text>
+  <text
+     x="136.675"
+     y="24.9203"
+     style="font-size:32.8px;font-family:'Comic Sans MS';fill:#3465a4;stroke-width:1px;"
+     id="text22">= 6</text>
+  <path
+     style="fill:#0084c8;stroke:#0084c8;stroke-width:1px;marker-end:url(#id01)"
+     d="m 30.0747,53.7203 21.5,-21.5"
+     id="path24" />
+  <path
+     style="fill:#0084c8;stroke:#0084c8;stroke-width:1px;marker-end:url(#id02)"
+     d="m 135.475,53.7203 -21.5,-21.5"
+     id="path26" />
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" width="188.3" height="155.2" version="1.1">
+<defs>
+<marker style="overflow:visible;" orient="auto">
+<path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="stroke:black; stroke-width:1pt;" d="M 0,0 5,-5 -12.5,0 5,5 Z"/>
+</marker>
+</defs>
+<g transform="translate(-641.112,-887.35)">
+<rect x="655.3" y="914.1" width="161.6" height="100.5" style="color:black; overflow:visible; fill:#00f200; fill-opacity:0.07; stroke:#e6da4f; stroke-width:1.07;"/>
+<text x="639.5" y="971.3" style="font-family:'Comic Sans MS'; font-size:21.5px; color:black; overflow:visible; fill:#c4a000; stroke-width:0.54px;">1</text>
+<text x="699.7" y="901.9" transform="scale(0.996631,1.00338)" style="font-family:Verdana; font-size:31.4px; color:black; overflow:visible; fill:#c4a000; stroke:#c4a000; stroke-width:0.54px;">φ</text>
+<text x="821" y="970.9" style="font-family:'Comic Sans MS'; font-size:21.5px; color:black; overflow:visible; fill:#c4a000; stroke-width:0.54px;">1</text>
+<text x="673.3" y="968.4" style="font-family:'Comic Sans MS'; font-size:15.8px; font-style:italic; overflow:visible; fill:#c4a000; stroke-width:0.54px;">Golden Rectangle</text>
+<text x="722.3" y="903.6" style="font-family:'Comic Sans MS'; font-size:16.2px; color:black; overflow:visible; fill:#c4a000; stroke-width:0.54px;">= 1.618...</text>
+<text x="700.1" y="1032.3" transform="scale(0.99663,1.00338)" style="font-family:Verdana; font-size:31.4px; color:black; overflow:visible; fill:#c4a000; stroke:#c4a000; stroke-width:0.54px;">φ</text>
+<text x="722.7" y="1034.4" style="font-family:'Comic Sans MS'; font-size:16.2px; color:black; overflow:visible; fill:#c4a000; stroke-width:0.54px;">= 1.618...</text>
+</g>
+</svg>

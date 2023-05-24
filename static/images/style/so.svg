@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="20.497326"
+   id="Layer_1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="so.svg"
+   sodipodi:version="0.32"
+   space="preserve"
+   style="overflow:visible"
+   version="1.1"
+   viewBox="0 0 47.438977 20.497326"
+   width="47.438976">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Tasto 5</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>unsorted</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs19">
+    <linearGradient
+       id="linearGradient4238"
+       inkscape:collect="always">
+      <stop
+         id="stop4240"
+         offset="0"
+         style="stop-color:#d3d95d;stop-opacity:1" />
+      <stop
+         id="stop4242"
+         offset="1"
+         style="stop-color:#e5e590;stop-opacity:1" />
+    </linearGradient>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4238"
+       id="linearGradient4208"
+       x1="0.18110704"
+       y1="9.7471819"
+       x2="43.154556"
+       y2="10.129791"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95363913,0,0,0.86866468,1.351685,1.3895664)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4238"
+       id="linearGradient4210"
+       x1="25.559832"
+       y1="14.117082"
+       x2="46.378323"
+       y2="14.117082"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.94917015,0,0,0.86866468,1.3575584,1.3895664)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4238"
+       id="linearGradient4212"
+       x1="25.69879"
+       y1="6.3061328"
+       x2="46.384422"
+       y2="6.3061328"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.94917015,0,0,0.86866468,1.3575584,1.3895664)" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="Layer_1"
+     inkscape:cx="31.409526"
+     inkscape:cy="17.793869"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="801"
+     inkscape:window-width="1536"
+     inkscape:window-x="1528"
+     inkscape:window-y="-8"
+     inkscape:zoom="11.376059"
+     pagecolor="#ffffff"
+     showgrid="false"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4208);stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.3918383,11.796738 C 9.0671071,9.4215944 10.714686,8.1361666 16.10474,8.0666563 c 5.390054,-0.069511 8.575384,2.5009767 13.430445,2.4405397 l 9.822576,-0.122271"
+     id="path4184"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czsc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4212);stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 27.355008,2.9823447 c 0,0 3.728513,3.1332431 7.941348,4.863953 4.212836,1.7307097 9.802739,2.3500043 9.802739,2.3500043"
+     id="path4186"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csc" />
+  <path
+     sodipodi:nodetypes="csc"
+     inkscape:connector-curvature="0"
+     id="path4188"
+     d="m 27.426852,17.859029 c 0,0 3.12021,-3.36232 7.333044,-5.093029 4.212835,-1.730711 10.258967,-2.579081 10.258967,-2.579081"
+     style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient4210);stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

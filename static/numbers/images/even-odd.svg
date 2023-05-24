@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" width="318.6" height="111.8" version="1.1" style="font-size:22.9px; stroke-width:0.41px;">
+<defs>
+	<marker id="aa2" orient="auto">
+		<path transform="matrix(0.8,0,0,0.8,10,0)" style="fill:#ff0000; stroke:#ff0000; stroke-width:1pt;" d="M 0,0 5,-5 -12.5,0 5,5 Z"/>
+	</marker>
+	<marker id="aa1" orient="auto">
+		<path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:#0000ff; stroke:#0000ff; stroke-width:1pt;" d="M 0,0 5,-5 -12.5,0 5,5 Z"/>
+	</marker>
+</defs>
+<g transform="translate(-397.851,-844.538)">
+	<path style="fill:none; fill-opacity:0.75; stroke:#ff0000;" d="m 451,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:black; stroke-width:1.23;" d="m 482.2,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 513.5,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 544.7,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 575.9,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 607.1,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 638.4,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 669.6,844.5 v 30"/>
+	<path style="fill:none; fill-opacity:0.75; stroke:#0000ff;" d="m 700.8,844.5 v 30"/>
+	<text x="475.3" y="900.8" style="font-family:Arial; font-size:28.6px; color:black; fill:black;">0</text>
+	<text x="509.4" y="899.1" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">1</text>
+	<text x="540.1" y="899.1" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">2</text>
+	<text x="571.1" y="899" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">3</text>
+	<text x="602.5" y="899.1" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">4</text>
+	<text x="633.3" y="898.9" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">5</text>
+	<text x="664.6" y="899" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">6</text>
+	<text x="695.7" y="899" style="font-family:Arial; font-size:19.7px; color:black; fill:#0000ff;">7</text>
+	<text x="442.6" y="899.1" style="font-family:Arial; font-size:19.7px; color:black; fill:#ff0000;">-1</text>
+	<text x="410.2" y="899.1" style="font-family:Arial; font-size:19.7px; color:black; fill:#ff0000;">-2</text>
+	<path style="fill:none; fill-opacity:0.75; stroke:#ff0000;" d="m 419.8,844.5 v 30"/>
+	<path style="marker-end:url(#aa1); fill:none; fill-opacity:0.75; stroke:#0000ff; stroke-width:1.56;" d="M 481.3,861.4 H 713.5"/>
+	<path style="marker-start:url(#aa2); fill:none; fill-opacity:0.75; stroke:#ff0000; stroke-width:1.56;" d="m 400.9,861.4 h 81.1"/>
+	<text x="-947.6" y="705.7" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#89a02c;">odd</text>
+	<text x="-957.3" y="672.1" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#000080;">even</text>
+	<text x="-947.6" y="644.3" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#89a02c;">odd</text>
+	<text x="-957.3" y="610.7" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#000080;">even</text>
+	<text x="-947.6" y="582.9" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#89a02c;">odd</text>
+	<text x="-957.3" y="549.3" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#000080;">even</text>
+	<text x="-947.6" y="521.4" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#89a02c;">odd</text>
+	<text x="-957.3" y="487.8" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#000080;">even</text>
+	<text x="-947.6" y="460" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#89a02c;">odd</text>
+	<text x="-957.3" y="426.4" transform="rotate(-90)" style="font-family:'Comic Sans MS'; color:black; fill:#000080;">even</text>
+</g>
+</svg>

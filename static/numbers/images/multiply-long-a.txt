@@ -1,0 +1,69 @@
+clr 0x000000
+thk 3
+alp 100
+lvl 0
+
+char 15 31 6
+char 34 28 1
+char 51 29 2
+char 77 27 *
+char 102 29 2
+char 121 26 4
+start
+
+char 326 49 6
+char 346 48 1
+char 364 48 2
+char 299 74 *
+char 344 77 2
+char 363 74 4
+line 281 86 390 86
+lvl 1
+
+clr 0x0000F0
+thk 50
+alp 20
+line 362 66 366 66~to 369 66~to 373 66~to 377 66~to 381 67~to 383 66
+line 317 39 320 41~to 323 42~to 328 42~to 331 41~to 333 42~to 336 43~to 339 43~to 344 43~to 349 43~to 354 43~to 357 42~to 360 41~to 362 40~to 367 41~to 371 40~to 375 39~to 379 39~to 383 39~to 385 38
+lvl 0
+
+clr 0x0000F0
+thk 3
+alp 100
+char 362 112 8
+char 340 108 4
+char 318 108 4
+char 294 112 2
+lvl 1
+
+clr 0xF0F000
+thk 50
+alp 20
+line 364 71 367 71
+clr 0x00F000
+line 340 73 343 73~to 346 74~to 349 74~to 353 74~to 356 73~to 360 73
+line 319 39 322 40~to 326 40~to 331 40~to 336 40~to 338 41~to 343 41~to 348 40~to 352 40~to 354 39~to 359 39~to 364 39~to 369 39~to 373 39~to 377 39~to 380 39~to 384 39~to 388 39
+clr 0xF00000
+thk 3
+alp 100
+line 368 133 405 133
+line 366 132 381 125
+line 367 131 379 141
+bubble 417 106 100 50 move over one space
+clr 0x0000F0
+lvl 0
+
+clr 0x0000F0
+char 339 140 4
+char 315 143 2
+char 292 141 2
+char 275 140 1
+char 238 139 +
+clr 0x000000
+line 274 155 380 155
+line 275 195 377 194
+char 360 182 8
+char 337 180 8
+char 316 181 6
+char 291 179 4
+char 275 180 1

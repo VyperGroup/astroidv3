@@ -1,0 +1,111 @@
+clr 0x000000
+thk 3
+alp 100
+lvl 0
+
+char 22 29 0
+char 42 31 .
+char 48 29 3
+char 77 28 *
+char 105 31 2
+char 128 31 .
+char 133 30 1
+char 149 28 3
+clr 0x00F000
+thk 30
+alp 20
+start
+
+clr 0x000000
+thk 3
+alp 100
+char 287 79 2
+char 310 78 .
+char 320 77 1
+char 339 77 3
+char 259 105 *
+char 311 109 0
+char 332 111 .
+char 340 108 3
+line 228 118 369 119
+line 230 150 367 150
+clr 0x0000F0
+char 341 143 9
+char 315 142 3
+char 291 144 6
+clr 0x008000
+char 430 46 d
+char 451 47 e
+char 469 46 c
+char 484 46 i
+char 492 47 m
+char 519 46 a
+char 540 49 l
+char 548 49 s
+line 379 71 427 71
+line 379 70 396 65
+line 379 71 390 77
+char 456 78 2
+line 383 100 427 101
+line 382 98 396 91
+line 382 99 396 108
+char 436 106 +
+char 459 107 1
+line 452 117 485 117
+line 449 153 485 155
+char 456 141 3
+line 421 138 385 137
+line 383 134 400 130
+line 383 136 394 145
+
+char 337 191 1
+dot 353 162
+dot 351 167
+dot 349 171
+dot 344 173
+dot 340 174
+dot 336 172
+dot 332 168
+dot 332 164
+dot 332 159
+
+char 312 191 2
+dot 329 162
+dot 328 167
+dot 324 170
+dot 320 172
+dot 317 170
+dot 314 169
+dot 312 164
+dot 311 160
+dot 310 156
+
+char 286 190 3
+dot 306 162
+dot 304 167
+dot 301 171
+dot 297 172
+dot 292 172
+dot 286 170
+dot 283 167
+dot 281 162
+dot 281 157
+
+char 281 139 .
+clr 0x0000F0
+char 259 140 0
+clr 0x00F000
+thk 50
+alp 20
+line 247 136 251 135~to 256 135~to 262 135~to 267 136~to 275 136~to 280 135~to 286 136~to 292 136~to 299 137~to 305 136~to 313 136~to 321 135~to 326 134~to 333 134~to 340 133~to 345 133~to 351 133~to 355 134~to 360 136
+thk 3
+alp 100
+clr 0x000000
+thk 3
+alp 100
+char 179 29 =
+char 211 28 0
+char 233 30 .
+char 243 30 6
+char 261 28 3
+char 284 29 9

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+
+<svg
+   width="600"
+   height="93"
+   version="1.1"
+   style="font-family:'Comic Sans MS';font-size:16.6px;stroke-width:0.35px"
+   id="svg112"
+   sodipodi:docname="real-number-line.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview114"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg112" />
+  <defs
+     id="defs14">
+    <marker
+       id="aa3"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:black;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2" />
+    </marker>
+    <marker
+       id="aa4"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="stroke:black;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5" />
+    </marker>
+    <marker
+       id="aa1"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#8d5fd3;stroke:#8d5fd3;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8" />
+    </marker>
+    <marker
+       id="aa2"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#8d5fd3;stroke:#8d5fd3;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path11" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="aa32158"
+       inkscape:stockid="aa32158">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="stroke:#0000ff;stroke-width:1pt;stroke-opacity:1;fill-opacity:1;fill:#0000ff"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1069" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       orient="auto"
+       id="aa41322"
+       inkscape:stockid="aa41322">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill-opacity:1;fill:#ff0000"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1072" />
+    </marker>
+  </defs>
+  <path
+     style="fill:none;stroke:#8d5fd3;stroke-width:1.28;marker-start:;marker-end:url(#aa2)"
+     d="m 341.186,80.7462 h 24.437"
+     id="path16" />
+  <text
+     x="299.923"
+     y="16.9462"
+     style="font-size:19.3px;text-align:center;text-anchor:middle;fill:#009100;stroke-width:0.73"
+     id="text20">&quot;origin&quot;</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#ff0000"
+     d="m 102.823,23.1462 v 25.3"
+     id="path22" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#ff0000"
+     d="m 234.423,23.1462 v 25.3"
+     id="path24" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#009100;stroke-width:1.04"
+     d="m 300.123,23.1462 v 25.3"
+     id="path26" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#0000ff"
+     d="m 365.923,23.1462 v 25.3"
+     id="path28" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#0000ff"
+     d="m 431.723,23.1462 v 25.3"
+     id="path30" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#0000ff"
+     d="m 497.523,23.1462 v 25.3"
+     id="path32" />
+  <text
+     x="361.823"
+     y="69.1462"
+     style="font-family:Arial;fill:#0000ff"
+     id="text34">1</text>
+  <text
+     x="427.html"
+     y="69.1462"
+     style="font-family:Arial;fill:#0000ff"
+     id="text36">2</text>
+  <text
+     x="492.923"
+     y="69.0462"
+     style="font-family:Arial;fill:#0000ff"
+     id="text38">3</text>
+  <text
+     x="228.023"
+     y="69.1462"
+     style="font-family:Arial;fill:#ff0000"
+     id="text40">-1</text>
+  <text
+     x="161.123"
+     y="69.1462"
+     style="font-family:Arial;fill:#ff0000"
+     id="text42">-2</text>
+  <text
+     x="95.223"
+     y="69.0462"
+     style="font-family:Arial;fill:#ff0000"
+     id="text44">-3</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#ff0000"
+     d="m 168.623,23.1462 v 25.3"
+     id="path46" />
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#ff0000"
+     d="m 37.123,23.1462 v 25.3"
+     id="path48" />
+  <text
+     x="24.723"
+     y="69.0462"
+     style="font-family:Arial;fill:#ff0000"
+     id="text50">-4</text>
+  <path
+     style="fill:none;fill-opacity:0.75;stroke:#0000ff"
+     d="m 563.223,23.1462 v 25.3"
+     id="path52" />
+  <text
+     x="553.623"
+     y="69.0462"
+     style="font-family:Arial;fill:#0000ff"
+     id="text54">4</text>
+  <path
+     style="fill:#0000ff;fill-opacity:0.75;stroke:#0000ff;stroke-width:1.31;marker-end:url(#aa32158)"
+     d="m 299.423,37.3462 h 298"
+     id="path56" />
+  <path
+     style="fill:#ff0000;fill-opacity:0.75;stroke:#ff0000;stroke-width:1.31;marker-start:url(#aa41322)"
+     d="m 2.523,37.3462 h 297.4"
+     id="path58" />
+  <text
+     x="293.423"
+     y="70.6462"
+     style="font-size:24.1px;font-family:Arial;fill:#009100"
+     id="text60">0</text>
+  <ellipse
+     cx="390.223"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse62" />
+  <ellipse
+     cx="506.523"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse64" />
+  <text
+     x="392.html"
+     y="28.6462"
+     style="font-size:19.3px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text66">√2</text>
+  <text
+     x="507.823"
+     y="30.1462"
+     style="font-size:19.3px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text68">π</text>
+  <ellipse
+     cx="475.223"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse70" />
+  <text
+     x="475.923"
+     y="29.8462"
+     style="font-size:19.3px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text72">e</text>
+  <ellipse
+     cx="443.123"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse74" />
+  <text
+     x="443.523"
+     y="9.4462"
+     style="font-size:12.4px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text76">20</text>
+  <text
+     x="443.823"
+     y="26.5462"
+     style="font-size:12.4px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text78">9</text>
+  <path
+     style="fill:none;stroke:#00bb00;stroke-width:1.28"
+     d="m 434.623,13.5462 h 20.3"
+     id="path80" />
+  <ellipse
+     cx="52.423"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse82" />
+  <text
+     x="51.923"
+     y="10.6462"
+     style="font-size:12.4px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text84">15</text>
+  <text
+     x="52.123"
+     y="27.7462"
+     style="font-size:12.4px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text86">4</text>
+  <path
+     style="fill:none;stroke:#00bb00;stroke-width:1.28"
+     d="m 46.823,14.7462 h 10.8"
+     id="path88" />
+  <text
+     x="40.523"
+     y="18.7462"
+     style="text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text90">-</text>
+  <ellipse
+     cx="193.723"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse92" />
+  <text
+     x="193.223"
+     y="10.2462"
+     style="font-size:13.8px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text94">π</text>
+  <text
+     x="193.423"
+     y="27.3462"
+     style="font-size:12.4px;text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text96">2</text>
+  <path
+     style="fill:none;stroke:#00bb00;stroke-width:1.28"
+     d="m 188.123,14.3462 h 10.8"
+     id="path98" />
+  <text
+     x="182.723"
+     y="18.8462"
+     style="text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text100">-</text>
+  <ellipse
+     cx="132.423"
+     cy="37.4462"
+     rx="2.4"
+     ry="2.6"
+     style="fill:#ffffff;stroke:#00bb00;stroke-width:1.28"
+     id="ellipse102" />
+  <text
+     x="130.423"
+     y="25.3462"
+     style="text-align:center;text-anchor:middle;fill:#00bb00;stroke-width:0.73"
+     id="text104">-2.5</text>
+  <text
+     x="334.523"
+     y="87.6462"
+     style="font-size:19.3px;text-align:center;text-anchor:middle;fill:#8d5fd3;stroke-width:0.73"
+     id="text106">1</text>
+  <rect
+     x="-236.277"
+     y="4098.05"
+     width="70"
+     height="88"
+     style="stroke-width:1"
+     id="rect108" />
+  <path
+     style="fill:none;stroke:#8d5fd3;stroke-width:1.28;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#aa1)"
+     d="m 301.263,80.7462 h 25.892"
+     id="path1320" />
+</svg>

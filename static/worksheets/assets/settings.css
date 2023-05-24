@@ -1,0 +1,101 @@
+  select,
+  input[type="text"] {
+    border-radius: 8px;
+    padding: 10px;
+    color:white;
+    outline: none; 
+    box-shadow: none;
+  }
+
+  select {
+    background-color: #253950;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
+  input{
+    background-color: black;
+    color: white;
+    outline: none; 
+    box-shadow: none;
+  }
+  input[type="text"] {
+    text-align: center;
+    outline: none; 
+    box-shadow: none;
+  }
+  input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+  }
+  
+  input[type="text"]:-moz-placeholder {
+    color: #fff;
+    opacity:  1;
+    text-align: center;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    color: #fff;
+    opacity:  1;
+    text-align: center;
+  }
+  
+  input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+    text-align: center;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #fff;
+    text-align: center;
+  }
+
+  input[type="text"]::hover {
+    color: #fff;
+    text-align: center;
+    transform: scale(1.1);
+  }
+  
+  
+  input[type="text"], button {
+    padding: 10px;
+    border: none;
+    background-color: #253950;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  input[type="text"] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 20%;
+    border-radius: 8px;
+  }
+  
+  button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 10%;
+    cursor: pointer;
+  }
+  
+  input[type="text"]:focus, button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #0000;
+
+  }
+input[type="text"] {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+ input:hover   [type="text"] {
+    transform: scale(1.1);
+  }
+  
+
+  

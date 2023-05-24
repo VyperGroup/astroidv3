@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include uv.config.js -->
+<!-- Include uv.bundle.js -->
+<script src="uv/uv.bundle.js"></script>
+<script src="uv/uv.config.js"></script>
+<!-- Include worksheets.js after uv.config.js and uv.bundle.js -->
+<script>
+function work(value) {
+  window.navigator.serviceWorker.register("/sw.js", {
+    scope: __uv$config.prefix
+  })
+  .then(() => {
+    console.log("Service worker registration successful");
+
+    let url = value.trim();
+    if (!(url.startsWith("https://") || url.startsWith("http://"))) {
+      url = "https://" + url;
+    }
+    if (url.endsWith(".swf")) {
+      sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+      location.href = "go.html";
+      console.log("Redirection to English Test successful");
+    } else {
+      sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+      location.href = "loader.html";
+      console.log("Redirection to Worksheet successful");
+    }
+  })
+  .catch((error) => {
+    console.error("Service worker registration failed:", error);
+  });
+}
+</script>
+<script src="main.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta content="Math Is Fun" property="og:title">
+<meta content="Math explained in easy language, plus puzzles, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents." property="og:description">
+<meta content="#ffffff" data-react-helmet="true" name="theme-color">
+<meta property="og:image" content="assets/images/logo.png">
+<title>Math Is Fun</title>
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+<link rel="stylesheet" href="assets/reset.css">
+<link rel="stylesheet" href="assets/index.css">
+<link rel="stylesheet" href="assets/button.css">
+</head>
+<body>
+<div class="wrapper">
+<nav class="navbar">
+<div class="navbar__container">
+<div class="navbar__branding">
+<a href="index.html">
+<span>Astroid V3</span>
+</a>
+</div>
+<div class="navbar__items navbar__items--mobile">
+<a href="#" class="navbar__item">
+<label for="input-navbar">
+<i class="fas fa-bars"></i>
+</label>
+</a>
+</div>
+<input type="checkbox" id="input-navbar" style="display: none;">
+<div class="navbar__items">
+<a href="index.html" class="navbar__item">Home</a>
+<a href="html.html" class="navbar__item">HTML / Flash</a>
+<a href="emuindex.html" class="navbar__item">Emulators</a>
+<a href="apps.html" class="navbar__item">Apps</a>
+<a href="search.html" class="navbar__item">Search</a>
+<a href="https://vyper.group" class="navbar__item">Vyper Group</a>
+<a href="legal.html" class="navbar__item">Legal</a>
+<a href="settings.html" class="navbar__item">Settings</a>
+<a href="/index.html" class="navbar__item" accesskey="p">Panic</a>
+<a href="https://discord.gg/9sUDHyGQfC" class="navbar__item navbar__item--highlighted">Discord</a>
+</div>
+</div>
+</nav>
+<main class="main">
+<div class="main__container">
+<h2 class="heading">Practice Tests - N64</h2>
+<div class="block">
+<div class="block__body">
+    <center><input type="text" id="search-input" placeholder="Search..."></center>
+    <div id="button-container"></div>
+    <script>
+      const jsonUrl = './api/n64.json';
+
+      fetch(jsonUrl)
+        .then(response => response.json())
+        .then(data => {
+          data.sort((a, b) => a.title.localeCompare(b.title));
+
+          const buttonContainer = document.getElementById('button-container');
+          const searchInput = document.getElementById('search-input');
+          const renderButtons = (worksheets) => {
+            buttonContainer.innerHTML = '';
+            worksheets.forEach(worksheet => {
+              const button = document.createElement('button');
+              button.innerText = worksheet.title;
+              button.onclick = () => {
+                if (worksheet.type === 'html') {
+                  const source = worksheet.source.replace('https://', '');
+                    work(`https://${source}`);
+                } else {
+                  console.error(`Unsupported worksheet type "${worksheet.type}" for worksheet "${worksheet.title}"`);
+                }
+              };
+              buttonContainer.appendChild(button);
+            });
+          };
+
+          const filterworksheets = (query) => {
+            const filteredworksheets = data.filter(worksheet => worksheet.title.toLowerCase().includes(query.toLowerCase()));
+            renderButtons(filteredworksheets);
+          };
+
+          searchInput.addEventListener('input', event => {
+            const query = event.target.value;
+            filterworksheets(query);
+          });
+
+          renderButtons(data);
+        })
+        .catch(error => console.error('Error fetching worksheets:', error));
+    </script>
+</main>
+ 
+</div>
+<div>
+</div>
+<footer class="footer" id="footer">
+<div class="footer__container">
+<div class="footer__content">
+<div class="footer__copyright">
+<center>© Vyper Group </center>
+</footer>
+<div>
+</body>
+</html>

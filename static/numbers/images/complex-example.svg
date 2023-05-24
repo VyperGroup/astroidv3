@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157.3" height="58.2" version="1.1">
+<defs>
+</defs>
+<g transform="translate(-92.456522,-242.69064)">
+<path style="overflow:visible; fill:#fdca01; stroke-width:2.3;" d="m 218.4,256.2 c -0.7,2 -1.2,4 -1.7,6 -0.5,2 -0.6,4.1 -0.8,6.2 -0.1,2.1 0.7,3.3 2.2,4.6 2.2,0.7 2.9,-0 0.4,0.2 l 4.8,1.2 c -2.7,2.3 -6.7,3 -9.6,0.9 -1.8,-1.8 -2.8,-3.8 -2.8,-6.4 0.2,-2.2 0.4,-4.3 0.8,-6.4 0.5,-2.1 1,-4.2 1.7,-6.2 l 5,-0 z"/>
+<path style="overflow:visible; fill:#fdca01; stroke-width:2.3;" d="m 218.2,249.2 c 0.5,0.9 1.2,1.6 1.8,2.3 l -4.5,2.1 c -0.7,-0.9 -1.5,-1.7 -2,-2.8 l 4.7,-1.7 z"/>
+<text x="106.2" y="275.8" style="font-family:'Comic Sans MS'; font-size:44.9px; overflow:visible; fill:#0197fd; stroke-width:5.1;">7</text>
+<text x="145.5" y="271.9" style="font-family:'Comic Sans MS'; font-size:44.9px; overflow:visible; fill:#666666; stroke-width:5.1;">+</text>
+<text x="182.7" y="276.2" style="font-family:'Comic Sans MS'; font-size:44.9px; overflow:visible; fill:#fdca01; stroke-width:5.1;">3</text>
+<text x="110.6" y="295.1" style="font-family:'Comic Sans MS'; text-align:center; text-anchor:middle; font-size:19.8px; font-style:italic; overflow:visible; fill:#0197fd; stroke-width:5.1;">Real</text>
+<text x="202.2" y="295.3" style="font-family:'Comic Sans MS'; text-align:center; text-anchor:middle; font-size:19.8px; font-style:italic; overflow:visible; fill:#fdca01; stroke-width:5.1;">Imaginary</text>
+</g>
+</svg>

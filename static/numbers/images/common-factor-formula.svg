@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2019 mathsisfun.com -->
+
+<svg
+   width="293.4"
+   height="47.5393"
+   version="1.1"
+   style="font-size:6.7px;font-family:'Trebuchet MS';fill:#3465a4;stroke-width:0.26px"
+   id="svg44"
+   sodipodi:docname="common-factor-formula.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg44" />
+  <defs
+     id="defs2" />
+  <g
+     transform="matrix(3.6,0,0,3.6,-44.28,-261.216)"
+     id="g42">
+    <text
+       x="13.8"
+       y="77.5"
+       id="text4">a</text>
+    <text
+       x="13.7"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text6">b</text>
+    <text
+       x="31.4"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text8">c</text>
+    <text
+       x="31.3"
+       y="85.7"
+       style="fill:#edd400"
+       id="text10">d</text>
+    <text
+       x="51.1"
+       y="77.5"
+       id="text12">a</text>
+    <text
+       x="64.1"
+       y="85.7"
+       style="fill:#19aeff"
+       id="text14">b</text>
+    <text
+       x="62"
+       y="77.5"
+       style="fill:#edd400"
+       id="text16">d</text>
+    <text
+       x="89.4"
+       y="77.5"
+       style="fill:#4e9a06"
+       id="text18">c</text>
+    <text
+       x="22.3"
+       y="82"
+       style="font-size:8.1px"
+       id="text20">+</text>
+    <text
+       x="69.8"
+       y="77.7"
+       style="font-size:8.1px"
+       id="text22">+</text>
+    <text
+       x="40.6"
+       y="82"
+       style="font-size:8.1px"
+       id="text24">=</text>
+    <text
+       x="83.9"
+       y="77.5"
+       id="text26">×</text>
+    <text
+       x="56.7"
+       y="77.5"
+       id="text28">×</text>
+    <text
+       x="75.3"
+       y="85.7"
+       style="fill:#edd400"
+       id="text30">d</text>
+    <text
+       x="69.9"
+       y="85.7"
+       id="text32">×</text>
+    <text
+       x="78.3"
+       y="77.5"
+       style="fill:#19aeff"
+       id="text34">b</text>
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="m 12.3,79.4 h 7.3"
+       id="path36" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="m 29.4,79.4 h 7.3"
+       id="path38" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.4"
+       d="M 49.3,79.4 H 93.8"
+       id="path40" />
+  </g>
+</svg>

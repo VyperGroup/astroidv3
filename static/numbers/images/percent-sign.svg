@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="49.3843"
+   id="Layer_1"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="percent-sign.svg"
+   sodipodi:version="0.32"
+   space="preserve"
+   style="overflow:visible"
+   version="1.1"
+   viewBox="0 0 53.4717 49.3843"
+   width="53.4717"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     aria-label="%"
+     id="text234843"
+     style="font-weight:bold;font-size:68.6153px;line-height:85.769px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;display:inline;overflow:visible;opacity:1;fill:#ff6600;stroke-width:0.999997px;enable-background:accumulate">
+    <path
+       d="m 11.3912,25.0272 q -5.12603,0 -8.27537,-3.2499 Q 0,18.5275 0,13.0329 0,7.03576 3.31685,3.51789 6.66721,1.41934e-5 12.2288,1.41934e-5 q 5.3271,0 8.3089,3.1828358066 3.0153,3.18284 3.0153,8.94545 0,5.9301 -3.3168,9.4145 -3.3169,3.4844 -8.845,3.4844 z M 12.0278,5.89664 q -4.89154,0 -4.89154,6.80126 0,6.4327 4.65704,6.4327 4.7575,0 4.7575,-6.7008 0,-6.53316 -4.523,-6.53316 z M 46.4694,0.670086 15.1771,48.7142 H 7.00225 L 38.2276,0.670086 Z M 41.3099,49.3843 q -5.126,0 -8.2754,-3.2499 -3.1158,-3.2498 -3.1158,-8.7444 0,-5.9971 3.3168,-9.515 3.3504,-3.5179 8.912,-3.5179 5.3606,0 8.3424,3.1493 2.9818,3.1494 2.9818,8.912 0,5.9301 -3.3169,9.448 -3.3168,3.5179 -8.8449,3.5179 z M 41.846,30.2537 q -4.8581,0 -4.8581,6.8013 0,6.4326 4.724,6.4326 4.7575,0 4.7575,-6.7007 0,-3.1158 -1.2731,-4.8245 -1.2731,-1.7087 -3.3503,-1.7087 z"
+       id="path235891" />
+  </g>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>unsorted</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Architetto Francesco Rollandin</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="Layer_1"
+     inkscape:cx="68.241997"
+     inkscape:cy="67.997002"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="510"
+     inkscape:window-width="787"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:zoom="2.6471755"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-global="false" />
+</svg>

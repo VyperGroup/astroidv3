@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en"><!-- #BeginTemplate "/Templates/Main.dwt" --><!-- DW6 -->
+
+<!-- Mirrored from www.mathsisfun.com/numbers/pi-normal.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:25:36 GMT -->
+
+<!-- Mirrored from fractions.mathsisfun.sa.com/numbers/pi-normal.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Jul 2022 02:30:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+
+
+
+<!-- #BeginEditable "doctitle" -->
+<title>Is Pi Normal?</title>
+<script language="JavaScript" type="text/javascript">reSpell=[["color","colour"]];</script>
+<meta name="Description" content="Math explained in easy language, plus puzzles, games, quizzes, worksheets and a forum. For K-12 kids, teachers and parents.">
+<!-- #EndEditable -->
+<meta name="keywords" content="math, maths, mathematics, school, homework, education">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="referrer" content="always">
+	<link rel="preload" href="../images/style/font-champ-bold.ttf" as="font" type="font/ttf" crossorigin="">
+	<link rel="preload" href="../style4.css" as="style">
+	<link rel="preload" href="../main4.js" as="script">
+<link rel="stylesheet" href="../style4.css">
+<script src="../main4.js" defer="defer"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-29771508-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-29771508-1');
+</script>
+</head>
+
+<body id="bodybg">
+
+	<div id="stt"></div>
+	<div id="adTop"></div>
+	<header>
+	<div id="hdr"></div>
+	<div id="tran"></div>
+	<div id="adHide"></div>
+	<div id="cookOK"></div>
+	</header>
+	
+	<div class="mid">
+
+	<nav>
+		<div id="menuWide" class="menu"></div>
+		<div id="logo"><a href="../index-2.html"><img src="../images/style/logo.svg" alt="Math is Fun"></a></div>
+
+		<div id="search" role="search"></div>
+		<div id="linkto"></div>
+	
+		<div id="menuSlim" class="menu"></div>
+		<div id="menuTiny" class="menu"></div>
+	</nav>
+	
+	<div id="extra"></div>
+
+<article id="content" role="main">
+
+<!-- #BeginEditable "Body" -->
+
+
+<h1 class="center">Is Pi Normal?</h1>
+
+<p class="center"><img src="images/pi-normal.svg" alt="pi circle"></p>
+<p>A <b>Simply Normal Number</b> has all its digits spread out as if each one is chosen by a throw of a dice.</p>
+<p class="center"><img src="../geometry/images/10-sided-dice.html" alt="10-sided dice"><br>A dice can have 10 sides</p>
+
+  
+    
+<p>
+  And we get something like this:
+    </p>
+  <p class="center"><img src="images/normal-digits.svg" alt="normal digits"></p>
+<div class="def">
+<p>Over the infinite sequence of decimal digits:</p>
+<ul>
+<li><span class="intbl"><em>1</em><strong>10</strong></span> are 0, <span class="intbl"><em>1</em><strong>10</strong></span> are 1, <span class="intbl"><em>1</em><strong>10</strong></span> are 2, etc (this makes it "<i>simply </i>normal")</li></ul>
+<p>But to be "normal" (without the "simply" in front) we also need:</p>
+<ul>
+<li><span class="intbl"><em>1</em><strong>100</strong></span> are 00, <span class="intbl"><em>1</em><strong>100</strong></span> are 01, <span class="intbl"><em>1</em><strong>100</strong></span> are 02, etc
+</li>
+<li><span class="intbl"><em>1</em><strong>1000</strong></span> are 000, <span class="intbl"><em>1</em><strong>1000</strong></span> are 001, <span class="intbl"><em>1</em><strong>1000</strong></span> are 002, etc
+</li>
+<li><b>and so on</b>, for every group of digits</li>
+</ul>
+      </div>
+    <p><br></p>
+<p class="center larger">Is this the case for <a href="pi.html">Pi</a> ?</p>
+<p>To investigate let us <b>count</b> how many of each single digit there are, and see if they appear more or less often than expected.</p>
+<p>We also need to do this for 2-digit pairs, 3-digit groups, etc.</p>
+<p>Let us have a go!</p>
+<h2>A Hundred Digits</h2>
+<p>Here are the first 100 digits of Pi:</p>
+<table style="border: 0; margin:auto;">
+			<tbody>
+<tr>				
+<td class="large" align="center">314159265358979323846264338327950288<br>
+4197169399375105820974944592307816<br>
+406286208998628034825342117067</td>
+			</tr>
+		</tbody></table>
+  <p>With 100 digits and ten possibilities (0,1,2,3,4,5,6,7,8,9) we should get 10 of each digit, right? </p>
+<p>Well I count 8 "0"s, does that seem right? </p>
+<p>Expecting a perfect 10 of each digit is unrealistic of course, so maybe just 8 is fine.</p>
+<p>Here is the count for each digit:</p>
+
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digit</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>0:</td>
+<td>8</td></tr>
+<tr>
+<td>1:</td>
+<td>8</td></tr>
+<tr>
+<td>2:</td>
+<td>12</td></tr>
+<tr>
+<td>3:</td>
+<td>12</td></tr>
+<tr>
+<td>4:</td>
+<td>10</td></tr>
+<tr>
+<td>5:</td>
+<td>8</td></tr>
+<tr>
+<td>6:</td>
+<td>9</td></tr>
+<tr>
+<td>7:</td>
+<td>8</td></tr>
+<tr>
+<td>8:</td>
+<td>12</td></tr>
+<tr>
+<td>9:</td>
+<td>13</td></tr>
+</tbody></table>
+    
+    
+    </div>
+<p>They are mostly around 10, but wow: "9" occurred 13 times!</p>
+<p>Should that be expected? Let us count the counts:</p>
+
+<ul>
+<li>4 digits (0,1,5 and 7) occur <b>8</b> times, </li>
+<li>1 digit (6) occurs <b>9 </b>times, </li>
+<li>1 digit (4) occurs <b>10</b> times, </li>
+<li>3 digits (2,3 and 8) occur <b>12</b> times and </li>
+<li>1 digits (9) occur <b>13</b> times</li></ul>
+<p>As a graph:</p>
+<p class="center"><img src="images/pi-normal-ten-100.svg"></p>
+  
+
+<p>They are kind of near 10, but also a little spread out ... is this "normal"?</p>
+<p>Let us try two-digit pairs:</p>
+  
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digits</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>00:</td>
+<td>0</td></tr>
+<tr>
+<td>01:</td>
+<td>0</td></tr>
+<tr>
+<td>02:</td>
+<td>1</td></tr>
+<tr>
+<td>03:</td>
+<td>1</td></tr>
+<tr>
+<td>04:</td>
+<td>0</td></tr>
+<tr>
+<td>05:</td>
+<td>1</td></tr>
+<tr>
+<td>06:</td>
+<td>2</td></tr>
+
+<tr>
+<td>...</td>
+<td>...</td></tr>
+
+
+
+
+<tr>
+<td>98:</td>
+<td>1</td></tr>
+<tr>
+<td>99:</td>
+<td>2</td></tr>
+</tbody></table>
+  </div>
+  
+<p>Mostly 0's and 1's. We need more raw data!</p>
+<h2>A Thousand Digits</h2>
+<p>Using the first thousand digits of Pi gets us this:</p>
+  
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digit</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>0:</td>
+<td>93</td></tr>
+<tr>
+<td>1:</td>
+<td>116</td></tr>
+<tr>
+<td>2:</td>
+<td>103</td></tr>
+<tr>
+<td>3:</td>
+<td>103</td></tr>
+<tr>
+<td>4:</td>
+<td>93</td></tr>
+<tr>
+<td>5:</td>
+<td>97</td></tr>
+<tr>
+<td>6:</td>
+<td>94</td></tr>
+<tr>
+<td>7:</td>
+<td>95</td></tr>
+<tr>
+<td>8:</td>
+<td>101</td></tr>
+<tr>
+<td>9:</td>
+<td>105</td></tr>
+</tbody></table>  
+  
+  </div>
+  <p>
+   Counting the counts:
+  </p>
+  <p class="center"><img src="images/pi-normal-ten-1000.svg"></p>
+<p>Zoomed out:</p>
+  <p class="center"><img src="images/pi-normal-ten-1000b.svg"></p>
+  
+  <p>It now looks more grouped around 100, our first hint that Pi might be "normal".</p>
+  <p>Let's look at two-digit pairs:</p>  
+
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digits</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>00:</td>
+<td>7</td></tr>
+<tr>
+<td>01:</td>
+<td>10</td></tr>
+<tr>
+<td>02:</td>
+<td>10</td></tr>
+<tr>
+<td>03:</td>
+<td>9</td></tr>
+<tr>
+<td>04:</td>
+<td>4</td></tr>
+<tr>
+<td>05:</td>
+<td>14</td></tr>
+<tr>
+<td>06:</td>
+<td>8</td></tr>
+<tr>
+<td>07:</td>
+<td>6</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td>...</td>
+<td>...</td></tr>
+<tr>
+<td>93:</td>
+<td>14</td></tr>
+<tr>
+<td>94:</td>
+<td>11</td></tr>
+<tr>
+<td>95:</td>
+<td>16</td></tr>
+<tr>
+<td>96:</td>
+<td>9</td></tr>
+<tr>
+<td>97:</td>
+<td>7</td></tr>
+<tr>
+<td>98:</td>
+<td>8</td></tr>
+<tr>
+<td>99:</td>
+<td>11</td></tr>
+</tbody></table>
+  </div>
+
+<p>
+  &nbsp; Good, we are getting values around 10, but let us see the count of counts:</p>
+<p class="center"><img src="images/pi-normal-hun-1000.svg"></p>Wow, it looks nicely clustered around 10, maybe a little skewed.
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Let's go for more data!</p>
+<h2>Ten Thousand Digits</h2>
+<p>Using the first ten thousand digits of Pi gets us this:</p>
+  
+  
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digit</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>0:</td>
+<td>968</td></tr>
+<tr>
+<td>1:</td>
+<td>1026</td></tr>
+<tr>
+<td>2:</td>
+<td>1021</td></tr>
+<tr>
+<td>3:</td>
+<td>975</td></tr>
+<tr>
+<td>4:</td>
+<td>1012</td></tr>
+<tr>
+<td>5:</td>
+<td>1046</td></tr>
+<tr>
+<td>6:</td>
+<td>1021</td></tr>
+<tr>
+<td>7:</td>
+<td>970</td></tr>
+<tr>
+<td>8:</td>
+<td>947</td></tr>
+<tr>
+<td>9:</td>
+<td>1014</td></tr>
+</tbody></table>
+  </div>
+  <p>
+    And the count of counts:
+  </p>
+  
+  <p class="center"><img src="images/pi-normal-ten-10000.svg"></p><br><br>And for two-digit pairs:<br>
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digits</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>00:</td>
+<td>85</td></tr>
+<tr>
+<td>01:</td>
+<td>103</td></tr>
+<tr>
+<td>02:</td>
+<td>98</td></tr>
+<tr>
+<td>03:</td>
+<td>103</td></tr>
+<tr>
+<td>04:</td>
+<td>98</td></tr>
+<tr>
+<td>05:</td>
+<td>89</td></tr>
+<tr>
+<td>06:</td>
+<td>101</td></tr>
+<tr>
+<td>07:</td>
+<td>93</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td>...</td>
+<td>...</td></tr>
+<tr>
+<td>94:</td>
+<td>98</td></tr>
+<tr>
+<td>95:</td>
+<td>107</td></tr>
+<tr>
+<td>96:</td>
+<td>106</td></tr>
+<tr>
+<td>97:</td>
+<td>88</td></tr>
+<tr>
+<td>98:</td>
+<td>100</td></tr>
+<tr>
+<td>99:</td>
+<td>91</td></tr>
+</tbody></table>
+  </div>
+<p>And as a count of counts:</p>
+<p class="center"><img src="images/pi-normal-hun-10000.svg"></p>
+<p>It is starting to look like a <a href="../data/standard-normal-distribution.html">normal distribution</a> isn't it?</p>
+<p class="center"><img src="../data/images/normal-distribution-1.html" alt="bell curve" height="174" width="384"></p>
+<h2>Hundred Thousand Digits</h2>
+<p>Using the first hundred thousand digits of Pi gets us this:</p>
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digit</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>0:</td>
+<td>9999</td></tr>
+<tr>
+<td>1:</td>
+<td>10137</td></tr>
+<tr>
+<td>2:</td>
+<td>9908</td></tr>
+<tr>
+<td>3:</td>
+<td>10026</td></tr>
+<tr>
+<td>4:</td>
+<td>9971</td></tr>
+<tr>
+<td>5:</td>
+<td>10026</td></tr>
+<tr>
+<td>6:</td>
+<td>10028</td></tr>
+<tr>
+<td>7:</td>
+<td>10025</td></tr>
+<tr>
+<td>8:</td>
+<td>9978</td></tr>
+<tr>
+<td>9:</td>
+<td>9902</td></tr>
+</tbody></table>
+  </div>
+  
+  <p>The count of counts is:</p>
+    <p class="center"><img src="images/pi-normal-ten-100000.svg"></p><br><br>And for two-digit pairs:
+
+
+
+
+
+
+
+
+
+
+
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digits</th>
+<th style="width: 70px;">Count</th></tr>
+<tr>
+<td>00:</td>
+<td>998</td></tr>
+<tr>
+<td>01:</td>
+<td>1027</td></tr>
+<tr>
+<td>02:</td>
+<td>962</td></tr>
+<tr>
+<td>03:</td>
+<td>993</td></tr>
+<tr>
+<td>04:</td>
+<td>968</td></tr>
+<tr>
+<td>05:</td>
+<td>1007</td></tr>
+<tr>
+<td>06:</td>
+<td>1009</td></tr>
+<tr>
+<td>07:</td>
+<td>1017</td></tr>
+<tr>
+<td>08:</td>
+<td>1001</td></tr>
+<tr>
+<td>...</td>
+<td>...</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td>94:</td>
+<td>1033</td></tr>
+<tr>
+<td>95:</td>
+<td>1014</td></tr>
+<tr>
+<td>96:</td>
+<td>952</td></tr>
+<tr>
+<td>97:</td>
+<td>934</td></tr>
+<tr>
+<td>98:</td>
+<td>997</td></tr>
+<tr>
+<td>99:</td>
+<td>968</td></tr>
+</tbody></table>
+  </div>
+  
+<p>And the count of counts:</p>
+     <p class="center"><img src="images/pi-normal-hun-100000.svg"></p>
+<p>The numbers are all around 1000, and, using the <a href="../data/standard-deviation-calculator.html">standard deviation calculator</a> gets a standard deviation of only <b>32.3</b>, which is a reasonably tight grouping, don't you think?</p>
+<h2>Summary</h2>
+<p>Just looking at single digits:</p>
+<div class="simple">
+<table style=" text-align: right; margin:auto;">
+<tbody>
+<tr>
+<th style="width: 70px;">Digit</th>
+<th style="width: 70px;">100</th>
+<th style="width: 70px;">1000</th>
+<th style="width: 70px;">10,000</th>
+  <th style="width: 70px;">100,000</th>
+  </tr>
+
+
+<tr>
+<td><i>expect</i>:</td>
+<td><i>10</i></td>
+<td><i>100</i></td>
+<td><i>1000</i></td>
+<td><i>10000</i></td></tr>
+<tr>
+<td>0:</td>
+<td>8</td>
+<td>93</td>
+<td>968</td>
+<td>9999</td></tr>
+<tr>
+<td>1:</td>
+<td>8</td>
+<td>116</td>
+<td>1026</td>
+<td>10137</td></tr>
+<tr>
+<td>2:</td>
+<td>12</td>
+<td>103</td>
+<td>1021</td>
+<td>9908</td></tr>
+<tr>
+<td>3:</td>
+<td>12</td>
+<td>103</td>
+<td>975</td>
+<td>10026</td></tr>
+<tr>
+<td>4:</td>
+<td>10</td>
+<td>93</td>
+<td>1012</td>
+<td>9971</td></tr>
+<tr>
+<td>5:</td>
+<td>8</td>
+<td>97</td>
+<td>1046</td>
+<td>10026</td></tr>
+<tr>
+<td>6:</td>
+<td>9</td>
+<td>94</td>
+<td>1021</td>
+<td>10028</td></tr>
+<tr>
+<td>7:</td>
+<td>8</td>
+<td>95</td>
+<td>970</td>
+<td>10025</td></tr>
+<tr>
+<td>8:</td>
+<td>12</td>
+<td>101</td>
+<td>947</td>
+<td>9978</td></tr>
+<tr>
+<td>9:</td>
+<td>13</td>
+<td>105</td>
+<td>1014</td>
+<td>9902</td></tr>
+
+
+
+
+
+
+
+
+</tbody></table>  </div>
+<p>Just by eye we can see that the more digits we use the more the counts tend to group around the expected value. </p>
+<p>This is called the "Law of Large Numbers": <span itemprop="articleBody">in the long run random events tend to average out at the expected value.</span></p>
+<p>We see the same thing with two-digit pairs.</p>
+<p>So this increases our confidence that Pi is a normal number.</p>
+<h2>Conclusion</h2>
+<p>
+
+</p><p>So it <b>seems</b> that the single digits, and double digit pairs, occur no more frequently than random chance.&nbsp; At least within the first 100,000 digits. </p>
+<p>But we need to check more digits and also 3-digit, 4-digit etc groups. A very big job. </p>
+<h2>Research</h2>
+<p>People with access to powerful computers have checked trillions of digits of Pi:</p>
+<p><a href="https://arxiv.org/abs/1612.00489v1">(external link) Digit Statistics of the First 22.4 Trillion Decimal Digits of Pi</a></p>
+<p> and have also found no reason to doubt that Pi is a Normal Number. <b>Not a proof</b>, just a very strong suspicion that Pi is normal.</p>
+<h2>Why is this Important?</h2>
+<p>Firstly, isn't it curious that the digits of Pi (which form an exact sequence) nonetheless seem to be randomly distributed?</p>
+<p>But the other mind-boggling implication is that an infinite number of randomly occuring digits will contain every finite sequence of digits, including:</p>
+<ul>
+<li>your pin number</li>
+<li>your phone number</li>
+<li>your birth date</li>
+<li>the winning numbers in next weeks lottery</li>
+</ul>
+<p>And by simply converting text to digits (such as hello = 8 5 12 12 15) then Pi's digits will also include:</p>
+<ul>
+<li>your name</li>
+<li>your address</li>
+<li>all of your text messages</li>
+<li>any or every book you could imagine</li>
+<li>and perhaps the secret to life?</li></ul>
+<p>Now if we could also get an index to where those things are ...</p><br>
+<div class="related">      
+  <a href="pi.html">Pi</a> 
+  <a href="pi-digits.html">1 Hundred to 1 Million Digits of Pi</a> 
+  <a href="../data/index.html">Data Index</a> 
+  <a href="index.html">Numbers Index</a>    
+</div>
+<!-- #EndEditable -->
+
+</article>
+
+<div id="adend" class="centerfull noprint"></div>
+<footer id="footer" class="centerfull noprint"></footer>
+<div id="copyrt">Copyright © 2022 Rod Pierce</div>
+
+</div>
+</body><!-- #EndTemplate -->
+<!-- Mirrored from www.mathsisfun.com/numbers/pi-normal.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:25:39 GMT -->
+
+<!-- Mirrored from fractions.mathsisfun.sa.com/numbers/pi-normal.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Jul 2022 02:30:39 GMT -->
+</html>

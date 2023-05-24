@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Math Is Fun</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <meta name="description" content="Mathematics, Simplifed.">
+    <meta name="author" content="Math Is Fun" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="./assets/particles/css/style.css">
+    <!--<script src="https://cdn.counter.dev/script.js" data-id="6b17de00-dd04-4596-bf57-162019cc4096" data-utcoffset="7"></script>-->
+    <style>
+        h1{
+            color:white;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+            position: relative; /* Added */
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: 0;
+            pointer-events: none;
+        } 
+
+        #alt-particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(121, 0, 177);
+            z-index: 0;
+            background-image: url('assets/noparticles.png');
+            pointer-events: none;
+            background-size: cover;
+        }
+
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.container a {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.container a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+        #toggle { /* Added */
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            z-index: 999;
+        }
+        button {
+    background-color: #7843E6;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+       button:hover {
+    border-radius: 4px;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: black;
+}
+    </style>
+</head>
+<body>
+    <!-- count particles -->
+    <!--<div class="count-particles">
+        <span class="js-count-particles">--</span> particles
+    </div>-->
+
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+        <div class="container">
+            <a href="gb.html">
+                <!--Astroid Lite-->
+                <img src="./assets/logos/gb.png">
+            </a>
+            <a href="gba.html">
+                <!--Astroid V2-->
+                <img src="./assets/logos/gba.png">
+            </a>
+            <a href="gbc.html">
+                <!--Astroid Legacy-->
+                <img src="./assets/logos/gbc.png">
+            </a>
+            <a href="ds.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/ds.png">
+            </a>
+            <a href="nes.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/nes.png">
+            </a>
+            <a href="snes.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/snes.png">
+            </a>
+            <a href="64.html">
+                <!--Astroid Extras-->
+                <img src="./assets/logos/n64.png">
+            </a>
+            <a href="p1.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/ps1.png">
+            </a>
+            <a href="smd.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/smd.png">
+            </a>
+            <a href="index.html">
+                <!--Astroid Settings-->
+                <img src="./assets/logos/home.png">
+            </a>
+        </div>
+    
+    <button id="toggle" onclick="toggleParticles()">Toggle Particles</button>
+    
+    <!-- scripts -->
+    <script src="./assets/particles/js/particles.js"></script>
+    <script src="./assets/particles/js/app.js"></script>
+    <script src="./assets/particles/js/particles.min.js"></script>
+    <script src="api/lod.js"></script>
+    <script>
+    var currentParticles = "particles-js";
+    
+   function toggleParticles() {
+    var oldParticles = document.getElementById(currentParticles);
+    var newParticlesId = currentParticles === "particles-js" ? "alt-particles-js" : "particles-js";
+    var newParticles = document.createElement("div");
+    newParticles.setAttribute("id", newParticlesId);
+    newParticles.classList.add("alt-particles-js");
+    oldParticles.parentNode.replaceChild(newParticles, oldParticles);
+    currentParticles = newParticlesId;
+    if (currentParticles === "particles-js") {
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    }
+}
+
+    </script>
+</body>
+</html>
+

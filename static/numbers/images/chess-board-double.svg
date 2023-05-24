@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Copyright 2017 mathsisfun.com --><svg xmlns="http://www.w3.org/2000/svg" width="410" height="410" version="1.1" text-anchor="middle" style="stroke-width:0.2; fill:black; stroke:black; font-family:Arial; font-weight:normal; font-size:15px; "><defs/><g>
+<rect x="1" y="1" width="50" height="50" style="fill:white; "/><text x="25" y="34" style="">1</text>
+<rect x="51" y="1" width="50" height="50" style="fill:#ccddff; "/><text x="75" y="34" style="">2</text>
+<rect x="101" y="1" width="50" height="50" style="fill:white; "/><text x="125" y="34" style="">4</text>
+<rect x="151" y="1" width="50" height="50" style="fill:#ccddff; "/><text x="175" y="34" style="">8</text>
+<rect x="201" y="1" width="50" height="50" style="fill:white; "/><text x="225" y="34" style="">16</text>
+<rect x="251" y="1" width="50" height="50" style="fill:#ccddff; "/><text x="275" y="34" style="">32</text>
+<rect x="301" y="1" width="50" height="50" style="fill:white; "/><text x="325" y="34" style="">64</text>
+<rect x="351" y="1" width="50" height="50" style="fill:#ccddff; "/><text x="375" y="34" style="">128</text>
+<rect x="1" y="51" width="50" height="50" style="fill:#ccddff; "/><text x="25" y="84" style="">256</text>
+<rect x="51" y="51" width="50" height="50" style="fill:white; "/><text x="75" y="84" style="">512</text>
+<rect x="101" y="51" width="50" height="50" style="fill:#ccddff; "/><text x="122" y="84" style="font-size:14px;">1&#x00D7;10</text><text x="142" y="77" style="font-size:11px;">3</text>
+<rect x="151" y="51" width="50" height="50" style="fill:white; "/><text x="172" y="84" style="font-size:14px;">2&#x00D7;10</text><text x="192" y="77" style="font-size:11px;">3</text>
+<rect x="201" y="51" width="50" height="50" style="fill:#ccddff; "/><text x="222" y="84" style="font-size:14px;">4&#x00D7;10</text><text x="242" y="77" style="font-size:11px;">3</text>
+<rect x="251" y="51" width="50" height="50" style="fill:white; "/><text x="272" y="84" style="font-size:14px;">8&#x00D7;10</text><text x="292" y="77" style="font-size:11px;">3</text>
+<rect x="301" y="51" width="50" height="50" style="fill:#ccddff; "/><text x="322" y="84" style="font-size:14px;">2&#x00D7;10</text><text x="342" y="77" style="font-size:11px;">4</text>
+<rect x="351" y="51" width="50" height="50" style="fill:white; "/><text x="372" y="84" style="font-size:14px;">3&#x00D7;10</text><text x="392" y="77" style="font-size:11px;">4</text>
+<rect x="1" y="101" width="50" height="50" style="fill:white; "/><text x="22" y="134" style="font-size:14px;">7&#x00D7;10</text><text x="42" y="127" style="font-size:11px;">4</text>
+<rect x="51" y="101" width="50" height="50" style="fill:#ccddff; "/><text x="72" y="134" style="font-size:14px;">1&#x00D7;10</text><text x="92" y="127" style="font-size:11px;">5</text>
+<rect x="101" y="101" width="50" height="50" style="fill:white; "/><text x="122" y="134" style="font-size:14px;">3&#x00D7;10</text><text x="142" y="127" style="font-size:11px;">5</text>
+<rect x="151" y="101" width="50" height="50" style="fill:#ccddff; "/><text x="172" y="134" style="font-size:14px;">5&#x00D7;10</text><text x="192" y="127" style="font-size:11px;">5</text>
+<rect x="201" y="101" width="50" height="50" style="fill:white; "/><text x="222" y="134" style="font-size:14px;">1&#x00D7;10</text><text x="242" y="127" style="font-size:11px;">6</text>
+<rect x="251" y="101" width="50" height="50" style="fill:#ccddff; "/><text x="272" y="134" style="font-size:14px;">2&#x00D7;10</text><text x="292" y="127" style="font-size:11px;">6</text>
+<rect x="301" y="101" width="50" height="50" style="fill:white; "/><text x="322" y="134" style="font-size:14px;">4&#x00D7;10</text><text x="342" y="127" style="font-size:11px;">6</text>
+<rect x="351" y="101" width="50" height="50" style="fill:#ccddff; "/><text x="372" y="134" style="font-size:14px;">8&#x00D7;10</text><text x="392" y="127" style="font-size:11px;">6</text>
+<rect x="1" y="151" width="50" height="50" style="fill:#ccddff; "/><text x="22" y="184" style="font-size:14px;">2&#x00D7;10</text><text x="42" y="177" style="font-size:11px;">7</text>
+<rect x="51" y="151" width="50" height="50" style="fill:white; "/><text x="72" y="184" style="font-size:14px;">3&#x00D7;10</text><text x="92" y="177" style="font-size:11px;">7</text>
+<rect x="101" y="151" width="50" height="50" style="fill:#ccddff; "/><text x="122" y="184" style="font-size:14px;">7&#x00D7;10</text><text x="142" y="177" style="font-size:11px;">7</text>
+<rect x="151" y="151" width="50" height="50" style="fill:white; "/><text x="172" y="184" style="font-size:14px;">1&#x00D7;10</text><text x="192" y="177" style="font-size:11px;">8</text>
+<rect x="201" y="151" width="50" height="50" style="fill:#ccddff; "/><text x="222" y="184" style="font-size:14px;">3&#x00D7;10</text><text x="242" y="177" style="font-size:11px;">8</text>
+<rect x="251" y="151" width="50" height="50" style="fill:white; "/><text x="272" y="184" style="font-size:14px;">5&#x00D7;10</text><text x="292" y="177" style="font-size:11px;">8</text>
+<rect x="301" y="151" width="50" height="50" style="fill:#ccddff; "/><text x="322" y="184" style="font-size:14px;">1&#x00D7;10</text><text x="342" y="177" style="font-size:11px;">9</text>
+<rect x="351" y="151" width="50" height="50" style="fill:white; "/><text x="372" y="184" style="font-size:14px;">2&#x00D7;10</text><text x="392" y="177" style="font-size:11px;">9</text>
+<rect x="1" y="201" width="50" height="50" style="fill:white; "/><text x="22" y="234" style="font-size:14px;">4&#x00D7;10</text><text x="42" y="227" style="font-size:11px;">9</text>
+<rect x="51" y="201" width="50" height="50" style="fill:#ccddff; "/><text x="72" y="234" style="font-size:14px;">9&#x00D7;10</text><text x="92" y="227" style="font-size:11px;">9</text>
+<rect x="101" y="201" width="50" height="50" style="fill:white; "/><text x="122" y="234" style="font-size:14px;">2&#x00D7;10</text><text x="142" y="227" style="font-size:11px;">10</text>
+<rect x="151" y="201" width="50" height="50" style="fill:#ccddff; "/><text x="172" y="234" style="font-size:14px;">3&#x00D7;10</text><text x="192" y="227" style="font-size:11px;">10</text>
+<rect x="201" y="201" width="50" height="50" style="fill:white; "/><text x="222" y="234" style="font-size:14px;">7&#x00D7;10</text><text x="242" y="227" style="font-size:11px;">10</text>
+<rect x="251" y="201" width="50" height="50" style="fill:#ccddff; "/><text x="272" y="234" style="font-size:14px;">1&#x00D7;10</text><text x="292" y="227" style="font-size:11px;">11</text>
+<rect x="301" y="201" width="50" height="50" style="fill:white; "/><text x="322" y="234" style="font-size:14px;">3&#x00D7;10</text><text x="342" y="227" style="font-size:11px;">11</text>
+<rect x="351" y="201" width="50" height="50" style="fill:#ccddff; "/><text x="372" y="234" style="font-size:14px;">5&#x00D7;10</text><text x="392" y="227" style="font-size:11px;">11</text>
+<rect x="1" y="251" width="50" height="50" style="fill:#ccddff; "/><text x="22" y="284" style="font-size:14px;">1&#x00D7;10</text><text x="42" y="277" style="font-size:11px;">12</text>
+<rect x="51" y="251" width="50" height="50" style="fill:white; "/><text x="72" y="284" style="font-size:14px;">2&#x00D7;10</text><text x="92" y="277" style="font-size:11px;">12</text>
+<rect x="101" y="251" width="50" height="50" style="fill:#ccddff; "/><text x="122" y="284" style="font-size:14px;">4&#x00D7;10</text><text x="142" y="277" style="font-size:11px;">12</text>
+<rect x="151" y="251" width="50" height="50" style="fill:white; "/><text x="172" y="284" style="font-size:14px;">9&#x00D7;10</text><text x="192" y="277" style="font-size:11px;">12</text>
+<rect x="201" y="251" width="50" height="50" style="fill:#ccddff; "/><text x="222" y="284" style="font-size:14px;">2&#x00D7;10</text><text x="242" y="277" style="font-size:11px;">13</text>
+<rect x="251" y="251" width="50" height="50" style="fill:white; "/><text x="272" y="284" style="font-size:14px;">4&#x00D7;10</text><text x="292" y="277" style="font-size:11px;">13</text>
+<rect x="301" y="251" width="50" height="50" style="fill:#ccddff; "/><text x="322" y="284" style="font-size:14px;">7&#x00D7;10</text><text x="342" y="277" style="font-size:11px;">13</text>
+<rect x="351" y="251" width="50" height="50" style="fill:white; "/><text x="372" y="284" style="font-size:14px;">1&#x00D7;10</text><text x="392" y="277" style="font-size:11px;">14</text>
+<rect x="1" y="301" width="50" height="50" style="fill:white; "/><text x="22" y="334" style="font-size:14px;">3&#x00D7;10</text><text x="42" y="327" style="font-size:11px;">14</text>
+<rect x="51" y="301" width="50" height="50" style="fill:#ccddff; "/><text x="72" y="334" style="font-size:14px;">6&#x00D7;10</text><text x="92" y="327" style="font-size:11px;">14</text>
+<rect x="101" y="301" width="50" height="50" style="fill:white; "/><text x="122" y="334" style="font-size:14px;">1&#x00D7;10</text><text x="142" y="327" style="font-size:11px;">15</text>
+<rect x="151" y="301" width="50" height="50" style="fill:#ccddff; "/><text x="172" y="334" style="font-size:14px;">2&#x00D7;10</text><text x="192" y="327" style="font-size:11px;">15</text>
+<rect x="201" y="301" width="50" height="50" style="fill:white; "/><text x="222" y="334" style="font-size:14px;">5&#x00D7;10</text><text x="242" y="327" style="font-size:11px;">15</text>
+<rect x="251" y="301" width="50" height="50" style="fill:#ccddff; "/><text x="272" y="334" style="font-size:14px;">9&#x00D7;10</text><text x="292" y="327" style="font-size:11px;">15</text>
+<rect x="301" y="301" width="50" height="50" style="fill:white; "/><text x="322" y="334" style="font-size:14px;">2&#x00D7;10</text><text x="342" y="327" style="font-size:11px;">16</text>
+<rect x="351" y="301" width="50" height="50" style="fill:#ccddff; "/><text x="372" y="334" style="font-size:14px;">4&#x00D7;10</text><text x="392" y="327" style="font-size:11px;">16</text>
+<rect x="1" y="351" width="50" height="50" style="fill:#ccddff; "/><text x="22" y="384" style="font-size:14px;">7&#x00D7;10</text><text x="42" y="377" style="font-size:11px;">16</text>
+<rect x="51" y="351" width="50" height="50" style="fill:white; "/><text x="72" y="384" style="font-size:14px;">1&#x00D7;10</text><text x="92" y="377" style="font-size:11px;">17</text>
+<rect x="101" y="351" width="50" height="50" style="fill:#ccddff; "/><text x="122" y="384" style="font-size:14px;">3&#x00D7;10</text><text x="142" y="377" style="font-size:11px;">17</text>
+<rect x="151" y="351" width="50" height="50" style="fill:white; "/><text x="172" y="384" style="font-size:14px;">6&#x00D7;10</text><text x="192" y="377" style="font-size:11px;">17</text>
+<rect x="201" y="351" width="50" height="50" style="fill:#ccddff; "/><text x="222" y="384" style="font-size:14px;">1&#x00D7;10</text><text x="242" y="377" style="font-size:11px;">18</text>
+<rect x="251" y="351" width="50" height="50" style="fill:white; "/><text x="272" y="384" style="font-size:14px;">2&#x00D7;10</text><text x="292" y="377" style="font-size:11px;">18</text>
+<rect x="301" y="351" width="50" height="50" style="fill:#ccddff; "/><text x="322" y="384" style="font-size:14px;">5&#x00D7;10</text><text x="342" y="377" style="font-size:11px;">18</text>
+<rect x="351" y="351" width="50" height="50" style="fill:white; "/><text x="372" y="384" style="font-size:14px;">9&#x00D7;10</text><text x="392" y="377" style="font-size:11px;">18</text>
+</g></svg>

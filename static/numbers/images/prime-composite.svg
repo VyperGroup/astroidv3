@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="532.221"
+   height="154.536"
+   version="1.1"
+   style="font-size:40px;font-family:'Comic Sans MS';fill:#000000"
+   id="svg96"
+   sodipodi:docname="prime-composite.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata100">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview98"
+     showgrid="false"
+     inkscape:current-layer="svg96" />
+  <defs
+     id="defs18">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#c4a000;fill-opacity:1;fill-rule:evenodd;stroke:#c4a000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path958" />
+    </marker>
+    <marker
+       id="id3"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#9ade00;stroke:#9ade00;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path9" />
+    </marker>
+    <marker
+       id="id4"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#19aeff;stroke:#19aeff;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12" />
+    </marker>
+    <marker
+       id="id2"
+       style="overflow:visible"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#ba00ff;stroke:#ba00ff;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path15" />
+    </marker>
+  </defs>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,607.621,-264.553)"
+     id="g24">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect20" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text22">2</text>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,658.102,-264.553)"
+     id="g30">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect26" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text28">3</text>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,708.584,-147.234)"
+     id="g36">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect32" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text34">4</text>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,759.066,-264.553)"
+     id="g42">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect38" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text40">5</text>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,583.334,-120.925)"
+     id="g50">
+    <g
+       transform="translate(347.073,-40.3653)"
+       id="g48">
+      <rect
+         x="-745.2"
+         y="406.5"
+         width="55.9"
+         height="55.9"
+         style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+         id="rect44" />
+      <text
+         x="-727.9"
+         y="448.8"
+         id="text46">6</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,576.702,-237.233)"
+     id="g58">
+    <g
+       transform="translate(434.703,-41.9178)"
+       id="g56">
+      <rect
+         x="-745.2"
+         y="406.5"
+         width="55.9"
+         height="55.9"
+         style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+         id="rect52" />
+      <text
+         x="-727.9"
+         y="448.8"
+         id="text54">7</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,910.511,-147.234)"
+     id="g64">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect60" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text62">8</text>
+  </g>
+  <g
+     transform="matrix(0.651771,0,0,0.651771,960.992,-147.234)"
+     id="g70">
+    <rect
+       x="-745.2"
+       y="406.5"
+       width="55.9"
+       height="55.9"
+       style="fill:#ffff3e;stroke:#ba00ff;stroke-width:1.2"
+       id="rect66" />
+    <text
+       x="-727.9"
+       y="448.8"
+       id="text68">9</text>
+  </g>
+  <path
+     style="fill:none;stroke:#c4a000;stroke-width:1.63545;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+     d="m 132.119,39.4926 c 25.17,32.3256 53.535,60.1793 85.988,76.6614"
+     id="path72" />
+  <text
+     x="161.187"
+     y="-39.6518"
+     transform="rotate(43.544)"
+     style="font-size:20.4431px;fill:#c4a000;stroke-width:1.27769"
+     id="text74">2×2</text>
+  <text
+     x="257.554"
+     y="-59.0306"
+     transform="rotate(32.1893)"
+     style="font-size:20.4431px;fill:#9ade00;stroke-width:1.27769"
+     id="text76">2×3</text>
+  <text
+     x="314.826"
+     y="21.2968"
+     transform="rotate(11.5643)"
+     style="font-size:20.4431px;fill:#19aeff;stroke-width:1.27769"
+     id="text78">2×2×2</text>
+  <path
+     style="fill:none;stroke:#ba00ff;stroke-width:1.63545;marker-end:url(#id2)"
+     d="m 207.375,39.6203 c 95.954,20.5709 228.323,-1.661 283.903,75.0007"
+     id="path80" />
+  <text
+     x="407.html"
+     y="-57.8277"
+     transform="rotate(19.5157)"
+     style="font-size:20.4431px;fill:#ba00ff;stroke-width:1.27769"
+     id="text82">3×3</text>
+  <path
+     style="fill:none;stroke:#9ade00;stroke-width:1.63545;marker-end:url(#id3)"
+     d="m 141.062,38.0871 c 41.142,33.8589 33.987,15.9712 79.601,37.692 45.486,21.7208 49.957,37.8199 96.977,48.9359"
+     id="path84" />
+  <path
+     style="fill:none;stroke:#9ade00;stroke-width:1.63545"
+     d="m 179.904,39.3648 c 2.3,14.6935 31.687,27.2149 46.508,38.7141"
+     id="path86" />
+  <path
+     style="fill:none;stroke:#19aeff;stroke-width:1.63545;marker-end:url(#id4)"
+     d="m 156.011,39.237 c 41.142,33.8589 112.693,22.9985 162.778,29.2592 54.813,6.7718 71.296,26.9593 101.833,46.1248"
+     id="path88" />
+  <text
+     x="-1.27229"
+     y="28.5044"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8503px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0084c8;stroke-width:1.27769;"
+     id="text90">Prime:</text>
+  <text
+     x="-1.52783"
+     y="143.88"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.8503px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0084c8;stroke-width:1.27769;"
+     id="text92">Composite:</text>
+  <text
+     x="476.584"
+     y="60.4468"
+     style="font-size:25.0428px;fill:#0084c8;stroke-width:1.27769;"
+     id="text94">etc...</text>
+</svg>

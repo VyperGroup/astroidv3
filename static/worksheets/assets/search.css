@@ -1,0 +1,76 @@
+input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+  }
+  
+  input[type="text"]:-moz-placeholder {
+    color: #fff;
+    opacity:  1;
+    text-align: center;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    color: #fff;
+    opacity:  1;
+    text-align: center;
+  }
+  
+  input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+    text-align: center;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #fff;
+    text-align: center;
+  }
+
+  input[type="text"]::hover {
+    color: #fff;
+    text-align: center;
+    transform: scale(1.1);
+  }
+  
+  
+  input[type="text"], button {
+    padding: 10px;
+    border: none;
+    background-color: #253950;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  input[type="text"] {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 70%;
+    border-radius: 8px;
+  }
+  
+  button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 30%;
+    cursor: pointer;
+  }
+  
+  input[type="text"]:focus, button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #0000;
+
+  }
+  .search-container input[type="text"] {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+
+  
+  .search-container:hover input[type="text"] {
+    transform: scale(1.1);
+  }
+  
+
+  
