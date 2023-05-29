@@ -9,3 +9,4 @@ self.addEventListener('fetch', event =>
         sw.fetch(event)
     )
 );
+  
