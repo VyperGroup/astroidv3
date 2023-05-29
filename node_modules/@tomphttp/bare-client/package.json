@@ -1,0 +1,46 @@
+{
+	"name": "@tomphttp/bare-client",
+	"version": "1.1.2-beta.3",
+	"homepage": "https://github.com/tomphttp",
+	"bugs": {
+		"url": "https://github.com/tomphttp/bare-client/issues",
+		"email": "tomp@sys32.dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tomphttp/bare-client.git"
+	},
+	"author": {
+		"name": "TOMP Development",
+		"email": "tomp@sys32.dev",
+		"url": "https://github.com/tomphttp"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"build:watch": "rollup -cw"
+	},
+	"type": "module",
+	"license": "GPL-3.0",
+	"exports": {
+		"import": "./dist/BareClient.js",
+		"require": "./dist/BareClient.cjs"
+	},
+	"browser": "dist/BareClient.cjs",
+	"main": "dist/BareClient.cjs",
+	"module": "dist/BareClient.js",
+	"types": "dist/BareClient.d.ts",
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@ianvs/prettier-plugin-sort-imports": "^3.4.2",
+		"@rollup/plugin-inject": "^4.0.4",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"prettier": "^2.7.1",
+		"rollup": "^2.77.2",
+		"rollup-plugin-sourcemaps": "^0.6.3",
+		"rollup-plugin-typescript2": "^0.32.1"
+	}
+}
