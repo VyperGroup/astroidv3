@@ -23,7 +23,7 @@ function search(event) {
   } catch {
     // if not a valid URL but has a TLD, add "https://" in front
     if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
-      url = "https://" + query;
+      url = "https://" + encodeURIComponent(query);
     } else {
       // if not a valid URL and doesn't have a TLD, search for the entered value on Google
       url = "https://www.google.com/search?q=" + encodeURIComponent(query);
