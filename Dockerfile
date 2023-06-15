@@ -4,6 +4,6 @@ COPY package*.json ./
 RUN npm i -g npm
 RUN npm install
 COPY . .
-ENV PORT=8080
-EXPOSE 8080
+ENV PORT=3300
+EXPOSE 3300
 CMD [ "node", "index.js" ]
