@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <title>tab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="tabs.css" />
+  <style>
+    /* Add this CSS code */
+    .tab-close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="bg-slate-900">
+      <div class="flex justify-between">
+        <div>
+          <button
+            class="bg-red-400 bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
+            onclick="openTab(event, 'tab1')"
+          >
+            Tab 1
+          </button>
+          <button
+            class="bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
+            onclick="openTab(event, 'tab2')"
+          >
+            Tab 2
+          </button>
+          <button
+            class="bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
+            onclick="openTab(event, 'tab3')"
+          >
+            Tab 3
+          </button>
+        </div>
+        <button class="bg-green-400 bg-slate-800 hover:bg-slate-700 duration-200 text-white w-8 h-8" onclick="addTab()">+</button>
+      </div>
+
+      <div id="tab1" class="tabs">
+        <span class="tab-close" onclick="closeTab('tab1')">x</span>
+        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
+      </div>
+
+      <div id="tab2" class="tabs" style="display: none">
+        <span class="tab-close" onclick="closeTab('tab2')">x</span>
+        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
+      </div>
+
+      <div id="tab3" class="tabs" style="display: none">
+        <span class="tab-close" onclick="closeTab('tab3')">x</span>
+        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
+      </div>
+    </div>
+
+    <script>
+      var tabCount = 3;
+
+      function openTab(evt, tabName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("tabs");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace("bg-red-400", "");
+          document.cookie = "tabs=" + tablinks[i];
+        }
+
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " bg-red-400";
+      }
+
+      function addTab() {
+        tabCount++;
+        var newTabId = "tab" + tabCount;
+
+        var newButton = document.createElement("button");
+        newButton.className = "bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab";
+        newButton.setAttribute("onclick", "openTab(event,'" + newTabId + "')");
+        newButton.innerHTML = "Tab " + tabCount;
+        var buttonContainer = document.getElementsByClassName("flex justify-between")[0].getElementsByTagName("div")[0];
+        buttonContainer.appendChild(newButton);
+
+        var newTab = document.createElement("div");
+        newTab.id = newTabId;
+        newTab.className = "tabs";
+        newTab.style.display = "none";
+        newTab.innerHTML = `<span class="tab-close" onclick="closeTab('${newTabId}')">x</span><iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>`;
+        document.getElementsByClassName("bg-slate-900")[0].appendChild(newTab);
+      }
+
+      function closeTab(tabId) {
+        var tab = document.getElementById(tabId);
+        if (tab) {
+          var tabButton = document.querySelector(`button[onclick="openTab(event,'${tabId}')"]`);
+          if (tabButton) {
+            tabButton.parentNode.removeChild(tabButton);
+          }
+          tab.parentNode.removeChild(tab);
+        }
+      }
+    </script>
+  </body>
+</html>
