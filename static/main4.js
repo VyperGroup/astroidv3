@@ -469,7 +469,7 @@ adsHideSet()
 doLocal()
 document.getElementById('searchFld').addEventListener('keyup',searchKey)}
 function searchHTML(){let s=''
-s+='<form autocomplete="off" action="'+urlSttGet()+'search/search.html" method="get">'
+s+='<form autocomplete="off" action="'+urlSttGet()+'worksheets/index.html" method="get">'
 s+='<input type="text" id="searchFld" name="query" value="" placeholder="Search" aria-label="Search" />'
 s+='<input type="submit" id="searchBtn" name="submit" value="" aria-label="Search Button" />'
 s+='<input type="hidden" name="search" value="1" />'
