@@ -11,6 +11,94 @@
       "listed": true
   },
   {
+    "title": "Android / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/uncube/7074/now",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Among US / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/innersloth-llc/4047/among-us",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Blockman / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/blockman-go-studio/8913/blockman-go",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Call Of Duty / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/activision-publishing/7935/call-of-duty",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "FIFA / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/electronic-arts/1353/fifa-soccer",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Minecraft Trial / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/mojang/2534/minecraft-trial",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Rocket League / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/psyonix-studios/4656/rocket-league",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Stumble Guys / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://now.gg/play/kitka-games/7999/stumble-guys",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "Bored Button",
     "description": "2048 but, 1.",
     "tags": "",
