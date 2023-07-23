@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Web Browser</title>
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .tabs {
+      display: flex;
+      padding: 8px;
+      background-color: #f1f1f1;
+    }
+    .tab {
+      padding: 8px 12px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+    .tab.active {
+      background-color: #ddd;
+    }
+    #content {
+      width: 100%;
+      height: calc(100vh - 48px); /* Subtract the height of the tab bar */
+      border: none;
+    }
+    #tabContent {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    #searchBarContainer {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      background-color: #f1f1f1;
+    }
+    #searchBar {
+      flex: 1;
+      padding: 8px;
+    }
+    #tabAddButton {
+      margin-left: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    .tabDeleteButton {
+      margin-left: 8px;
+      padding: 6px 10px;
+      cursor: pointer;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabs" id="tabs">
+    <div class="tab active" id="tab-1">Tab 1</div>
+  </div>
+  <div id="tabContent">
+    <div id="searchBarContainer">
+      <input type="text" id="searchBar" placeholder="Enter URL">
+      <button onclick="loadContent()">Go</button>
+      <div id="tabAddButton" onclick="createNewTab()">+</div>
+      <button class="tabDeleteButton" onclick="deleteTab()">Delete Tab</button>
+    </div>
+    <iframe id="content"></iframe>
+  </div>
+
+  <script>
+    let tabCount = 1;
+    let tabContent = {}; // Object to store the tab content
+    let activeTabId = 'tab-1'; // Track the active tab ID
+
+    function createNewTab() {
+      tabCount++;
+      const tabsElement = document.getElementById('tabs');
+      const tab = document.createElement('div');
+      const tabId = `tab-${tabCount}`;
+      tab.textContent = `Tab ${tabCount}`;
+      tab.className = 'tab';
+      tab.id = tabId;
+      tab.addEventListener('click', () => switchTab(tabId)); // Use arrow function to preserve tabId
+      tabsElement.appendChild(tab);
+
+      // Clear previous content and reset search bar
+      document.getElementById('searchBar').value = '';
+      document.getElementById('content').src = 'about:blank'; // Load a blank page initially
+
+      // Save the default tab content with tabCount as the key
+      tabContent[tabId] = {
+        searchBarValue: '',
+        iframeSrc: 'about:blank', // Load a blank page initially
+      };
+    }
+
+    function switchTab(tabId) {
+      if (tabId === activeTabId) return; // If it's already the active tab, do nothing
+      const tab = document.getElementById(tabId);
+      const activeTab = document.getElementById(activeTabId);
+      if (tab && activeTab) {
+        activeTab.classList.remove('active');
+        tab.classList.add('active');
+        activeTabId = tabId; // Move this line here to update the activeTabId
+        document.getElementById('searchBar').value = tabContent[tabId]?.searchBarValue || '';
+        document.getElementById('content').src = tabContent[tabId]?.iframeSrc || '';
+      }
+    }
+
+    function loadContent() {
+      const url = document.getElementById('searchBar').value;
+      tabContent[activeTabId] = {
+        searchBarValue: url,
+        iframeSrc: url,
+      };
+      document.getElementById('content').src = url;
+      saveTabContent();
+
+      // Load the title from the site once the iframe is loaded
+      document.getElementById('content').addEventListener('load', function() {
+        const activeTab = document.getElementById(activeTabId);
+        activeTab.textContent = document.getElementById('content').contentWindow.document.title;
+      });
+    }
+
+    function saveTabContent() {
+      localStorage.setItem('tabContent', JSON.stringify(tabContent));
+    }
+
+    function deleteTab() {
+      const tab = document.getElementById(activeTabId);
+      if (tab) {
+        const tabId = activeTabId;
+        delete tabContent[tabId];
+        tab.remove();
+        const remainingTabs = document.querySelectorAll('.tab');
+        if (remainingTabs.length > 0) {
+          let newActiveTabId = null;
+          remainingTabs.forEach((t) => {
+            if (!newActiveTabId) {
+              newActiveTabId = t.id;
+            }
+          });
+          if (!newActiveTabId) newActiveTabId = remainingTabs[0].id; // Fallback to the first tab if needed
+          const newActiveTab = document.getElementById(newActiveTabId);
+          newActiveTab.classList.add('active');
+          document.getElementById('content').src = tabContent[newActiveTabId]?.iframeSrc || '';
+          activeTabId = newActiveTabId;
+        } else {
+          activeTabId = null; // If no tabs left, reset activeTabId to null
+          document.getElementById('content').src = 'about:blank'; // Load a blank page
+        }
+        saveTabContent();
+      }
+    }
+
+    // Load tab content from localStorage if available
+    const savedTabContent = localStorage.getItem('tabContent');
+    if (savedTabContent) {
+      tabContent = JSON.parse(savedTabContent);
+      for (let tabId in tabContent) {
+        if (tabContent.hasOwnProperty(tabId)) {
+          const tab = document.createElement('div');
+          tab.textContent = tabContent[tabId].searchBarValue || 'Tab';
+          tab.className = 'tab';
+          tab.id = tabId;
+          tab.addEventListener('click', () => switchTab(tabId)); // Use arrow function to preserve tabId
+          document.getElementById('tabs').appendChild(tab);
+        }
+      }
+      if (Object.keys(tabContent).length > 0) {
+        activeTabId = Object.keys(tabContent)[0]; // Set the active tab to the first tab
+        document.getElementById(activeTabId).classList.add('active');
+        document.getElementById('content').src = tabContent[activeTabId]?.iframeSrc || '';
+      }
+    }
+
+    // Save tab content whenever a new URL is loaded
+    document.getElementById('searchBar').addEventListener('change', loadContent);
+  </script>
+</body>
+</html>

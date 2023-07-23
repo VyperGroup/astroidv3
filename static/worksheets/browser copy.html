@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab System</title>
+  <style>
+    /* Dark Theme */
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+
+    /* Tab Styles */
+    .tab-container {
+      display: flex;
+      background-color: #333;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: thin;
+      scrollbar-color: #555 #333;
+      flex-grow: 1; /* Allow tab container to occupy remaining space */
+    }
+
+    .tab-container::-webkit-scrollbar {
+      height: 10px;
+    }
+
+    .tab-container::-webkit-scrollbar-track {
+      background-color: #333;
+    }
+
+    .tab-container::-webkit-scrollbar-thumb {
+      background-color: #555;
+    }
+
+    .tab {
+      flex: 0 0 auto;
+      padding: 10px 20px;
+      cursor: pointer;
+      background-color: #333;
+      border: none;
+      border-top: 2px solid transparent;
+      border-radius: 4px 4px 0 0;
+      margin-right: 5px;
+      font-size: 16px;
+      color: #fff;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .tab.active {
+      background-color: #444;
+      border-top-color: #007bff;
+      color: #007bff;
+    }
+
+    /* Content Styles */
+    .content {
+      display: none;
+      border: 1px solid #444;
+      padding: 20px;
+      background-color: #444;
+      border-radius: 0 0 4px 4px;
+    }
+
+    .content.active {
+      display: block;
+    }
+
+    /* Button Styles */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Navigation Arrows */
+    .nav-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      background-color: #333;
+      cursor: pointer;
+    }
+
+    .nav-arrow i {
+      font-size: 20px;
+      color: #007bff;
+    }
+
+    .nav-arrow.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    /* New Styles for Button Container */
+    .button-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      margin-left: auto; /* Pushes the container to the right */
+      margin-right: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="tab-container">
+    <button class="button" onclick="createNewTab()">New Tab</button>
+    <div class="tab active" onclick="switchTab(0)">Tab 1</div>
+  </div>
+
+  
+  <div class="content active">
+    <h3>Content of Tab 1</h3>
+    <p>This is the content of Tab 1.</p>
+  </div>
+
+  <script>
+        var tabCount = 1;
+    var visibleTabs = 5; // Number of visible tabs at a time
+    var currentTab = 0;
+
+    function switchTab(tabIndex) {
+      var tabs = document.getElementsByClassName('tab');
+      var contents = document.getElementsByClassName('content');
+  
+      // Deactivate all tabs
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove('active');
+        contents[i].classList.remove('active');
+      }
+
+      // Activate the selected tab
+      tabs[tabIndex].classList.add('active');
+      contents[tabIndex].classList.add('active');
+      currentTab = tabIndex;
+
+      updateNavArrows();
+    }
+  
+    function createNewTab() {
+      var tabContainer = document.getElementsByClassName('tab-container')[0];
+      var contentContainer = document.getElementsByClassName('content')[0];
+  
+      // Create new tab
+      var newTabIndex = tabCount; // Store the current tab count as the index
+      var newTab = document.createElement('div');
+      newTab.classList.add('tab');
+      newTab.innerHTML = 'Tab ' + (newTabIndex + 1);
+      newTab.onclick = function() {
+        switchTab(newTabIndex); // Use the stored index when switching the tab
+      };
+  
+      // Create new content
+      var newContent = document.createElement('div');
+      newContent.classList.add('content');
+      newContent.innerHTML = '<h3>Content of Tab ' + (newTabIndex + 1) + '</h3><p>This is the content of Tab ' + (newTabIndex + 1) + '.</p>';
+  
+      // Append new tab and content
+      tabContainer.appendChild(newTab);
+      contentContainer.parentNode.appendChild(newContent);
+  
+      tabCount++;
+
+      // Check if the new tab should be visible and adjust the tab container
+      if (tabCount > visibleTabs) {
+        var scrollOffset = (tabCount - visibleTabs) * 35; // Assuming each tab has a width of 100px
+        tabContainer.scrollTo(scrollOffset, 0);
+      }
+
+      updateNavArrows();
+    }
+
+    function updateNavArrows() {
+      var tabContainer = document.getElementsByClassName('tab-container')[0];
+      var leftArrow = document.getElementById('leftArrow');
+      var rightArrow = document.getElementById('rightArrow');
+      leftArrow.classList.remove('disabled');
+      rightArrow.classList.remove('disabled');
+      if (currentTab === 0) {
+        leftArrow.classList.add('disabled');
+      }
+      if (currentTab === tabCount - 1 || tabCount <= visibleTabs) {
+        rightArrow.classList.add('disabled');
+      }
+    }
+
+    function scrollTabs(direction) {
+      var tabContainer = document.getElementsByClassName('tab-container')[0];
+      if (direction === 'left') {
+        tabContainer.scrollBy(-35, 0);
+      } else {
+        tabContainer.scrollBy(35, 0);
+      }
+      updateNavArrows();
+    }
+  </script>
+</body>
+</html>

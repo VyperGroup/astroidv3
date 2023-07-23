@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="uv/uv.bundle.js"></script>
+  <script src="uv/uv.config.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search and Display</title>
+
+  <style>
+    /* Add modern dark-themed CSS here */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #121212;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      margin-top: 10px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    iframe {
+      width: 100%;
+      flex: 1;
+      border: none;
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Search Bar -->
+  <form onsubmit="search(event)">
+    <input type="text" id="searchInput" placeholder="Enter your search query..." />
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Iframe to display search results -->
+  <iframe src="tab.html" id="load"></iframe>
+
+  <script>
+    function search(event) {
+      event.preventDefault();
+      const searchInput = document.getElementById("searchInput");
+      const query = searchInput.value.trim();
+      let url = "";
+
+      // check if entered value is a valid URL
+      try {
+        const urlObject = new URL(query);
+        if (urlObject.protocol !== "http:" && urlObject.protocol !== "https:") {
+          urlObject.protocol = "https:";
+        }
+        url = urlObject.toString();
+      } catch {
+        // if not a valid URL but has a TLD, add "https://" in front
+        if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
+          url = "https://" + query;
+        } else {
+          // if not a valid URL and doesn't have a TLD, search for the entered value on Google
+          url = "https://google.com/search?q=" + encodeURIComponent(query);
+        }
+      }
+
+      // redirect to HTML loader
+      window.navigator.serviceWorker.register("/sw.js", {
+        scope: __uv$config.prefix
+      })
+      .then(() => {
+        console.log("Service worker registration successful");
+
+        sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+        let uvURL = sessionStorage.getItem("uvURL");
+        url = "/service/" + uvURL;
+        console.log(url);
+        document.querySelector("#load").src = url;
+        console.log("Loading Worksheet.");
+      })
+      .catch((error) => {
+        console.error("Service worker registration failed:", error);
+      });
+    }
+  </script>
+</body>
+</html>

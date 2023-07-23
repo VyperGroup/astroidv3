@@ -3,6 +3,7 @@
   <title>tab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="tabs.css" />
+  <script src="https://kit.fontawesome.com/dfed7c638f.js" crossorigin="anonymous"></script>
   <style>
     /* Add this CSS code */
     .tab-close {
@@ -13,51 +14,67 @@
       font-weight: bold;
       color: white;
     }
+    /* Set the height of the .tabs container */
+    .tabs {
+      position: relative;
+      height: calc(100vh - 40px); /* Adjust this value to leave space for the tab buttons */
+    }
+    /* Adjust the iframe height to fit the container */
+    .tabs iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    /* Add this CSS code to highlight the currently selected button */
+    .tab.active {
+      background-color: black;
+    }
+    a{
+      background-color: red;
+      align-items: center;
+      padding: 4px;
+      border-radius: 8px;
+      margin-left: auto;
+      color: white;
+    }
+    #tabButtons button,
+  #tabButtons a {
+    border-radius: 8px 8px 0 0;
+  }
+  
   </style>
   <body>
     <div class="bg-slate-900">
       <div class="flex justify-between">
-        <div>
+        <div id="tabButtons">
           <button
             class="bg-red-400 bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
             onclick="openTab(event, 'tab1')"
           >
             Tab 1
           </button>
-          <button
-            class="bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
-            onclick="openTab(event, 'tab2')"
-          >
-            Tab 2
-          </button>
-          <button
-            class="bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab"
-            onclick="openTab(event, 'tab3')"
-          >
-            Tab 3
-          </button>
+          
         </div>
-        <button class="bg-green-400 bg-slate-800 hover:bg-slate-700 duration-200 text-white w-8 h-8" onclick="addTab()">+</button>
+        <button class="bg-green-400 bg-slate-800 hover:bg-slate-700 duration-200 text-white w-8 h-8" onclick="addTab()"><i class="fa-solid fa-plus"></i></button>
+        <a href="index.html" class="text-red-500">
+          <i class="fas fa-home"></i> Home
+        </a>
       </div>
 
       <div id="tab1" class="tabs">
         <span class="tab-close" onclick="closeTab('tab1')">x</span>
-        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
+        <iframe id="iframe1" src="/worksheets/" style="display: block; width: 100%;"></iframe>
       </div>
 
       <div id="tab2" class="tabs" style="display: none">
         <span class="tab-close" onclick="closeTab('tab2')">x</span>
-        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
+        <iframe id="iframe2" src="/worksheets/" style="display: block; width: 100%;"></iframe>
       </div>
-
-      <div id="tab3" class="tabs" style="display: none">
-        <span class="tab-close" onclick="closeTab('tab3')">x</span>
-        <iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>
-      </div>
+      
     </div>
 
     <script>
-      var tabCount = 3;
+      var tabCount = 1;
 
       function openTab(evt, tabName) {
         var i, x, tablinks;
@@ -66,32 +83,48 @@
           x[i].style.display = "none";
         }
         tablinks = document.getElementsByClassName("tab");
-        for (i = 0; i < x.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace("bg-red-400", "");
-          document.cookie = "tabs=" + tablinks[i];
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active");
         }
 
         document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " bg-red-400";
+        evt.currentTarget.classList.add("active");
       }
 
       function addTab() {
         tabCount++;
         var newTabId = "tab" + tabCount;
 
-        var newButton = document.createElement("button");
-        newButton.className = "bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab";
-        newButton.setAttribute("onclick", "openTab(event,'" + newTabId + "')");
-        newButton.innerHTML = "Tab " + tabCount;
-        var buttonContainer = document.getElementsByClassName("flex justify-between")[0].getElementsByTagName("div")[0];
-        buttonContainer.appendChild(newButton);
+        fetch("/worksheets/") // Fetch the content of the iframe page
+          .then((response) => response.text())
+          .then((html) => {
+            // Extract the title from the fetched content
+            var parser = new DOMParser();
+            var doc = parser.parseFromString(html, "text/html");
+            var title = doc.querySelector("title").textContent;
 
-        var newTab = document.createElement("div");
-        newTab.id = newTabId;
-        newTab.className = "tabs";
-        newTab.style.display = "none";
-        newTab.innerHTML = `<span class="tab-close" onclick="closeTab('${newTabId}')">x</span><iframe src="/worksheets/" style="display: block; width: 100%; height: 100vh"></iframe>`;
-        document.getElementsByClassName("bg-slate-900")[0].appendChild(newTab);
+            var newButton = document.createElement("button");
+            newButton.className = "bg-slate-800 hover:bg-slate-700 duration-200 text-white w-32 h-8 tab";
+            newButton.setAttribute("onclick", "openTab(event,'" + newTabId + "')");
+            newButton.innerHTML = title; // Set the title as the button's text
+            document.getElementById("tabButtons").appendChild(newButton);
+
+            var newTab = document.createElement("div");
+            newTab.id = newTabId;
+            newTab.className = "tabs";
+            newTab.style.display = "none";
+            newTab.innerHTML = `<span class="tab-close" onclick="closeTab('${newTabId}')">x</span><iframe id="iframe${tabCount}" src="/worksheets/" style="display: block; width: 100%;"></iframe>`;
+            document.getElementsByClassName("bg-slate-900")[0].appendChild(newTab);
+
+            // Add an event listener to the new iframe to update its tab button title when the iframe content is loaded
+            document.getElementById(`iframe${tabCount}`).addEventListener("load", function () {
+              var iframeTitle = this.contentDocument.querySelector("title").textContent;
+              newButton.innerHTML = iframeTitle;
+            });
+          })
+          .catch((error) => {
+            console.error("Error fetching content:", error);
+          });
       }
 
       function closeTab(tabId) {
