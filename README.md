@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/VyperGroup/AstroidV3/main/static/images/128x128.png" height="200"></p>
 
-<h1 align="center">Astroid-V3</h1>
+<h1 align="center">AstroidV3</h1>
 
 Astroid, a proxy that supports now.gg and runs on Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
