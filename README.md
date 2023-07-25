@@ -10,6 +10,8 @@ Astroid, a proxy that supports now.gg and runs on Ultraviolet, a highly sophisti
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/VyperGroup/astroidv3)
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/VyperGroup/astroidv3)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/VyperGroup/astroidv3)
-[![Deploy to Koyeb](https://github.com/VyperGroup/astroidv3)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VyperGroup/astroidv3)
 
 If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
+
+Join the discord server [here](https://discord.gg/buSSFPAY)!
