@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/Thesecondalthowcool/Astroid-V3/main/static/images/astroidv3logo.png" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/VyperGroup/AstroidV3/main/static/images/128x128.png" height="200"></p>
 
 <h1 align="center">Astroid-V3</h1>
 
