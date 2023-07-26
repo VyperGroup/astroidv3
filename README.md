@@ -2,7 +2,7 @@
 
 <h1 align="center">AstroidV3</h1>
 
-Astroid, a proxy that supports now.gg and runs on Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
+Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
 ## Deployment
 
@@ -11,6 +11,8 @@ Astroid, a proxy that supports now.gg and runs on Ultraviolet, a highly sophisti
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/VyperGroup/astroidv3)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/VyperGroup/astroidv3)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VyperGroup/astroidv3)
+
+You can also make a A name record points to the IVP4 address of 5.161.68.180. Would prefer for users to make a CNAME record pointing to roblox.vyper.group. For a free dns service, use [Freedns](https://freedns.afraid.org/).
 
 If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
 
