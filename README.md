@@ -12,6 +12,8 @@ Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticat
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/VyperGroup/astroidv3)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VyperGroup/astroidv3)
 
+You can also make a A name record points to the IVP4 address of 5.161.68.180. For a free dns service, use [Freedns](https://freedns.afraid.org/).
+
 If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
 
 Join the discord server [here](https://discord.gg/buSSFPAY)!
