@@ -76,9 +76,9 @@
   </div>
 
   <script>
-    let tabCount = 1;
-    let tabContent = {}; // Object to store the tab content
-    let activeTabId = 'tab-1'; // Track the active tab ID
+     let tabCount = 1;
+    let tabContent = {};
+    let activeTabId = 'tab-1';
 
     function createNewTab() {
       tabCount++;
@@ -88,30 +88,33 @@
       tab.textContent = `Tab ${tabCount}`;
       tab.className = 'tab';
       tab.id = tabId;
-      tab.addEventListener('click', () => switchTab(tabId)); // Use arrow function to preserve tabId
+      tab.addEventListener('click', () => switchTab(tabId));
       tabsElement.appendChild(tab);
 
-      // Clear previous content and reset search bar
       document.getElementById('searchBar').value = '';
-      document.getElementById('content').src = 'about:blank'; // Load a blank page initially
+      document.getElementById('content').src = 'about:blank';
 
-      // Save the default tab content with tabCount as the key
       tabContent[tabId] = {
         searchBarValue: '',
-        iframeSrc: 'about:blank', // Load a blank page initially
+        iframeSrc: 'about:blank',
       };
+      switchTab(tabId); // Activate the newly created tab
     }
 
     function switchTab(tabId) {
-      if (tabId === activeTabId) return; // If it's already the active tab, do nothing
+      if (tabId === activeTabId) return;
       const tab = document.getElementById(tabId);
       const activeTab = document.getElementById(activeTabId);
       if (tab && activeTab) {
         activeTab.classList.remove('active');
         tab.classList.add('active');
-        activeTabId = tabId; // Move this line here to update the activeTabId
-        document.getElementById('searchBar').value = tabContent[tabId]?.searchBarValue || '';
-        document.getElementById('content').src = tabContent[tabId]?.iframeSrc || '';
+        activeTabId = tabId;
+
+        const tabInfo = tabContent[tabId];
+        if (tabInfo) {
+          document.getElementById('searchBar').value = tabInfo.searchBarValue || '';
+          document.getElementById('content').src = tabInfo.iframeSrc || '';
+        }
       }
     }
 
@@ -149,14 +152,14 @@
               newActiveTabId = t.id;
             }
           });
-          if (!newActiveTabId) newActiveTabId = remainingTabs[0].id; // Fallback to the first tab if needed
+          if (!newActiveTabId) newActiveTabId = remainingTabs[0].id;
           const newActiveTab = document.getElementById(newActiveTabId);
           newActiveTab.classList.add('active');
           document.getElementById('content').src = tabContent[newActiveTabId]?.iframeSrc || '';
           activeTabId = newActiveTabId;
         } else {
-          activeTabId = null; // If no tabs left, reset activeTabId to null
-          document.getElementById('content').src = 'about:blank'; // Load a blank page
+          activeTabId = null;
+          document.getElementById('content').src = 'about:blank';
         }
         saveTabContent();
       }
@@ -172,12 +175,12 @@
           tab.textContent = tabContent[tabId].searchBarValue || 'Tab';
           tab.className = 'tab';
           tab.id = tabId;
-          tab.addEventListener('click', () => switchTab(tabId)); // Use arrow function to preserve tabId
+          tab.addEventListener('click', () => switchTab(tabId));
           document.getElementById('tabs').appendChild(tab);
         }
       }
       if (Object.keys(tabContent).length > 0) {
-        activeTabId = Object.keys(tabContent)[0]; // Set the active tab to the first tab
+        activeTabId = Object.keys(tabContent)[0];
         document.getElementById(activeTabId).classList.add('active');
         document.getElementById('content').src = tabContent[activeTabId]?.iframeSrc || '';
       }

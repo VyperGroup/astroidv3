@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Browser</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #fff;
+    }
+    #top-bar {
+      display: flex;
+      align-items: center;
+      background-color: #1f1f1f;
+      padding: 8px;
+    }
+    #tabs {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-grow: 1;
+    }
+    .tab {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      padding: 8px 16px;
+      cursor: pointer;
+      border: none;
+      background-color: inherit;
+      color: #fff;
+      font-size: 14px;
+    }
+    .tab.active {
+      border-bottom: 2px solid #0078d4;
+    }
+    .search-bar {
+      flex-grow: 1;
+      padding: 8px;
+      border: none;
+      background-color: #000;
+      color: #fff;
+    }
+    .search-bar:focus {
+      outline: none;
+    }
+    #add-tab-btn,
+    #delete-tab-btn,
+    #go-btn {
+      background-color: #0078d4;
+      color: #fff;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+    #add-tab-btn {
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+    .tab-favicon {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      border-radius: 50%;
+    }
+
+    /* Add CSS for iframe containers */
+    .iframe-container {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Add CSS for iframes */
+    iframe {
+      flex-grow: 1;
+      border: none;
+      width: 100%;
+      height: 94.1vh;
+    }
+  </style>
+  <!-- Include the Poppins font from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
+</head>
+<body>
+  <div id="top-bar">
+    <ul id="tabs"></ul>
+    <button id="add-tab-btn" onclick="createTab()">New Tab</button>
+    <button id="delete-tab-btn" onclick="deleteTab()">Delete Tab</button>
+    <div style="flex-grow: 1;"></div>
+    <input class="search-bar" type="text" placeholder="Enter URL or search term">
+    <button id="go-btn" onclick="goToURL()">Go</button>
+  </div>
+  <div id="iframes-container"></div>
+
+  <script>
+    let tabs = [];
+    let currentTab = 0;
+    let tabIdCounter = 0;
+
+    function createTab() {
+      const newTab = {
+        id: tabIdCounter++,
+        url: '',
+      };
+      tabs.push(newTab);
+      updateTabs();
+      switchTab(newTab.id);
+    }
+
+    function deleteTab() {
+      if (tabs.length === 1) return; // Prevent deleting the last tab
+      tabs.splice(currentTab, 1);
+      updateTabs();
+      if (currentTab >= tabs.length) {
+        currentTab = tabs.length - 1;
+      }
+      switchTab(currentTab);
+    }
+
+    function switchTab(id) {
+      currentTab = id;
+      updateTabs();
+      updateIframes();
+    }
+
+    function updateTabs() {
+      const tabsContainer = document.getElementById('tabs');
+      tabsContainer.innerHTML = '';
+      tabs.forEach((tab) => {
+        const tabItem = document.createElement('button');
+        tabItem.textContent = tab.title || `Tab ${tab.id + 1}`; // Use the title property if available; otherwise, fallback to default
+        tabItem.className = 'tab';
+        if (tab.id === currentTab) {
+          tabItem.classList.add('active');
+        }
+        tabItem.onclick = () => switchTab(tab.id);
+
+        if (tab.favicon) {
+          const favicon = document.createElement('img');
+          favicon.src = tab.favicon;
+          favicon.className = 'tab-favicon';
+          tabItem.prepend(favicon);
+        }
+
+        tabsContainer.appendChild(tabItem);
+      });
+    }
+
+    function updateIframes() {
+      const iframesContainer = document.getElementById('iframes-container');
+      iframesContainer.innerHTML = '';
+      tabs.forEach((tab) => {
+        const iframeContainer = document.createElement('div');
+        iframeContainer.className = 'iframe-container';
+        iframeContainer.style.display = tab.id === currentTab ? 'block' : 'none';
+
+        const iframe = document.createElement('iframe');
+        iframe.src = tab.url;
+        iframe.addEventListener('load', function () {
+          const iframeDocument = iframe.contentDocument;
+          const iframeURL = iframeDocument.location.href;
+          tab.url = iframeURL;
+          updateSearchBar();
+          tab.title = iframeDocument.title;
+          const faviconLink = iframeDocument.querySelector("link[rel='icon']");
+          tab.favicon = faviconLink ? faviconLink.href : '';
+          updateTabs();
+        });
+
+        iframeContainer.appendChild(iframe);
+        iframesContainer.appendChild(iframeContainer);
+      });
+    }
+
+    function updateSearchBar() {
+      const searchBar = document.querySelector('.search-bar');
+      searchBar.value = tabs[currentTab].url;
+    }
+
+    function goToURL() {
+      const searchBar = document.querySelector('.search-bar');
+      tabs[currentTab].url = searchBar.value;
+      updateIframes();
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    createTab(); // Create an initial tab when the page loads
+  </script>
+</body>
+</html>
