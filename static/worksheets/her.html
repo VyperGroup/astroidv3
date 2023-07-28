@@ -4,7 +4,7 @@
   <title>Simple Browser</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #121212;
@@ -24,16 +24,15 @@
       flex-grow: 1;
     }
     .tab {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       flex: 1;
       padding: 8px 16px;
       cursor: pointer;
       border: none;
       background-color: inherit;
       color: #fff;
-      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Add this line to horizontally center the content */
     }
     .tab.active {
       border-bottom: 2px solid #0078d4;
@@ -59,33 +58,22 @@
     }
     #add-tab-btn {
       margin-right: 8px;
-      margin-left: 8px;
     }
-    .tab-favicon {
-      width: 16px;
-      height: 16px;
-      margin-right: 4px;
-      border-radius: 50%;
-    }
-
-    /* Add CSS for iframe containers */
     .iframe-container {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      display: none;
     }
-
-    /* Add CSS for iframes */
-    iframe {
-      flex-grow: 1;
-      border: none;
-      width: 100%;
-      height: 94.1vh;
+    .iframe-container.active {
+      display: block;
+    }
+    .tab .tab-title {
+      margin-right: 8px;
+    }
+    .tab .tab-favicon {
+      height: 16px;
+      width: 16px;
+      margin-right: 4px;
     }
   </style>
-  <!-- Include the Poppins font from Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
 </head>
 <body>
   <div id="top-bar">
@@ -95,6 +83,7 @@
     <div style="flex-grow: 1;"></div>
     <input class="search-bar" type="text" placeholder="Enter URL or search term">
     <button id="go-btn" onclick="goToURL()">Go</button>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
   </div>
   <div id="iframes-container"></div>
 
@@ -107,6 +96,8 @@
       const newTab = {
         id: tabIdCounter++,
         url: '',
+        title: '',
+        favicon: '',
       };
       tabs.push(newTab);
       updateTabs();
@@ -127,6 +118,7 @@
       currentTab = id;
       updateTabs();
       updateIframes();
+      updateSearchBar(); // Call the function to update the search bar with the current URL
     }
 
     function updateTabs() {
@@ -134,20 +126,19 @@
       tabsContainer.innerHTML = '';
       tabs.forEach((tab) => {
         const tabItem = document.createElement('button');
-        tabItem.textContent = tab.title || `Tab ${tab.id + 1}`; // Use the title property if available; otherwise, fallback to default
+        const tabTitle = document.createElement('span');
+        const tabFavicon = document.createElement('img');
         tabItem.className = 'tab';
         if (tab.id === currentTab) {
           tabItem.classList.add('active');
         }
+        tabTitle.className = 'tab-title';
+        tabTitle.textContent = tab.title || 'Tab ' + (tab.id + 1);
+        tabFavicon.className = 'tab-favicon';
+        tabFavicon.src = tab.favicon;
+        tabItem.appendChild(tabFavicon);
+        tabItem.appendChild(tabTitle);
         tabItem.onclick = () => switchTab(tab.id);
-
-        if (tab.favicon) {
-          const favicon = document.createElement('img');
-          favicon.src = tab.favicon;
-          favicon.className = 'tab-favicon';
-          tabItem.prepend(favicon);
-        }
-
         tabsContainer.appendChild(tabItem);
       });
     }
@@ -158,19 +149,16 @@
       tabs.forEach((tab) => {
         const iframeContainer = document.createElement('div');
         iframeContainer.className = 'iframe-container';
-        iframeContainer.style.display = tab.id === currentTab ? 'block' : 'none';
+        iframeContainer.classList.toggle('active', tab.id === currentTab);
 
         const iframe = document.createElement('iframe');
         iframe.src = tab.url;
         iframe.addEventListener('load', function () {
-          const iframeDocument = iframe.contentDocument;
-          const iframeURL = iframeDocument.location.href;
-          tab.url = iframeURL;
-          updateSearchBar();
-          tab.title = iframeDocument.title;
-          const faviconLink = iframeDocument.querySelector("link[rel='icon']");
+          // When the content inside the iframe is loaded, update tab title and favicon
+          tab.title = iframe.contentDocument.title;
+          const faviconLink = iframe.contentDocument.querySelector("link[rel='icon']");
           tab.favicon = faviconLink ? faviconLink.href : '';
-          updateTabs();
+          updateTabs(); // Update the tabs to show the new tab title and favicon
         });
 
         iframeContainer.appendChild(iframe);
