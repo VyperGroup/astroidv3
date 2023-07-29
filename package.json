@@ -1,7 +1,7 @@
 {
   "name": "astroid-v3",
   "version": "3.1",
-  "description": "https://raw.githubusercontent.com/VyperGroup/AstroidV3/main/static/images/128x128.png",
+  "description": "Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
