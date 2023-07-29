@@ -7,7 +7,7 @@ Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticat
 ## Deployment
 
 [![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://github.com/VyperGroup/astroidv3)
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)]([https://github.com/VyperGroup/astroidv3](https://replit.com/github/VyperGroup/astroidv3))
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/VyperGroup/astroidv3))
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/VyperGroup/astroidv3)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/VyperGroup/astroidv3)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VyperGroup/astroidv3)
