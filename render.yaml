@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Astroid V3
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
