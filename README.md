@@ -14,7 +14,7 @@ Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticat
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/VyperGroup/astroidv3)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/VyperGroup/astroidv3)
 [![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/VyperGroup/astroidv3)
-[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/VyperGroup/astroidv3)
+
   
 You can also make a A name record points to the IPv4 address of 5.161.68.227. Would prefer for users to make a CNAME record pointing to roblox.vyper.group. For a free dns service, use [Freedns](https://freedns.afraid.org/).
 
