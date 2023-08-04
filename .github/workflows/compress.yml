@@ -18,11 +18,15 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           compressOnly: true
+          jpegQuality: '60'
+          jpegProgressive: true
+          pngQuality: '60'
+          webpQuality: '60'
       - name: Create New Pull Request If Needed
         if: steps.calibre.outputs.markdown != ''
         uses: peter-evans/create-pull-request@v3
         with:
-          title: Compressed Images Nightly
+          title: Compressed Images - Astroid Calibre
           branch-suffix: timestamp
           commit-message: Compressed Images
           body: ${{ steps.calibre.outputs.markdown }}
