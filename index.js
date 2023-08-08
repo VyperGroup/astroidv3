@@ -6,6 +6,7 @@ import { createServer } from "node:http";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
 import { hostname } from "node:os";
+import dotenv from 'dotenv';
 
 import { fileURLToPath } from "url";
 
@@ -13,6 +14,7 @@ const publicPath = fileURLToPath(new URL("./static/", import.meta.url));
 
 const bare = createBareServer("/bare/");
 const app = express();
+dotenv.config();
 
 // Load our publicPath first and prioritize it over UV.
 app.use(express.static(publicPath));
