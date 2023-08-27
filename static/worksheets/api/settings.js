@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Retrieve saved settings from local storage
     var savedKey = localStorage.getItem('customKey');
     var savedUrl = localStorage.getItem('websiteURL');
-
+    // ok
     // Set the input values to the saved settings
     document.getElementById('keyInput').value = savedKey || '';
     document.getElementById('urlInput').value = savedUrl || '';
