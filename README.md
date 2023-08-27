@@ -2,7 +2,7 @@
 
 <h1 align="center">AstroidV3</h1>
 
-Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
+Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophisticated web proxy used for evading internet censorship and accessing websites in a controlled sandbox!
 
 ## Deployment
 
@@ -16,8 +16,23 @@ Astroid, a proxy that supports now.gg and uses Ultraviolet, a highly sophisticat
 [![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/VyperGroup/astroidv3)
 
   
-You can also make a A name record points to the IPv4 address of 5.161.68.227. Would prefer for users to make a CNAME record pointing to roblox.vyper.group. For a free dns service, use [Freedns](https://freedns.afraid.org/).
+You can also make an A name record that points to the IPv4 address of 5.161.68.227 or make a CNAME record pointing to astroid.wtf. For a free dns service, use [Freedns](https://freedns.afraid.org/).
 
-If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
+## If you are deploying to an alternative service or to a server
+Clone repository:
+```
+git clone https://github.com/VyperGroup/astroidv3.git
+cd astroidv3
+```
+Install NPM packages:
+```
+npm install
+```
+Start:
+```
+npm start
+```
+You can close it at any time by pressing <kbd>ctrl</kbd> + <kbd>c</kbd>
 
-Join the discord server [here](https://discord.gg/buSSFPAY)!
+
+Join the discord server [here](https://discord.gg/nowgg)!
