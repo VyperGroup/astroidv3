@@ -11,6 +11,17 @@
       "listed": true
   },
   {
+    "title": "Blockpost",
+    "description": "Blockpost",
+    "tags": "",
+    "route": "Blockpost",
+    "source": "https://files.vyper.group/blockpost/",
+    "type": "html",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "Case Clicker (CS:GO)",
     "description": "2048 but, 1.",
     "tags": "",

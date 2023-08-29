@@ -22,6 +22,17 @@
       "listed": true
   },
   {
+    "title": "Blockpost",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://files.vyper.group/blockpost/index.html",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "Android / Now.GG (FIXED)",
     "description": "2048 but, 1.",
     "tags": "",
