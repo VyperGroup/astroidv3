@@ -17,6 +17,7 @@ const app = express();
 dotenv.config();
 app.use(express.static(publicPath));
 app.use("/worksheets/uv/", express.static(uvPath));
+app.use("/uv/", express.static(uvPath));
 const server = createServer();
 server.on("request", (req, res) => {
   if (bare.shouldRoute(req)) {
