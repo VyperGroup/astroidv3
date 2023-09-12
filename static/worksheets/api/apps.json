@@ -143,11 +143,11 @@
     "listed": true
 },
 {
-  "title": "9Anime",
-  "description": "2048 but, 1.",
+  "title": "AniWave",
+  "description": "Anime",
   "tags": "",
   "route": "1",
-  "source": "https://9anime.com",
+  "source": "https://aniwave.to/",
   "type": "app",
   "width": "1000px",
   "height": "625px",
