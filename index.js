@@ -10,8 +10,6 @@ import dotenv from 'dotenv';
 import { fileURLToPath } from "url";
 const publicPath = fileURLToPath(new URL("./static/", import.meta.url));
 const bare = createBareServer('/bare/', {
-        httpAgent: socksProxyAgent,
-        httpsAgent: socksProxyAgent,
 });
 const app = express();
 dotenv.config();
