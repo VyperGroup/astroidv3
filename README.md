@@ -2,7 +2,7 @@
 
 <h1 align="center">AstroidV3</h1>
 
-Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophisticated web proxy used for evading internet censorship and accessing websites in a controlled sandbox!
+Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophisticated web proxy for evading internet censorship and accessing websites in a controlled sandbox!
 
 ## Deployment
 
@@ -16,9 +16,9 @@ Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophistic
 [![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/VyperGroup/astroidv3)
 
   
-You can also make an A name record that points to the IPv4 address of 5.161.68.227 or make a CNAME record pointing to astroid.wtf. For a free dns service, use [Freedns](https://freedns.afraid.org/).
+You can also make an A name record pointing to the IPv4 address of 5.161.68.227 or a CNAME record pointing to astroid.wtf. For a free DNS service, use [Freedns](https://freedns.afraid.org/).
 
-## If you are deploying to an alternative service or to a server
+## If you are deploying to an alternative service or a server
 Clone repository:
 ```
 git clone https://github.com/VyperGroup/astroidv3.git
@@ -34,5 +34,6 @@ npm start
 ```
 You can close it at any time by pressing <kbd>ctrl</kbd> + <kbd>c</kbd>
 
+Join the discord server!
 
-Join the discord server [here](https://discord.gg/nowgg)!
+[![Join us on Discord](https://invidget.switchblade.xyz/nowgg?theme=dark)](https://discord.gg/nowgg)
