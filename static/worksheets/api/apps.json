@@ -549,15 +549,4 @@
       "height": "625px",
       "listed": true
   },
-  {
-      "title": "AniWave",
-      "description": "Anime",
-      "tags": "",
-      "route": "1",
-      "source": "https://aniwave.to/home",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
-  }
 ]
