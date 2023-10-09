@@ -549,4 +549,15 @@
       "height": "625px",
       "listed": true
   },
+  {
+      "title": "Dingus Anime",
+      "description": "Anime",
+      "tags": "",
+      "route": "1",
+      "source": "https://dingusanime.com/anime",
+      "type": "app",
+      "width": "1000px",
+      "height": "625px",
+      "listed": true
+  },
 ]
