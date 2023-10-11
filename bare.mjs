@@ -1,5 +1,5 @@
-const http = require('node:http');
-const { createBareServer } = require('@tomphttp/bare-server-node');
+import http from 'node:http';
+import { createBareServer } from '@tomphttp/bare-server-node';
 
 const httpServer = http.createServer();
 
@@ -27,5 +27,5 @@ httpServer.on('listening', () => {
 });
 
 httpServer.listen({
-	port: 3300,
+	port: 8080,
 });
