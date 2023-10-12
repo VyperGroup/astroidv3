@@ -1,102 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="msapplication-TileColor" content="#da512c">
-<meta content="Math Is Fun" property="og:title">
-<meta content="Math explained in easy language, plus puzzles, games, games and an illustrated dictionary. For K-12 kids, teachers and parents." property="og:description">
-<meta content="#ffffff" data-react-helmet="true" name="theme-color">
-<meta property="og:image" content="assets/images/logo.png">
-<title>Math Is Fun</title>
-<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:ital,wght@0,100;0,200;0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,100;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
-<link rel="stylesheet" href="assets/reset.css">
-<link rel="stylesheet" href="assets/index.css">
-<link rel="stylesheet" href="assets/button.css">
-<link rel="stylesheet" href="assets/settings.css">
-</head>
-<body>
-<div class="wrapper">
-<nav class="navbar">
-<div class="navbar__container">
-<div class="navbar__branding">
-<a href="index.html">
-<span>Astroid V3</span>
-</a>
-</div>
-<div class="navbar__items navbar__items--mobile">
-<a href="#" class="navbar__item">
-<label for="input-navbar">
-<i class="fas fa-bars"></i>
-</label>
-</a>
-</div>
-<input type="checkbox" id="input-navbar" style="display: none;">
-<div class="navbar__items">
-<a href="index.html" class="navbar__item">Home</a>
-<a href="html.html" class="navbar__item">HTML / Flash</a>
-<a href="emuindex.html" class="navbar__item">Emulators</a>
-<a href="apps.html" class="navbar__item">Apps</a>
-<a href="search.html" class="navbar__item">Search</a>
-<a href="settings.html" class="navbar__item">Settings</a>
-<a href="https://discord.gg/9sUDHyGQfC" target="_blank" class="navbar__item navbar__item--highlighted">Discord</a>
-</div>
-</div>
-</nav>
-<main class="main">
-<div class="main__container">
-<h2 class="heading">Settings</h2>
-<div class="block">
-<div class="block__body">
-<center><h1>Tab Cloak</h1>
-<form id="settings-form">
-    <label for="favicon">Favicon:</label><br>
-    <select id="favicon" name="favicon">
-        <option value="/worksheets/assets/favicon/logo.png">Astroid Logo</option>
-        <option value="/worksheets/assets/favicon/gmail-16-16.png">Gmail Logo</option>
-        <!-- Add more options for additional favicons -->
-    </select>
-    <br>
-    <label for="site-name">Site Name:</label><br>
-    <input type="text" id="site-name" name="site-name" value="My Site">
-    <br>
-    <button type="submit">Save</button>
-</form>
-<br></br>
-<h1>Panic Button</h1>
-<form id="settingsForm">
-    <label for="keyInput">Custom Key:</label><br>
-    <input type="text" id="keyInput" required>
-    <br>
-    <label for="urlInput">Website URL:</label><br>
-    <input type="text" id="urlInput" required>
-    <br>
-    <button type="submit">Save</button>
-  </form>
-<br></br>
-<h1>About Blank Toggle</h1>
-<label for="ABC">Start ABC On Page Load?</label>
-<input type="checkbox" id="ABC">
-</center>
-</div>
-</div>
-</main>
-</div>
-<div>
-</div>
-<script src="api/newloader.js"></script>
-<script src="api/settings.js"></script>
-<script src="api/abct.js"></script>
-<footer class="footer" id="footer">
-<div class="footer__container">
-<div class="footer__content">
-<div class="footer__copyright">
-<center>© Vyper Group </center>
-</footer>
-<div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da512c">
+    <meta content="Math Is Fun" property="og:title">
+    <meta content="Math explained in easy language, plus puzzles, games, games and an illustrated dictionary. For K-12 kids, teachers and parents." property="og:description">
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color">
+    <meta property="og:image" content="assets/images/logo.png">
+    <title>Math Is Fun</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700;800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:ital,wght@0,100;0,200;0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,100;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/button.css">
+    <link rel="stylesheet" href="assets/settings.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <div class="navbar__branding">
+            <a href="index.html">
+              <span>Astroid V3</span>
+            </a>
+          </div>
+          <div class="navbar__items navbar__items--mobile">
+            <a href="#" class="navbar__item">
+              <label for="input-navbar">
+                <i class="fas fa-bars"></i>
+              </label>
+            </a>
+          </div>
+          <input type="checkbox" id="input-navbar" style="display: none;">
+          <div class="navbar__items">
+            <a href="index.html" class="navbar__item">Home</a>
+            <a href="html.html" class="navbar__item">HTML / Flash</a>
+            <a href="emuindex.html" class="navbar__item">Emulators</a>
+            <a href="apps.html" class="navbar__item">Apps</a>
+            <a href="search.html" class="navbar__item">Search</a>
+            <a href="settings.html" class="navbar__item">Settings</a>
+            <a href="https://discord.gg/9sUDHyGQfC" target="_blank" class="navbar__item navbar__item--highlighted">Discord</a>
+          </div>
+        </div>
+      </nav>
+      <main class="main">
+        <div class="main__container">
+          <h2 class="heading">Settings</h2>
+          <div class="block">
+            <div class="block__body">
+              <center>
+                <h1>Tab Cloak</h1>
+                <form id="settings-form">
+                  <label for="favicon">Favicon:</label>
+                  <br>
+                  <select id="favicon" name="favicon">
+                    <option value="/worksheets/assets/favicon/logo.png">Astroid Logo</option>
+                    <option value="/worksheets/assets/favicon/gmail-16-16.png">Gmail Logo</option>
+                  </select>
+                  <br>
+                  <label for="site-name">Site Name:</label>
+                  <br>
+                  <input type="text" id="site-name" name="site-name" value="My Site">
+                  <br>
+                  <button type="submit">Save</button>
+                </form>
+                <br></br>
+                <h1>Panic Button</h1>
+                <form id="settingsForm">
+                  <label for="keyInput">Custom Key:</label>
+                  <br>
+                  <input type="text" id="keyInput" required>
+                  <br>
+                  <label for="urlInput">Website URL:</label>
+                  <br>
+                  <input type="text" id="urlInput" required>
+                  <br>
+                  <button type="submit">Save</button>
+                </form>
+                <br></br>
+                <h1>About Blank Toggle</h1>
+                <label for="ABC">Start ABC On Page Load?</label>
+                <input type="checkbox" id="ABC">
+              </center>
+            </div>
+          </div>
+      </main>
+    </div>
+    <script src="api/newloader.js"></script>
+    <script src="api/settings.js"></script>
+    <script src="api/abct.js"></script>
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__copyright">
+            <center>© Vyper Group </center>
+    </footer>
+    <script src="https://cdn.counter.dev/script.js" data-id="6b17de00-dd04-4596-bf57-162019cc4096" data-utcoffset="7"></script>
+  </body>
 </html>

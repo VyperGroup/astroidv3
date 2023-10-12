@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<script src="./uv/uv.bundle.js"></script>
-<script src="./uv/uv.config.js"></script>
-<script src="./worksheets.js"></script>
-<script src="main.js"></script>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta content="Math Is Fun" property="og:title">
-<meta content="Math explained in easy language, plus puzzles, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents." property="og:description">
-<meta content="#ffffff" data-react-helmet="true" name="theme-color">
-<meta property="og:image" content="assets/images/logo.png">
-<title>Math Is Fun</title>
-<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&amp;display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
-<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-<link rel="stylesheet" href="assets/reset.css">
-<link rel="stylesheet" href="assets/index.css">
-<link rel="stylesheet" href="assets/button.css">
-</head>
-<body>
-<div class="wrapper">
-<nav class="navbar">
-<div class="navbar__container">
-<div class="navbar__branding">
-<a href="index.html">
-<span>Astroid V3</span>
-</a>
-</div>
-<div class="navbar__items navbar__items--mobile">
-<a href="#" class="navbar__item">
-<label for="input-navbar">
-<i class="fas fa-bars"></i>
-</label>
-</a>
-</div>
-<input type="checkbox" id="input-navbar" style="display: none;">
-<div class="navbar__items">
-<a href="index.html" class="navbar__item">Home</a>
-<a href="html.html" class="navbar__item">HTML / Flash</a>
-<a href="emuindex.html" class="navbar__item">Emulators</a>
-<a href="apps.html" class="navbar__item">Apps</a>
-<a href="search.html" class="navbar__item">Search</a>
-<a href="settings.html" class="navbar__item">Settings</a>
-<a href="https://discord.gg/9sUDHyGQfC" target="_blank" class="navbar__item navbar__item--highlighted">Discord</a>
-</div>
-</div>
-<div id="game-container">
-  <iframe src="/worksheets/loading.html" id="iframeid" frameborder="0" height="100%" width="100%"></iframe>
-  <script>
-    window.onload = function() {
-      let uvURL = sessionStorage.getItem("uvURL");
-      uvURL = "/service/" + uvURL;
-      console.log(uvURL);
-      document.querySelector("#iframeid").src = uvURL;
-    }
-  </script>
-</div>
-</script>
-</body>
-</section>
-</body>
+  <head>
+    <script src="./uv/uv.bundle.js"></script>
+    <script src="./uv/uv.config.js"></script>
+    <script src="./worksheets.js"></script>
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta content="Math Is Fun" property="og:title">
+    <meta content="Math explained in easy language, plus puzzles, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents." property="og:description">
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color">
+    <meta property="og:image" content="assets/images/logo.png">
+    <title>Math Is Fun</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/button.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="navbar__container">
+          <div class="navbar__branding">
+            <a href="index.html">
+              <span>Astroid V3</span>
+            </a>
+          </div>
+          <div class="navbar__items navbar__items--mobile">
+            <a href="#" class="navbar__item">
+              <label for="input-navbar">
+                <i class="fas fa-bars"></i>
+              </label>
+            </a>
+          </div>
+          <input type="checkbox" id="input-navbar" style="display: none;">
+          <div class="navbar__items">
+            <a href="index.html" class="navbar__item">Home</a>
+            <a href="html.html" class="navbar__item">HTML / Flash</a>
+            <a href="emuindex.html" class="navbar__item">Emulators</a>
+            <a href="apps.html" class "navbar__item">Apps</a>
+            <a href="search.html" class="navbar__item">Search</a>
+            <a href="settings.html" class="navbar__item">Settings</a>
+            <a href="https://discord.gg/9sUDHyGQfC" target="_blank" class="navbar__item navbar__item--highlighted">Discord</a>
+          </div>
+        </div>
+      </nav>
+      <div id="game-container">
+        <iframe src="/worksheets/loading.html" id="iframeid" frameborder="0" height="100%" width="100%"></iframe>
+        <script>
+          window.onload = function() {
+            let uvURL = sessionStorage.getItem("uvURL");
+            uvURL = "/service/" + uvURL;
+            console.log(uvURL);
+            document.querySelector("#iframeid").src = uvURL;
+          }
+        </script>
+      </div>
+    </div>
+    <script src="https://cdn.counter.dev/script.js" data-id="6b17de00-dd04-4596-bf57-162019cc4096" data-utcoffset="7"></script>
+  </body>
 </html>
