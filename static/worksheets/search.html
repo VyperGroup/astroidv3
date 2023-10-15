@@ -4,36 +4,23 @@
     <script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script>
-      function search(event) {
-        event.preventDefault();
-        const searchInput = document.getElementById("searchInput");
-        const query = searchInput.value.trim();
-        let url = "";
-        try {
-          const urlObject = new URL(query);
-          if (urlObject.protocol !== "http:" && urlObject.protocol !== "https:") {
-            urlObject.protocol = "https:";
-          }
-          url = urlObject.toString();
-        } catch {
-          if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
-            url = "https://" + query;
-          } else {
-            url = "https://google.com/search?q=" + encodeURIComponent(query);
-          }
-        }
-        window.navigator.serviceWorker.register("/sw.js", {
-          scope: __uv$config.prefix
-        }).then(() => {
-          console.log("Service worker registration successful");
-          sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
-          location.href = "go.html";
-          console.log("Redirection to html-loader successful");
-        }).catch((error) => {
-          console.error("Service worker registration failed:", error);
-        });
-      }
-    </script>
+  function search(event) {
+    event.preventDefault();
+    const searchInput = document.getElementById("searchInput");
+    const query = searchInput.value.trim();
+    let url = "https://duckduckgo.com/?q=" + query.replace(/\s+/g, '+');
+    window.navigator.serviceWorker.register("/sw.js", {
+      scope: __uv$config.prefix
+    }).then(() => {
+      console.log("Service worker registration successful");
+      sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+      location.href = "go.html";
+      console.log("Redirection to html-loader successful");
+    }).catch((error) => {
+      console.error("Service worker registration failed:", error);
+    });
+  }
+</script>
     <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
