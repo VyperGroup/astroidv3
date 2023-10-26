@@ -559,5 +559,16 @@
       "width": "1000px",
       "height": "625px",
       "listed": true
+  },
+  {
+      "title": "Session",
+      "description": "Chatting platform",
+      "tags": "",
+      "route": "1",
+      "source": "https://getsession.org/",
+      "type": "app",
+      "width": "1000px",
+      "height": "625px",
+      "listed": true
   }
 ]
