@@ -21,11 +21,19 @@
           if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
             url = "https://" + query;
           } else {
-            // if not a valid URL and doesn't have a TLD, search for the entered value on Google
-            url = "https://bing.com/search?q=" + encodeURIComponent(query);
+            const searchEngine = localStorage.getItem("searchengine");
+            if (searchEngine === "google") {
+              url = "https://google.com/search?q=" + encodeURIComponent(query);
+            } else if (searchEngine === "duckduckgo") {
+              url = "https://duckduckgo.com/?q=" + encodeURIComponent(query);
+            //} else if (searchEngine === "bing") {
+            //  url = "https://bing.com/search?q=" + encodeURIComponent(query);
+            } else {
+              url = "https://bing.com/search?q=" + encodeURIComponent(query);
+            };
           }
         }
-        // redirect to HTML loader
+        
         window.navigator.serviceWorker.register("/sw.js", {
           scope: __uv$config.prefix
         }).then(() => {
@@ -52,7 +60,6 @@
     <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
-    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/index.css">
     <link rel="stylesheet" href="assets/button.css">
@@ -93,20 +100,24 @@
             <div class="block__body">
               <div class="search-container">
                 <center>
-                  <form onsubmit="search(event)">
+                  <form onsubmit="search(event)">                    
                     <input type="text" id="searchInput" placeholder="Search...">
-                    <br></br>
+                    <br>
                     <button type="submit">Go!</button>
                   </form>
-                  <br></br>
+                  <br>
+                </center>
               </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
     <footer class="footer" id="footer">
       <div class="footer__container">
         <div class="footer__content">
           <div class="footer__copyright">
-            <center>© Vyper Group </center>
+            <center>© Vyper Group</center>
           </div>
         </div>
       </div>
