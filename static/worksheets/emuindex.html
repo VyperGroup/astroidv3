@@ -12,7 +12,6 @@
       h1 {
         color: white;
       }
-
       body {
         margin: 0;
         padding: 0;
@@ -20,7 +19,6 @@
         overflow: hidden;
         position: relative;
       }
-
       #particles-js {
         position: absolute;
         width: 100%;
@@ -29,7 +27,6 @@
         z-index: 0;
         pointer-events: none;
       }
-
       #alt-particles-js {
         position: absolute;
         width: 100%;
@@ -40,7 +37,6 @@
         pointer-events: none;
         background-size: cover;
       }
-
       .container {
         display: flex;
         justify-content: center;
@@ -52,7 +48,6 @@
         right: 0;
         z-index: 999;
       }
-
       .container a {
         margin: 0 10px;
         display: flex;
@@ -60,19 +55,22 @@
         align-items: center;
         width: 100vw;
       }
-
       .container a img {
         max-width: 100%;
         max-height: 100%;
       }
-
       #toggle {
         position: absolute;
         bottom: 10px;
         right: 10px;
         z-index: 999;
       }
-
+      #discord {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        z-index: 999;
+      }
       button {
         background-color: #7843E6;
         border: none;
@@ -86,7 +84,6 @@
         cursor: pointer;
         border-radius: 4px;
       }
-
       button:hover {
         border-radius: 4px;
         color: white;
@@ -137,6 +134,7 @@
       </a>
     </div>
     <button id="toggle" onclick="toggleParticles()">Toggle Particles</button>
+    <button id="discord" onclick="window.open('https://discord.gg/9sUDHyGQfC')">Discord</button>
     <script src="./assets/particles/js/particles.js"></script>
     <script src="./assets/particles/js/app.js"></script>
     <script src="./assets/particles/js/particles.min.js"></script>
