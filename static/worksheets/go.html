@@ -20,7 +20,16 @@
           if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
             url = "https://" + query;
           } else {
-            url = "https://google.com/search?q=" + encodeURIComponent(query);
+            const searchEngine = localStorage.getItem("searchengine");
+            if (searchEngine === "google") {
+              url = "https://google.com/search?q=" + encodeURIComponent(query);
+            } else if (searchEngine === "duckduckgo") {
+              url = "https://duckduckgo.com/?q=" + encodeURIComponent(query);
+            //} else if (searchEngine === "bing") {
+            //  url = "https://bing.com/search?q=" + encodeURIComponent(query);
+            } else {
+              url = "https://bing.com/search?q=" + encodeURIComponent(query);
+            };
           }
         }
         window.navigator.serviceWorker.register("/sw.js", {
