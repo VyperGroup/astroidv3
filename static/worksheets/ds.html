@@ -14,13 +14,13 @@
             url = "https://" + url;
           }
           if (url.endsWith(".swf")) {
-            sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+            sessionStorage.setItem("assignmentURL", url);
             location.href = "loader.html";
             console.log("Redirection to Testloader successful");
           } else {
-            sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
+            sessionStorage.setItem("assignmentURL", url);
             location.href = "loader.html";
-            console.log("Redirection to Worksheet successful");
+            console.log("Redirection to Assessment successful");
           }
         }).catch((error) => {
           console.error("Service worker registration failed:", error);
