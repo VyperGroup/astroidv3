@@ -55,10 +55,9 @@
         <iframe src="/worksheets/loading.html" id="iframeid" frameborder="0" height="100%" width="100%"></iframe>
         <script>
           window.onload = function() {
-            let uvURL = sessionStorage.getItem("assignmentURL");
-            uvURL = "/service/" + uvURL;
-            console.log(uvURL);
-            document.querySelector("#iframeid").src = uvURL;
+            let assessmentURL = sessionStorage.getItem("assignmentURL");
+            console.log(assessmentURL);
+            document.querySelector("#iframeid").src = assessmentURL;
           }
         </script>
       </div>
