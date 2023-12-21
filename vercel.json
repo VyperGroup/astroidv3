@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ],
+  "scripts": {
+    "build": "npm install",
+    "start": "npm start"
+  }
+}
