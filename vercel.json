@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 1,
   "builds": [
     {
-      "src": "package.json",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
@@ -13,8 +13,4 @@
       "dest": "/index.js"
     }
   ],
-  "scripts": {
-    "build": "npm install",
-    "start": "npm start"
-  }
 }
