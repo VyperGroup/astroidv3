@@ -176,7 +176,7 @@
     "listed": true
   },
   {
-    "title": "Not knock off geoguessr i swear",
+    "title": "GeoGuess",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
@@ -236,17 +236,6 @@
     "tags": "",
     "route": "1",
     "source": "https://chess.com",
-    "type": "app",
-    "width": "1000px",
-    "height": "625px",
-    "listed": true
-  },
-  {
-    "title": "Whatsapp",
-    "description": "2048 but, 1.",
-    "tags": "",
-    "route": "1",
-    "source": "https://web.whatsapp.com",
     "type": "app",
     "width": "1000px",
     "height": "625px",
@@ -319,7 +308,7 @@
     "listed": true
   },
   {
-    "title": "Geforce Now??",
+    "title": "Geforce Now",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
@@ -363,7 +352,7 @@
     "listed": true
   },
   {
-    "title": "Googles AI",
+    "title": "Google Bard",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
@@ -374,7 +363,7 @@
     "listed": true
   },
   {
-    "title": "Github",
+    "title": "GitHub",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
@@ -506,17 +495,6 @@
       "listed": true
   },
   {
-      "title": "Freemovieswatch.net",
-      "description": "Watch movies online",
-      "tags": "",
-      "route": "1",
-      "source": "https://freemovieswatch.net/",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
-  },
-  {
       "title": "GOKU",
       "description": "Watch movies online",
       "tags": "",
@@ -570,5 +548,16 @@
       "width": "1000px",
       "height": "625px",
       "listed": true
+  },
+  {
+    "title": "character.ai",
+    "description": "",
+    "tags": "",
+    "route": "1",
+    "source": "https://c.ai/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]
