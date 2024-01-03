@@ -59,17 +59,18 @@
         max-width: 100%;
         max-height: 100%;
       }
-      #toggle {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        z-index: 999;
-      }
+      #toggle,
       #discord {
         position: absolute;
         bottom: 10px;
-        left: 10px;
         z-index: 999;
+      }
+      #toggle {
+        right: 10px;
+      }
+      #discord {
+        left: calc(100% - 230px);
+        margin-right: 10px;
       }
       button {
         background-color: #7843E6;
