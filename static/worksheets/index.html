@@ -60,17 +60,18 @@
             max-width: 100%;
             max-height: 100%;
         }
-        #toggle {
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
-            z-index: 999;
-        }
+        #toggle,
         #discord {
             position: absolute;
             bottom: 10px;
-            left: 10px;
             z-index: 999;
+        }
+        #toggle {
+            right: 10px;
+        }
+        #discord {
+            left: calc(100% - 230px);
+            margin-right: 10px;
         }
         button {
             background-color: #7843E6;
@@ -115,7 +116,7 @@
         <a href="search.html">
             <img src="./assets/logos/search.png">
         </a>
-        <a href="https://e.astroid.wtf/channels/925768844415475752/1119642075093286922/">
+        <a href="https://discord.gg/9sUDHyGQfC">
             <img src="./assets/logos/chat.png">
         </a>
         <a href="extra.html">
@@ -125,9 +126,9 @@
             <img src="./assets/logos/setting.png">
         </a>
     </div>
-    <br></br>
-    <button id="toggle" onclick="toggleParticles()">Toggle Particles</button>
-    <button id="discord" onclick="window.open('https://discord.gg/9sUDHyGQfC')">Discord</button>
+    <br />
+        <button id="toggle" onclick="toggleParticles()">Toggle Particles</button>
+        <button id="discord" onclick="window.open('https://discord.gg/9sUDHyGQfC')">Discord</button>
     <script src="./assets/particles/js/particles.js"></script>
     <script src="./assets/particles/js/app.js"></script>
     <script src="./assets/particles/js/particles.min.js"></script>
