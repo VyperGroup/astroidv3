@@ -97,7 +97,7 @@
               button.onclick = () => {
                 if (worksheet.type === 'html') {
                   const source = worksheet.source.replace('https://', '');
-                    work(`https://${source}`);
+                    work(`${source}`);
                 } else {
                   console.error(`Unsupported worksheet type "${worksheet.type}" for worksheet "${worksheet.title}"`);
                 }
