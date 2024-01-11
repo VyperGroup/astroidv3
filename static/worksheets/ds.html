@@ -15,11 +15,11 @@
           }
           if (url.endsWith(".swf")) {
             sessionStorage.setItem("assignmentURL", url);
-            location.href = "loader.html";
+            location.href = "load.html";
             console.log("Redirection to Testloader successful");
           } else {
             sessionStorage.setItem("assignmentURL", url);
-            location.href = "loader.html";
+            location.href = "load.html";
             console.log("Redirection to Assessment successful");
           }
         }).catch((error) => {

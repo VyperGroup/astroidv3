@@ -13,7 +13,7 @@
           }).then(() => {
             console.log("Service worker registration successful");
             sessionStorage.setItem("assignmentURL", __uv$config.encodeUrl(url));
-            location.href = "loader.html";
+            location.href = "load.html";
             console.log("Redirection to Loader successful");
           }).catch((error) => {
             console.error("Service worker registration failed:", error);
