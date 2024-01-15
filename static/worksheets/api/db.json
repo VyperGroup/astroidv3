@@ -2343,6 +2343,17 @@
   "listed": true
 },
 {
+  "title": "Snow Rider 3D",
+  "description": "Game",
+  "tags": "",
+  "route": "Snow Rider 3D",
+  "source": "https://astroid.gg/assignments/snowrider/index.html",
+  "type": "html",
+  "width": "1000px",
+  "height": "625px",
+  "listed": true
+},
+{
   "title": "Soccer Random",
   "description": "TBD",
   "tags": "",
