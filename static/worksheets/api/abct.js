@@ -15,7 +15,7 @@ function handleCheckboxChange() {
 
 function handleTextChange() {
     localStorage.setItem('directPreviousPage', ABCDirect.value);
-    console.log('ABC will direct to ' + directPreviousPage + ' on page load.');
+    console.log('ABC will direct to ' + ABCDirect.value + ' on page load.');
 }
 
 ABCDirect.addEventListener('change', handleTextChange);
@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
         ABCCheckbox.checked = false;
     }
     if (directPreviousPage == null) {
-        ABCDirect.value = 'https://www.google.com/';
+        ABCDirect.value = 'https://google.com/';
     } else {
         ABCDirect.value = directPreviousPage;
     }
