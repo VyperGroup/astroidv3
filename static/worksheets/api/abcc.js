@@ -5,7 +5,7 @@ window.addEventListener('load', function () {
         var directPreviousPage = localStorage.getItem('directPreviousPage') || 'https://www.google.com/';
         var currentURL = window.location.href;
         var baseURL = currentURL.substring(0, currentURL.lastIndexOf("/") + 1);
-        var indexURL = baseURL + "main.html";
+        var indexURL = baseURL + "/worksheets/index.html";
 
         win = window.open();
         win.document.body.style.margin = "0";
