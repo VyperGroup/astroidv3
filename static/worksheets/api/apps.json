@@ -1,25 +1,25 @@
 [
-    {
-      "title": "POPULAR NOW.GG GAMES",
-      "description": "2048 but, 1.",
-      "tags": "",
-      "route": "1",
-      "source": "https://fatgrizzly.github.io/ngg",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+  {
+    "title": "POPULAR NOW.GG GAMES",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://fatgrizzly.github.io/ngg",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "Roblox / Now.GG (FIXED)",
-      "description": "2048 but, 1.",
-      "tags": "",
-      "route": "1",
-      "source": "https://nowgg.nl/play/roblox-corporation/5349/roblox",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "Roblox / Now.GG (FIXED)",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://nowgg.nl/play/roblox-corporation/5349/roblox",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
     "title": "Blockpost",
@@ -141,18 +141,18 @@
     "width": "1000px",
     "height": "625px",
     "listed": true
-},
-{
-  "title": "AniWave",
-  "description": "Anime",
-  "tags": "",
-  "route": "1",
-  "source": "https://aniwave.to/",
-  "type": "app",
-  "width": "1000px",
-  "height": "625px",
-  "listed": true
-},
+  },
+  {
+    "title": "AniWave",
+    "description": "Anime",
+    "tags": "",
+    "route": "1",
+    "source": "https://aniwave.to/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
   {
     "title": "Geogussr",
     "description": "2048 but, 1.",
@@ -264,6 +264,17 @@
     "listed": true
   },
   {
+    "title": "Discord Login",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://discord.com/login?redirect_to=%2Fchannels%2F%40me",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
     "title": "VSCode",
     "description": "2048 but, 1.",
     "tags": "",
@@ -319,7 +330,7 @@
     "listed": true
   },
   {
-    "title": "repl.it",
+    "title": "Replit",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
@@ -341,11 +352,11 @@
     "listed": true
   },
   {
-    "title": "Google Bard",
+    "title": "Google Gemini",
     "description": "2048 but, 1.",
     "tags": "",
     "route": "1",
-    "source": "https://bard.google.com/",
+    "source": "https://gemini.google.com/",
     "type": "app",
     "width": "1000px",
     "height": "625px",
@@ -462,80 +473,91 @@
     "listed": true
   },
   {
-      "title": "Google",
-      "description": "2048 but, 1.",
-      "tags": "",
-      "route": "1",
-      "source": "https://google.com",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "Google",
+    "description": "2048 but, 1.",
+    "tags": "",
+    "route": "1",
+    "source": "https://google.com",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "Tikmovies",
-      "description": "Watch movies online",
-      "tags": "",
-      "route": "1",
-      "source": "https://www.tikmovies.com/",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "GOKU",
+    "description": "Watch movies online",
+    "tags": "",
+    "route": "1",
+    "source": "https://goku.sx/home",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "GOKU",
-      "description": "Watch movies online",
-      "tags": "",
-      "route": "1",
-      "source": "https://goku.sx/home",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "Aniwatch",
+    "description": "Anime",
+    "tags": "",
+    "route": "1",
+    "source": "https://aniwatch.to/tv",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "Aniwatch",
-      "description": "Anime",
-      "tags": "",
-      "route": "1",
-      "source": "https://aniwatch.to/tv",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "Dingus Anime",
+    "description": "Anime",
+    "tags": "",
+    "route": "1",
+    "source": "https://dingusanime.com/anime",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "Dingus Anime",
-      "description": "Anime",
-      "tags": "",
-      "route": "1",
-      "source": "https://dingusanime.com/anime",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "TextNow",
+    "description": "TextNow",
+    "tags": "",
+    "route": "1",
+    "source": "https://www.textnow.com/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "TextNow",
-      "description": "TextNow",
-      "tags": "",
-      "route": "1",
-      "source": "https://www.textnow.com/",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "Session",
+    "description": "Chatting platform",
+    "tags": "",
+    "route": "1",
+    "source": "https://getsession.org/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   },
   {
-      "title": "Session",
-      "description": "Chatting platform",
-      "tags": "",
-      "route": "1",
-      "source": "https://getsession.org/",
-      "type": "app",
-      "width": "1000px",
-      "height": "625px",
-      "listed": true
+    "title": "movie-web",
+    "description": "Watch movies online",
+    "tags": "",
+    "route": "1",
+    "source": "https://mw.lonelil.ru/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
+  },
+  {
+    "title": "Lichess",
+    "description": "Play chess",
+    "tags": "",
+    "route": "1",
+    "source": "https://lichess.org/",
+    "type": "app",
+    "width": "1000px",
+    "height": "625px",
+    "listed": true
   }
 ]
