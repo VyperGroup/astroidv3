@@ -65,12 +65,13 @@
                   <button type="submit">Save</button>
                 </form>
                 <h1>Tab Cloak</h1>
-                <form id="settings-form">
+                <form id="settings-form" onsubmit="return event.preventDefault();">
                   <label for="favicon">Favicon:</label>
                   <br>
                   <select id="favicon" name="favicon">
                     <option value="/worksheets/assets/favicon/logo.png">Astroid Logo</option>
                     <option value="/worksheets/assets/favicon/gmail-16-16.png">Gmail Logo</option>
+                    <option value="/worksheets/assets/favicon/classroom-32-32.png">Classroom Logo</option>
                   </select>
                   <br>
                   <label for="site-name">Site Name:</label>

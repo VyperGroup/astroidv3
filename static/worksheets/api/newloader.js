@@ -2,6 +2,8 @@
 const form = document.getElementById('settings-form');
 const faviconSelect = form.elements['favicon'];
 const siteNameInput = form.elements['site-name'];
+const button = form.querySelector('button');
+
 
 // Get the saved settings, or set default values
 const savedSettings = JSON.parse(localStorage.getItem('site-settings')) || {};
@@ -27,6 +29,12 @@ faviconSelect.addEventListener('change', () => {
 siteNameInput.addEventListener('input', () => {
   document.title = siteNameInput.value;
   saveSettings();
+});
+
+button.addEventListener('click', (event) => {
+  event.preventDefault();
+  saveSettings();
+  alert('Settings saved, please refresh to apply changes.');
 });
 
 // Save the settings to localStorage
