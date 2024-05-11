@@ -36,4 +36,5 @@ function saveSettings() {
     siteName: siteNameInput.value
   };
   localStorage.setItem('site-settings', JSON.stringify(settings));
+  console.log("Settings saved!");
 }
