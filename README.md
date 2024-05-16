@@ -14,10 +14,10 @@ Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophistic
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/VyperGroup/astroidv3)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/VyperGroup/astroidv3)
 [![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/VyperGroup/astroidv3)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVyperGroup%2Fastroidv3)
+<!--[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FVyperGroup%2Fastroidv3)-->
 
   
-You can also make an A name record pointing to the IPv4 address of 5.161.68.227 or a CNAME record pointing to astroid.wtf. For a free DNS service, use [Freedns](https://freedns.afraid.org/).
+You can also make an A name record pointing to the IPv4 address of 5.161.68.227 or a CNAME record pointing to astroid.wtf. For a free DNS service, use [FreeDNS](https://freedns.afraid.org/) or [DuckDNS](https://duckdns.org/).
 
 ## If you are deploying to an alternative service or a server
 Clone repository:
