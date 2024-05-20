@@ -539,22 +539,22 @@
     "listed": true
   },
   {
-    "title": "movie-web",
-    "description": "Watch movies online",
+    "title": "Lichess",
+    "description": "Play chess",
     "tags": "",
     "route": "1",
-    "source": "https://mw.lonelil.ru/",
+    "source": "https://lichess.org/",
     "type": "app",
     "width": "1000px",
     "height": "625px",
     "listed": true
   },
   {
-    "title": "Lichess",
-    "description": "Play chess",
+    "title": "YouTube",
+    "description": "Watch videos",
     "tags": "",
     "route": "1",
-    "source": "https://lichess.org/",
+    "source": "https://youtube.com/",
     "type": "app",
     "width": "1000px",
     "height": "625px",
