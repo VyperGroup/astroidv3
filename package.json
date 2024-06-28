@@ -23,7 +23,7 @@
     "socks-proxy-agent": "^8.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^9.6.0",
     "prettier": "^3.0.3"
   }
 }
