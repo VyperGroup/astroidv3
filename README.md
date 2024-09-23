@@ -27,7 +27,12 @@ cd astroidv3
 ```
 Install NPM packages:
 ```
-npm install
+npm i
+```
+Install the SW proxies:
+```
+chmod +x deps.sh
+./deps.sh
 ```
 Start:
 ```

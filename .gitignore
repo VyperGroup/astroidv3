@@ -1,3 +1,10 @@
+# SW proxies
+static/sw
+
+# aero
+static/aeroHandleSimple.js
+static/aero
+
 # Logs
 logs
 *.log
