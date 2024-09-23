@@ -4,32 +4,28 @@
     <script src="uv/uv.bundle.js"></script>
     <script src="uv/uv.config.js"></script>
     <script>
-        function work(value) {
-            window.navigator.serviceWorker.register("/sw.js", {
-                scope: __uv$config.prefix
-            })
-            .then(() => {
-                console.log("Service worker registration successful");
+      function work(value) {
+        let url = value.trim();
 
-                let url = value.trim();
-                if (!(url.startsWith("https://") || url.startsWith("http://"))) {
-                    url = "https://" + url;
-                }
-                if (url.endsWith(".swf")) {
-                    sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
-                    location.href = "go.html";
-                    console.log("Redirection to English Test successful");
-                } else {
-                    sessionStorage.setItem("uvURL", __uv$config.encodeUrl(url));
-                    location.href = "loader.html";
-                    console.log("Redirection to Worksheet successful");
-                }
-            })
-            .catch((error) => {
-                console.error("Service worker registration failed:", error);
-            });
+        if (url.startsWith("https://")) {
+          window.navigator.serviceWorker.register("/sw.js", {
+            scope: __uv$config.prefix
+          }).then(() => {
+            console.log("Service worker registration successful");
+            sessionStorage.setItem("assignmentURL", __uv$config.encodeUrl(url));
+            location.href = "load.html";
+            console.log("Redirection to Loader successful");
+          }).catch((error) => {
+            console.error("Service worker registration failed:", error);
+          });
+        } else if (url.startsWith("/")) {
+          sessionStorage.setItem("assignmentURL", url);
+          console.log(url);
+          location.href = "loader.html";
+          console.log("Redirection to Assessment successful");
         }
-    </script>
+      }
+      </script>
     <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE edge">
@@ -102,7 +98,7 @@
                                           button.onclick = () => {
                                               if (worksheet.type === 'html') {
                                                   const source = worksheet.source.replace('https://', '');
-                                                  work(`https://${source}`);
+                                                  work(`${source}`);
                                               } else {
                                                   console.error(`Unsupported worksheet type "${worksheet.type}" for worksheet "${worksheet.title}"`);
                                               }

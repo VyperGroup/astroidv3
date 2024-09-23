@@ -52,15 +52,12 @@
         <div id="game-container">
           <iframe src="/worksheets/loading.html" id="iframeid" frameborder="0" height="100%" width="100%"></iframe>
           <script>
-            window.onload = function() {
-              let uvURL = sessionStorage.getItem("uvURL");
-              uvURL = "/service/" + uvURL;
-              console.log(uvURL);
-              document.querySelector("#iframeid").src = uvURL;
-            }
+          window.onload = function() {
+            let assessmentURL = sessionStorage.getItem("assignmentURL");
+            console.log(assessmentURL);
+            document.querySelector("#iframeid").src = assessmentURL;
+          }
           </script>
         </div>
-      </nav>
-    </div>
   </body>
 </html>
