@@ -1,5 +1,5 @@
 # Your bash variables here
-$AERO_PATH="static/aero" # The directory where aero's files should be
+AERO_PATH="static/aero" # The directory where aero's files should be
 
 ./node_modules/aero-proxy/examples/install-aero.sh
 
