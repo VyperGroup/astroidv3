@@ -22,22 +22,44 @@
 		"listed": true
 	},
 	{
-		"title": "AniWave",
+		"title": "AniWave.se",
 		"description": "Anime",
 		"tags": "",
 		"route": "1",
-		"source": "https://aniwave.to/",
+		"source": "https://aniwave.se/",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
 		"listed": true
 	},
 	{
-		"title": "Aniwatch",
+		"title": "AniWave.lv",
 		"description": "Anime",
 		"tags": "",
 		"route": "1",
-		"source": "https://aniwatch.to/tv",
+		"source": "https://aniwave.lv/",
+		"type": "app",
+		"width": "1000px",
+		"height": "625px",
+		"listed": true
+	},
+	{
+		"title": "Aniwatch (aniwatchtv.to)",
+		"description": "Anime",
+		"tags": "",
+		"route": "1",
+		"source": "https://aniwatchtv.to/",
+		"type": "app",
+		"width": "1000px",
+		"height": "625px",
+		"listed": true
+	},
+	{
+		"title": "Aniwatch (aniwatch.lv)",
+		"description": "Anime",
+		"tags": "",
+		"route": "1",
+		"source": "https://aniwatch.lv/",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
@@ -330,11 +352,11 @@
 		"listed": true
 	},
 	{
-		"title": "Lookmovie.gg",
+		"title": "Lookmovie.lol",
 		"description": "Watch movies",
 		"tags": "",
 		"route": "1",
-		"source": "https://lookmovie.gg/",
+		"source": "https://lookmovie.lol/",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
@@ -517,11 +539,22 @@
 		"listed": true
 	},
 	{
-		"title": "TinyZone",
+		"title": "TinyZoneTv.se",
 		"description": "Watch movies",
 		"tags": "",
 		"route": "1",
 		"source": "https://tinyzonetv.se/",
+		"type": "app",
+		"width": "1000px",
+		"height": "625px",
+		"listed": true
+	},
+	{
+		"title": "TinyZoneTv.stream",
+		"description": "Watch movies",
+		"tags": "",
+		"route": "1",
+		"source": "https://tinyzonetv.stream/",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
