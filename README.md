@@ -2,7 +2,7 @@
 
 <h1 align="center">AstroidV3</h1>
 
-Astroid is a proxy that supports now.gg. It uses Ultraviolet, a highly sophisticated web proxy for evading internet censorship and accessing websites in a controlled sandbox!
+Astroid is a web proxy. It can use [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) or [aero](https://github.com/VyperGroup/aero).
 
 ## Deployment
 
@@ -27,7 +27,12 @@ cd astroidv3
 ```
 Install NPM packages:
 ```
-npm install
+npm i
+```
+Install the SW proxies:
+```
+chmod +x deps.sh
+./deps.sh
 ```
 Start:
 ```
@@ -37,4 +42,4 @@ You can close it at any time by pressing <kbd>ctrl</kbd> + <kbd>c</kbd>
 
 Join the discord server!
 
-[![Join us on Discord](https://invidget.switchblade.xyz/nowgg?theme=dark)](https://discord.gg/nowgg)
+[![Join us on Discord](https://invidget.switchblade.xyz/9sUDHyGQfC?theme=dark)](https://discord.gg/9sUDHyGQfC)

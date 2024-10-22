@@ -9,7 +9,6 @@
         const searchInput = document.getElementById("searchInput");
         const query = searchInput.value.trim();
         let url = "";
-        // check if entered value is a valid URL
         try {
           const urlObject = new URL(query);
           if (urlObject.protocol !== "http:" && urlObject.protocol !== "https:") {
@@ -17,7 +16,6 @@
           }
           url = urlObject.toString();
         } catch {
-          // if not a valid URL but has a TLD, add "https://" in front
           if (/^[a-z]+\.[a-z]{2,}$/i.test(query)) {
             url = "https://" + query;
           } else {
