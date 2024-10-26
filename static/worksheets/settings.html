@@ -54,6 +54,15 @@
           <div class="block">
             <div class="block__body">
               <center>
+                <h1>Show Prompt Before Unload</h1>
+                <form id="onbeforeunloadForm" onsubmit="return event.preventDefault();">
+                  <select id="onbeforeunload" name="onbeforeunload">
+                    <option value="true">True</option>
+                    <option value="false">False</option>                    
+                  </select>
+                  <br>
+                  <button type="submit">Save</button>
+                </form>
                 <h1>Search Engine</h1>
                 <form id="searchEngineForm">
                   <select id="searchengine" name="searchengine">
@@ -115,6 +124,7 @@
     <script src="api/settings.js"></script>
     <script src="api/abct.js"></script>
     <script src="api/searchengine.js"></script>
+    <script src="api/unlods.js"></script>
     <footer class="footer" id="footer">
       <div class="footer__container">
         <div class="footer__content">

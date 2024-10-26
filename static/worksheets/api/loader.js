@@ -19,23 +19,23 @@ document.title = siteNameInput.value;
 
 // Update favicon and save settings when changed
 faviconSelect.addEventListener('change', () => {
-  favicon.href = faviconSelect.value;
-  saveSettings();
+    favicon.href = faviconSelect.value;
+    saveSettings();
 });
 
 // Update title and save settings when changed
 siteNameInput.addEventListener('input', () => {
-  document.title = siteNameInput.value;
-  saveSettings();
+    document.title = siteNameInput.value;
+    saveSettings();
 });
 
 // Save the settings to localStorage
 function saveSettings() {
-  const settings = {
-    favicon: faviconSelect.value,
-    siteName: siteNameInput.value
-  };
-  localStorage.setItem('site-settings', JSON.stringify(settings));
+    const settings = {
+        favicon: faviconSelect.value,
+        siteName: siteNameInput.value
+    };
+    localStorage.setItem('site-settings', JSON.stringify(settings));
 }
 
 console.log(No)

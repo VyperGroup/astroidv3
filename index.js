@@ -1,4 +1,4 @@
-import { createBareServer } from '@tomphttp/bare-server-node';
+import { createBareServer } from '@nebula-services/bare-server-node';
 import express from "express";
 import { createServer } from "node:http";
 import { SocksProxyAgent } from 'socks-proxy-agent';
@@ -9,8 +9,7 @@ import { hostname } from "node:os";
 import dotenv from 'dotenv';
 import { fileURLToPath } from "url";
 const publicPath = fileURLToPath(new URL("./static/", import.meta.url));
-const bare = createBareServer('/bare/', {
-});
+const bare = createBareServer('/bare/', {});
 const app = express();
 dotenv.config();
 app.use(express.static(publicPath));
