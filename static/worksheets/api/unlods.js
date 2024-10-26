@@ -1,6 +1,6 @@
 unlods = document.getElementById('onbeforeunload');
 window.addEventListener('load', () => {
-    unlods.value = localStorage.getItem('onbeforeunload');
+    unlods.value = localStorage.getItem('onbeforeunload') || "true";
 });
 document.getElementById('onbeforeunloadForm').addEventListener('submit', (event) => {
     onbeforeunloadSetting = document.getElementById('onbeforeunload').value;
