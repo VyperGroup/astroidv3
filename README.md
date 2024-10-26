@@ -37,4 +37,4 @@ You can close it at any time by pressing <kbd>ctrl</kbd> + <kbd>c</kbd>
 
 Join the discord server!
 
-[![Join us on Discord](https://invidget.switchblade.xyz/nowgg?theme=dark)](https://discord.gg/nowgg)
+[![Join us on Discord](https://invidget.switchblade.xyz/9sUDHyGQfC?theme=dark)](https://discord.gg/9sUDHyGQfC)
