@@ -8,7 +8,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "bun index.js",
+    "start": "node index.js",
     "genPackageLock": "npm i --package-lock-only"
   },
   "keywords": [
