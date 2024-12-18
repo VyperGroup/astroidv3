@@ -8,7 +8,8 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "bun index.js",
+    "genPackageLock": "npm i --package-lock-only"
   },
   "keywords": [
     "math"
@@ -17,11 +18,12 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@nebula-services/bare-server-node": "^2.0.4",
-    "@titaniumnetwork-dev/ultraviolet": "^1.0.11",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
     "@tomphttp/bare-server-node": "^2.0.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "socks-proxy-agent": "^8.0.2"
+    "socks-proxy-agent": "^8.0.2",
+    "wisp-server-node": "^1.1.7"
   },
   "devDependencies": {
     "eslint": "^9.6.0",
