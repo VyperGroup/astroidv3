@@ -242,11 +242,22 @@
 		"listed": true
 	},
 	{
-		"title": "FlixHQ (Free Movies!)",
+		"title": "FlixHQ.to (Free Movies!)",
 		"description": "2048 but, 1.",
 		"tags": "",
 		"route": "1",
-		"source": "https://flixhq.to",
+		"source": "https://flixhq.to/home",
+		"type": "app",
+		"width": "1000px",
+		"height": "625px",
+		"listed": true
+	},
+	{
+		"title": "FlixHQ.click",
+		"description": "Watch movies online",
+		"tags": "",
+		"route": "1",
+		"source": "https://flixhq.click/home",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
@@ -539,11 +550,11 @@
 		"listed": true
 	},
 	{
-		"title": "TinyZoneTv.se",
-		"description": "Watch movies",
+		"title": "FMovies",
+		"description": "Watch movies online",
 		"tags": "",
 		"route": "1",
-		"source": "https://tinyzonetv.se/",
+		"source": "https://fmovies24-to.com/movies",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
@@ -551,7 +562,7 @@
 	},
 	{
 		"title": "TinyZoneTv.stream",
-		"description": "Watch movies",
+		"description": "Watch movies online",
 		"tags": "",
 		"route": "1",
 		"source": "https://tinyzonetv.stream/",
@@ -621,6 +632,17 @@
 		"tags": "",
 		"route": "1",
 		"source": "https://itch.io",
+		"type": "app",
+		"width": "1000px",
+		"height": "625px",
+		"listed": true
+	},
+	{
+		"title": "EmulatorJS Demo",
+		"description": "Emulate ROM files on the web",
+		"tags": "",
+		"route": "1",
+		"source": "https://emulatorjs.com/demo",
 		"type": "app",
 		"width": "1000px",
 		"height": "625px",
