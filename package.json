@@ -8,7 +8,8 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prep": "node prep.js"
   },
   "keywords": [
     "math"

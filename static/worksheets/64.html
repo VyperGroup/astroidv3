@@ -83,7 +83,7 @@
             </center>
             <div id="button-container"></div>
             <script>
-              const jsonUrl = './api/n64.json';
+              const jsonUrl = './api/n64.min.json';
               fetch(jsonUrl).then(response => response.json()).then(data => {
                 data.sort((a, b) => a.title.localeCompare(b.title));
                 const buttonContainer = document.getElementById('button-container');
